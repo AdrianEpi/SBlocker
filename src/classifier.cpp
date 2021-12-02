@@ -5,11 +5,13 @@
 	=            File name:     classifier.cpp                                     =
 	=            Authors:       Adrián Epifanio Rodríguez Hernández                =
 	=                           Fabio Ovidio Bianchini Cano                        =
+	=                           Óscar Hernández Díaz                               =
 	=            Date:          05/11/2021                                         =
 	=            Subject:       Inteligent Systems                                 =
 	=            Language:      C++                                                =
 	=            Emails:        alu0101158280@ull.edu.es                           =
 	=                           alu0101040929@ull.edu.es                           =
+	=                           alu0101127163@ull.edu.es                           =
 	=            Place:         Universidad De La Laguna                           =
 	=                           Escuela Superior de Ingeniería y Tecnología        =
 	=                                                                              =
@@ -18,9 +20,10 @@
 /*
 * @Authors: Adrian Epifanio
 * 			Fabio Ovidio 
+* 			Oscar Hernandez 
 * @Date:   2021-11-05 08:37:08
 * @Last Modified by:   Adrian Epifanio
-* @Last Modified time: 2021-11-05 09:35:16
+* @Last Modified time: 2021-12-02 18:32:49
 */
 /*------------------  FUNCTIONS  -----------------*/
 
@@ -242,21 +245,6 @@ void Classifier::readInputFiles (char* argv[], int& argc) {
 		inputFiles_.push_back(fileName);
 		std::string type = "";		
 		type += fileName[fileName.length() - 5];
-		/*----------  FullOutputName  ----------*/
-		/*if (type == "E") {
-			type = "Electronics";
-		}
-		else if (type == "C") {
-			type = "Clothing & Accessories";
-		}
-		else if (type == "B") {
-			type = "Books";
-		}
-		else if (type == "H") {
-			type = "Household";
-		}*/
-
-		//////////////////////////////////////////
 		std::ifstream file(fileName, std::ios::in);
 		if (file.fail()) {
 			std::cout << std::endl << "Error 404," << fileName << " file not found." << std::endl;

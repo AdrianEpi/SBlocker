@@ -5,11 +5,13 @@
 	=            File name:     vocabulary.hpp                                     =
 	=            Authors:       Adrián Epifanio Rodríguez Hernández                =
 	=                           Fabio Ovidio Bianchini Cano                        =
+	=                           Óscar Hernández Díaz                               =
 	=            Date:          05/11/2021                                         =
 	=            Subject:       Inteligent Systems                                 =
 	=            Language:      C++                                                =
 	=            Emails:        alu0101158280@ull.edu.es                           =
 	=                           alu0101040929@ull.edu.es                           =
+	=                           alu0101127163@ull.edu.es                           =
 	=            Place:         Universidad De La Laguna                           =
 	=                           Escuela Superior de Ingeniería y Tecnología        =
 	=                                                                              =

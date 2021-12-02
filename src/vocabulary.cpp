@@ -5,11 +5,13 @@
 	=            File name:     vocabulary.cpp                                     =
 	=            Authors:       Adrián Epifanio Rodríguez Hernández                =
 	=                           Fabio Ovidio Bianchini Cano                        =
+	=                           Óscar Hernández Díaz                               =
 	=            Date:          05/11/2021                                         =
 	=            Subject:       Inteligent Systems                                 =
 	=            Language:      C++                                                =
 	=            Emails:        alu0101158280@ull.edu.es                           =
 	=                           alu0101040929@ull.edu.es                           =
+	=                           alu0101127163@ull.edu.es                           =
 	=            Place:         Universidad De La Laguna                           =
 	=                           Escuela Superior de Ingeniería y Tecnología        =
 	=                                                                              =
@@ -17,10 +19,11 @@
 =======================================================================================*/
 /*
 * @Authors: Adrian Epifanio
-* 			Fabio Ovidio 
+* 			Fabio Ovidio
+* 			Oscar Hernandez 
 * @Date:   2021-11-05 08:37:08
 * @Last Modified by:   Adrian Epifanio
-* @Last Modified time: 2021-11-05 09:37:28
+* @Last Modified time: 2021-12-02 18:32:09
 */
 /*------------------  FUNCTIONS  -----------------*/
 
