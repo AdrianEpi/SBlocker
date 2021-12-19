@@ -1,0 +1,190 @@
+Return-Path:
+  <leaffiltercom.advertisement-bruce=untroubled.org@oishiilvcrdt.com>
+Delivered-To: virtmail-bruce@untroubled.org
+Received: (qmail 184733 invoked from network); 1 Dec 2021 17:13:01 -0000
+Received: from mail.oishiilvcrdt.com ([104.149.168.126])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 01 Dec 2021 17:13:01 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkim;
+ d=oishiilvcrdt.com;
+ h=Date:From:To:Subject:MIME-Version:Content-Type:List-Unsubscribe:Message-ID;
+ i=leaffiltercom.advertisement@oishiilvcrdt.com;
+ bh=YIQ9Ig34W1Hm66wYJUndAgwbZsg=;
+ b=RvQuxLuCWhyQN8uTmvHTYW9MzhTdXqEewqA5amX7WI0YdTPWXLOXtBLz6VoRGMPGLOrn/5snGnyb
+   3WnijgnQjFXqDBUwdse9kfyoq/Itd6BwZZvugaVZ5NiyHe9o2KejCZEDrWM4qqNNx+bWbkowri0f
+   Wc06jrilD4sQaqut/1I=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim; d=oishiilvcrdt.com;
+ b=FklkBzve24BeAKhVMLR/svOSt+GcX/OnrnGdOpxAw7jy9/ctLYHr8ySEDK9Ki6uA93iHBrJLpRAh
+   yizn2bnbCxR6JTVAbZTnTbWqzlUKBF31/V/hZUCgC+IxFjlvDsePcPZ+eCgEP2IDiv34DFW5tNkL
+   MfXLYf+Vs2rxmK/hBVk=;
+Received: by mail.oishiilvcrdt.com id hkumhq0001gn for <bruce@untroubled.org>;
+ Wed,
+ 1 Dec 2021 12:06:31 -0500 (envelope-from <leaffiltercom.advertisement-bruce=untroubled.org@oishiilvcrdt.com>)
+Date: Wed, 1 Dec 2021 12:06:31 -0500
+From: "LeafFilter.com Advertisement"
+ <leaffiltercom.advertisement@oishiilvcrdt.com>
+To: <bruce@untroubled.org>
+Subject: 
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_214_433785373.1638378383620"
+List-Unsubscribe: 
+ <http://www.oishiilvcrdt.com/stripping-Freemasonry/6484L2395Y_8w911Gg11hM5740r21QFv4GIf4rxvs4FhIHEsvZ8qR8o9dem6X1SM0m6qTWcYP>
+Message-ID: <0.0.0.17.1D7E6D5C96FFDF6.18FCB@mail.oishiilvcrdt.com>
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 10331
+
+------=_Part_214_433785373.1638378383620
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+ <head>=20
+  <title>waives</title>=20
+ </head>=20
+ <body>=20
+  <center>=20
+   <p><span style=3D"font-family:arial,helvetica,sans-serif; "><strong><a h=
+ref=3D"http://www.oishiilvcrdt.com/24b6s2O39y5Cj86W12Q1a516L5740L21uFv4GIf4rxvs4FhIHEsvZ8XR8o9dem6ym10FJ6YBcYJL/featherer-sideline">&nbsp; Cyber Monday Deals extend just for you &nbsp; </a=
+></strong></span><br /> <br /> <span style=3D"caret-color: rgb(0, 0, 0); co=
+lor: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant=
+-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; =
+text-align: center; text-indent: 0px; text-transform: none; white-space: no=
+rmal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -web=
+kit-text-stroke-width: 0px; text-decoration: none; font-size: 10px; "><span=
+ style=3D"font-family: Helvetica; font-style: normal; font-variant-caps: no=
+rmal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-t=
+ransform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke=
+-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0=
+, 0, 0); background-color: rgb(255, 255, 255); float: none; display: inline=
+ !important; "><strong>I</strong>f you cannot see the images below, </span>=
+</span><span style=3D"caret-color: rgb(0, 0, 0); font-family: Helvetica; fo=
+nt-style: normal; font-variant-caps: normal; font-weight: normal; letter-sp=
+acing: normal; text-align: center; text-indent: 0px; text-transform: none; =
+white-space: normal; word-spacing: 0px; -moz-text-size-adjust: auto; -webki=
+t-text-stroke-width: 0px; text-decoration: none; font-size: 10px; "><strong=
+ style=3D"font-family: Helvetica; font-style: normal; font-variant-caps: no=
+rmal; letter-spacing: normal; text-indent: 0px; text-transform: none; white=
+-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-dec=
+oration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-size: 1=
+3px; text-align: -webkit-center; "><a href=3D"http://www.oishiilvcrdt.com/24b6s2O39y5Cj86W12Q1a516L5740L21uFv4GIf4rxvs4FhIHEsvZ8XR8o9dem6ym10FJ6YBcYJL/featherer-sideline"><span style=3D"co=
+lor:#008000; ">click here</span></a></strong></span><span style=3D"caret-co=
+lor: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: =
+12px; font-style: normal; font-variant-caps: normal; font-weight: normal; l=
+etter-spacing: normal; orphans: auto; text-align: center; text-indent: 0px;=
+ text-transform: none; white-space: normal; widows: auto; word-spacing: 0px=
+; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; text-deco=
+ration: none; display: inline !important; float: none; "> </span></p>=20
+   <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion">=20
+    <tbody>=20
+     <tr>=20
+      <td><a href=3D"http://www.oishiilvcrdt.com/24b6s2O39y5Cj86W12Q1a516L5740L21uFv4GIf4rxvs4FhIHEsvZ8XR8o9dem6ym10FJ6YBcYJL/featherer-sideline"><img alt=3D"leafs" src=3D"http://www.oishiilvcrdt.com/11f5S239X5eOu7a13f1aO519X5740U21VFv4GIf4rxvs4FhIHEsvZ8bR8o9dem7zxGJU105t3cJY/wastefully-theorizers" sty=
+le=3D"width: 702px; height: 1456px; " /></a></td>=20
+     </tr>=20
+    </tbody>=20
+   </table>=20
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"border-spacing: 0px !important; border-coll=
+apse: collapse !important; table-layout: fixed !important; margin: auto; ca=
+ret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: -webkit-standard=
+; font-style: normal; font-variant-caps: normal; font-weight: normal; lette=
+r-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; w=
+hite-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adju=
+st: auto; -webkit-text-stroke-width: 0px; text-decoration: none; " width=3D=
+"100%">=20
+    <tbody>=20
+     <tr>=20
+      <td style=3D"padding: 0px 15px; font-family: sans-serif; font-size: 1=
+0px; line-height: 14px; text-align: center; color: rgb(153, 153, 153); "><b=
+r /> &nbsp; </td>=20
+     </tr>=20
+     <tr>=20
+      <td aria-hidden=3D"true" height=3D"30" style=3D"font-size: 0px; line-=
+height: 0px; ">&nbsp; </td>=20
+     </tr>=20
+    </tbody>=20
+   </table>=20
+   <table style=3D"caret-color: rgb(0, 0, 0); font-family: -webkit-standard=
+; letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: =
+none; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -web=
+kit-text-stroke-width: 0px; text-decoration: none; text-align: center; " wi=
+dth=3D"600">=20
+    <tbody>=20
+     <tr style=3D"text-align: center; " width=3D"600">=20
+      <td style=3D"text-align: center; " width=3D"600"><br /> <span style=
+=3D"caret-color: rgb(153, 153, 153); color: rgb(153, 153, 153); font-family=
+: sans-serif; font-size: 10px; font-style: normal; font-variant-caps: norma=
+l; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: =
+center; text-indent: 0px; text-transform: none; white-space: normal; widows=
+: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-str=
+oke-width: 0px; background-color: rgb(255, 255, 255); text-decoration: none=
+; display: inline !important; float: none; ">&nbsp; If you do not wish to r=
+eceive future messages click here to </span><span class=3D"unstyle-auto-det=
+ected-links" style=3D"caret-color: rgb(153, 153, 153); color: rgb(153, 153,=
+ 153); font-family: sans-serif; font-size: 10px; font-style: normal; font-v=
+ariant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: =
+auto; text-align: center; text-indent: 0px; text-transform: none; white-spa=
+ce: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto=
+; -webkit-text-stroke-width: 0px; text-decoration: none; "><a href=3D"=
+http://www.oishiilvcrdt.com/Farmington-denotative/cQ64b2395SMI8617b1aquY517KFt5740F21GFv4GIf4rxvs4FhIHEsvZ8NR8o9dem6b1X0Vt5JlWcY" style=3D"text-decoration: underline !important; border-bottom-width:=
+ 0px !important; cursor: default !important; color: rgb(153, 153, 153); fon=
+t-size: 10px; font-family: sans-serif; font-weight: inherit !important; lin=
+e-height: 14px; ">unsubscribe</a></span><span style=3D"caret-color: rgb(153=
+, 153, 153); color: rgb(153, 153, 153); font-family: sans-serif; font-size:=
+ 10px; font-style: normal; font-variant-caps: normal; font-weight: normal; =
+letter-spacing: normal; orphans: auto; text-align: center; text-indent: 0px=
+; text-transform: none; white-space: normal; widows: auto; word-spacing: 0p=
+x; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; backgrou=
+nd-color: rgb(255, 255, 255); text-decoration: none; display: inline !impor=
+tant; float: none; "> </span><br style=3D"caret-color: rgb(153, 153, 153); =
+color: rgb(153, 153, 153); font-family: sans-serif; font-size: 10px; font-s=
+tyle: normal; font-variant-caps: normal; font-weight: normal; letter-spacin=
+g: normal; orphans: auto; text-align: center; text-indent: 0px; text-transf=
+orm: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-te=
+xt-size-adjust: auto; -webkit-text-stroke-width: 0px; text-decoration: none=
+; " /> <br style=3D"caret-color: rgb(153, 153, 153); color: rgb(153, 153, 1=
+53); font-family: sans-serif; font-size: 10px; font-style: normal; font-var=
+iant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: au=
+to; text-align: center; text-indent: 0px; text-transform: none; white-space=
+: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; =
+-webkit-text-stroke-width: 0px; text-decoration: none; " /> <span class=3D"=
+unstyle-auto-detected-links" style=3D"caret-color: rgb(153, 153, 153); colo=
+r: rgb(153, 153, 153); font-family: sans-serif; font-size: 10px; font-style=
+: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: n=
+ormal; orphans: auto; text-align: center; text-indent: 0px; text-transform:=
+ none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-s=
+ize-adjust: auto; -webkit-text-stroke-width: 0px; text-decoration: none; ">=
+<a href=3D"http://www.oishiilvcrdt.com/24b6s2O39y5Cj86W12Q1a516L5740L21uFv4GIf4rxvs4FhIHEsvZ8XR8o9dem6ym10FJ6YBcYJL/featherer-sideline" style=3D"text-decoration: underline !important; bord=
+er-bottom-width: 0px !important; cursor: default !important; color: rgb(153=
+, 153, 153); font-size: 10px; font-family: sans-serif; font-weight: inherit=
+ !important; line-height: 14px; text-align: center; ">Leaf Filter</a>&nbsp;=
+ |&nbsp; 1216 Broadway, Floor 2 | New York City, NY 10001</span><br /> <br =
+/> <span style=3D"font-size:10px; "><span style=3D"font-family:arial,helvet=
+ica,sans-serif; ">Leave <a href=3D"http://www.oishiilvcrdt.com/Farmington-denotative/ada4n2395d8C9z12D1a518O5740P21yFv4GIf4rxvs4FhIHEsvZ8SR8o9dem5tF1g06qNTcYU">Here</a><br /> 6547 =
+N Academy Boulevard #1170<br /> 80918 Colorado Springs CO</span></span>=20
+       <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"border-spacing: 0px !important; borde=
+r-collapse: collapse !important; table-layout: fixed !important; margin: au=
+to; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: -webkit-st=
+andard; font-style: normal; font-variant-caps: normal; font-weight: normal;=
+ letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: n=
+one; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-siz=
+e-adjust: auto; -webkit-text-stroke-width: 0px; text-decoration: none; " wi=
+dth=3D"100%">=20
+        <tbody>=20
+         <tr>=20
+          <td aria-hidden=3D"true" height=3D"50" style=3D"font-size: 0px; l=
+ine-height: 0px; ">&nbsp; </td>=20
+         </tr>=20
+        </tbody>=20
+       </table> </td>=20
+     </tr>=20
+    </tbody>=20
+   </table> <style><span style="entertains"></style><span></span></span><small></small><style class="incantation"><style><style lang="apostrophe"></style></style></style><style></style><font id="interchanged"></font><small></small>
+  </center>  =20
+ <img src=3D"http://www.oishiilvcrdt.com/featherer-sideline/b524M2395Jnx8512P1a51ay5740l21mFv4GIf4rxvs4FhIHEsvZ8sR8o9dem6nKWs106mA@cY0" alt=3D""/></body>
+</html>
+
+------=_Part_214_433785373.1638378383620--
+

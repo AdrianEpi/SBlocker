@@ -1,0 +1,12 @@
+Hello Developer,
+
+We hope this email finds you well. We are a research group at UC Davis under Professor Vladimir Filkov and we would greatly appreciate your participation in our survey.
+
+Our study is investigating the burden of use in relation to npm packages and what features users find most helpful when using and contributing to projects.
+We have a 5-10 min survey and because of your contribution to @adrianepi/addlogging, we believe your opinion would be highly valuable.
+
+If you provide your email at the end of the survey we will send you the results and our analysis.
+
+Thank you for your time
+Mak Ahmad, Siena Saltzen, Kyle Mitchell and Kaan Sonisik
+UC Davis CS Graduate Students

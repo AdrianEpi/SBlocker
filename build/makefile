@@ -43,6 +43,9 @@ clean:
 help:
 	../bin/textClassifier --help
 
+generateMails:
+	../bin/textClassifier
+	
 # fullRun:
 # 	make clean
 # 	make

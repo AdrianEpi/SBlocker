@@ -22,8 +22,8 @@
 * 			Fabio Ovidio 
 * 			Oscar Hernandez 
 * @Date:   2021-11-05 08:37:08
-* @Last Modified by:   Adrian Epifanio
-* @Last Modified time: 2021-12-02 18:32:32
+* @Last Modified by:   ADRIAN
+* @Last Modified time: 2021-12-19 15:30:22
 */
 /*------------------  FUNCTIONS  -----------------*/
 
@@ -33,6 +33,12 @@
 #include "../include/classifier.hpp"
 
 /*------------------------------------------------*/
+/*------------------  LIBRARIES  -----------------*/
+
+#include <dirent.h>
+#include <sys/types.h>
+
+/*------------------------------------------------*/
 
 void printHelp (void);
 void generateVocabulary (int& argc, char* argv[]);
@@ -40,6 +46,11 @@ void generateCorpus (int& argc, char* argv[]);
 void generateLearner (int& argc, char* argv[]);
 void generateClassifier (int& argc, char* argv[]);
 void calculateError (int& argc, char* argv[]);
+void mailGenerator (void);
+std::string generateMail (std::string fileName);
+void deleteCommas (std::string& message);
+
+
 
 /**
  * @brief      Main function of the program, receives the data file as
@@ -52,7 +63,8 @@ void calculateError (int& argc, char* argv[]);
  */
 int main (int argc, char* argv[]) {
 	if (argc <= 1) {
-		printHelp();
+		//printHelp();
+		mailGenerator();
 	}
 	else {
 		std::string flag = argv[1];
@@ -261,4 +273,71 @@ void calculateError (int& argc, char* argv[]) {
 	percentage *= 100;
 	std::cout << std::endl << "Success percentage: " << correct << " / " << size << " = " << percentage << " %.";
 	std::cout << std::endl << "Error percentage: " << (size - correct) << " / " << size << " = " << (100 - percentage) << " %." << std::endl;
+}
+
+void mailGenerator (void) {
+	std::cout << "Please select the type of emails you are going to load:\n\t1. SPAM\n\t2. Promotions\n\t3. Notification\n\t4. Social\n\t0. Cancel" << std::endl;
+	std::string type;
+	int selection;
+	std::cin >> selection;
+	switch (selection) {
+		case 0:
+			exit(0);
+			break;
+		case 1:
+			type = "SPAM";
+			break;
+		case 2:
+			type = "Promotion";
+			break;
+		case 3:
+			type = "Notification";
+			break;
+		case 4:
+			type = "Social";
+			break;
+		default:
+			std::cout << "Wrong email type introduced, aborting program   .   .   ." << std::endl;
+			exit(1);
+	}
+
+	struct dirent *entry;
+    DIR *dir = opendir("../inputs/GenerateMails/");
+    if (dir == NULL) {
+        exit(1);
+    }
+    while ((entry = readdir(dir)) != NULL) {
+        if (entry -> d_name[0] != '.') {
+        	std::cout << "Generating mail from: " << entry -> d_name << std::endl;
+        	std::string mail = generateMail(entry -> d_name);
+        }
+    }
+    closedir(dir);
+
+}
+
+
+std::string generateMail (std::string fileName) {
+	std::fstream file(fileName, std::ios::out);
+	if (!file.fail()) {
+		std::string mail = "";
+		while (!file.eof()) {
+			std::string line;
+			std::getline(file, line);
+			if (line.length() > 3) {
+				mail += " " + line;
+			}
+		}
+		file.close();
+		deleteCommas(mail);
+		return mail;
+	}
+}
+
+void deleteCommas (std::string& message) {
+	for (unsigned i = 0; i < message.length(); i++) {
+		if (message[i] == ',') {
+			message[i] = ';';
+		}
+	}
 }
