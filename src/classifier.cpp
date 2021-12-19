@@ -22,8 +22,8 @@
 * 			Fabio Ovidio 
 * 			Oscar Hernandez 
 * @Date:   2021-11-05 08:37:08
-* @Last Modified by:   Adrian Epifanio
-* @Last Modified time: 2021-12-02 18:32:49
+* @Last Modified by:   ADRIAN
+* @Last Modified time: 2021-12-19 23:01:25
 */
 /*------------------  FUNCTIONS  -----------------*/
 
@@ -51,11 +51,8 @@ Classifier::Classifier (char* argv[], int& argc) {
 	std::string input = argv[2];
 	std::string stopWords = argv[3];
 	classifyFile(input, stopWords);
-	//std::string outputFile = "../outputs/classification.csv";
-	//std::string resume = "../outputs/resume.csv";
-	// Personal case output names
-	std::string outputFile = "../outputs/clasificacion_alu0101158280.csv";
-	std::string resume = "../outputs/resumen_alu0101158280.csv";
+	std::string outputFile = "../outputs/classification.csv";
+	std::string resume = "../outputs/resume.csv";
 	storeFile(outputFile, resume);
 }
 
@@ -243,8 +240,14 @@ void Classifier::readInputFiles (char* argv[], int& argc) {
 	for (int k = 4; k < argc; k++) {
 		std::string fileName = argv[k];
 		inputFiles_.push_back(fileName);
-		std::string type = "";		
-		type += fileName[fileName.length() - 5];
+		std::string type = "";	
+		// ONLY FOR THIS PROGRAM
+		if (fileName == "../outputs/learned_SPAM.txt") {
+			type += "SPAM";
+		}	
+		else {
+			type += "HAM";
+		}
 		std::ifstream file(fileName, std::ios::in);
 		if (file.fail()) {
 			std::cout << std::endl << "Error 404," << fileName << " file not found." << std::endl;
@@ -316,10 +319,6 @@ void Classifier::storeFile (std::string& outputFile, std::string& resumeFile) {
 					file << data_[i];
 					i++;
 				}
-				if (data_[i] != ',') {
-					file << data_[i];
-					i++;
-				}
 				while (data_[i] != ',' && data_[i] != '.') {
 					i++;
 				}
@@ -342,11 +341,6 @@ void Classifier::storeFile (std::string& outputFile, std::string& resumeFile) {
 		exit(1);
 	} 
 	else {
-		// next line for personal purposes
-		std::string code = "";
-		std::cout << "\n Introduzca el código: "; 
-		std::cin >> code;
-		resume << "codigo: " << code << std::endl;
 		for (unsigned i = 0; i < resume_.size(); i++) {
 			resume << resume_[i] << std::endl;
 		}

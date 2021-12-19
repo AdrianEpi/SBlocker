@@ -56,7 +56,7 @@ Runs the program with the needed flag for generating vocabulary (-v || --vocabul
 
 
         -l      (--learner) calculates the proabilities for each token for each corpus and
-                stores it into files named as aprendizaje_CORPUS.txt on the output folder.
+                stores it into files named as learned_CORPUS.txt on the output folder.
 
                 Example: 
                     $ Sblocker -l vocFile Corpus1 Corpus2 ... CorpusX

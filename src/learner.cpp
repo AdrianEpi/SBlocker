@@ -22,8 +22,8 @@
 * 			Fabio Ovidio 
 * 			Oscar Hernandez 
 * @Date:   2021-11-05 08:37:08
-* @Last Modified by:   Adrian Epifanio
-* @Last Modified time: 2021-12-02 18:32:39
+* @Last Modified by:   ADRIAN
+* @Last Modified time: 2021-12-19 22:28:01
 */
 /*------------------  FUNCTIONS  -----------------*/
 
@@ -126,7 +126,7 @@ void Learner::set_VocabularyFile (std::string newVocabularyFile) {
 
 /**
  * @brief      Generates the proabilities of all the tokens in vocabulary and
- *             stores them in a file called "aprendizaje_DATATYPE.txt".
+ *             stores them in a file called "learned_DATATYPE.txt".
  *             The file format is:
  *             Number of corpus documents: <integer>
  *             Number of words in corpus: <integer>
@@ -138,8 +138,8 @@ void Learner::learnAndStoreData (void) {
 	for (unsigned i = 0; i < learners_.size(); i++) {
 		Chrono chrono;
 		chrono.startChrono();
-		std::string fileName = "../outputs/aprendizaje";
-		fileName += inputCorpusFiles_[i][0];
+		std::string fileName = "../outputs/learned_";
+		fileName += inputCorpusFiles_[i];
 		fileName += ".txt";
 		std::fstream file(fileName, std::ios::out);
 		if (file.fail()) {
@@ -152,7 +152,7 @@ void Learner::learnAndStoreData (void) {
 			std::string data = "Numero de documentos del corpus: " + std::to_string(learners_[i].get_NLines());
 			data += "\nNumero de palabras del corpus: " + std::to_string(tokenAmmount);
 			for (auto tmp : learners_[i].get_Vocabulary()) {
-				std::string line =  "\nPalabra: " + tmp.get_Name();
+				std::string line =  "\nWord: " + tmp.get_Name();
 				/*----------  Uncomment this for tab columns  ----------*/
 				/*
 				while (line.length() < 50) {

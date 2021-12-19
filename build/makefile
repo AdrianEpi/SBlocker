@@ -5,9 +5,9 @@ OBJECTS = main.o vocabulary.o preProcesser.o Chrono.o token.o corpus.o learner.o
 # Compilation flags
 CFLAGS = -c -std=c++17 -Wall
 
-textClassifier: $(OBJECTS)
-	g++ $(OBJECTS) -o textClassifier
-	mv textClassifier ../bin
+SBlocker: $(OBJECTS)
+	g++ $(OBJECTS) -o SBlocker
+	mv SBlocker ../bin
 
 main.o: ../src/main.cpp
 	g++ $(CFLAGS) ../src/main.cpp
@@ -41,37 +41,37 @@ clean:
 	rm -rf ../bin/*
 
 help:
-	../bin/textClassifier --help
+	../bin/SBlocker --help
 
 generateMails:
-	../bin/textClassifier --updateDatabase
+	../bin/SBlocker --updateDatabase
 
 
-# fullRun:
-# 	make clean
-# 	make
-# 	make runVocabulary
-# 	make runCorpus
-# 	make runLearner
-# 	make runClassifier
-# 	make runTestPercentage
+fullRun:
+	make clean
+	make
+	make runVocabulary
+	make runCorpus
+	make runLearner
+	make runClassifier
+	make runTestPercentage
 
-#runTestPercentage:
-#	../bin/textClassifier --error ../outputs/resumen_alu0101158280.csv ../inputs/resumeExpected.csv
+runTestPercentage:
+	../bin/SBlocker --error ../outputs/resume.csv ../inputs/resumeExpected.csv
 
-#runClassifier:
-#	../bin/textClassifier --classify ../inputs/ecom-test-row.csv ../inputs/stopWords.txt ../outputs/aprendizajeE.txt ../outputs/aprendizajeH.txt ../outputs/aprendizajeC.txt ../outputs/aprendizajeB.txt
+runClassifier:
+	../bin/SBlocker --classify ../inputs/mail-test-row.csv ../inputs/stopWords.txt ../outputs/learned_SPAM.txt ../outputs/learned_HAM.txt
 
-#runLearner:
-#	../bin/textClassifier --learner ../outputs/vocabulary.txt Electronics Household "Clothing & Accessories" Books
+runLearner:
+	../bin/SBlocker --learner ../outputs/vocabulary.txt SPAM HAM
 
-# runCorpus:
-# 	../bin/textClassifier --corpus ../inputs/ecom-train.csv ../inputs/stopWords.txt Electronics Household "Clothing & Accessories" Books
+runCorpus:
+	../bin/SBlocker --corpus ../inputs/mail-train.csv ../inputs/stopWords.txt SPAM HAM
 
-# runVocabulary:
-# 	../bin/textClassifier --vocabulary ../inputs/ecom-train.csv ../outputs/vocabulary.txt ../inputs/stopWords.txt
+runVocabulary:
+	../bin/SBlocker --vocabulary ../inputs/mail-train.csv ../outputs/vocabulary.txt ../inputs/stopWords.txt
 
-# runLog:
-# 	echo "\n\n\nExecuted ${TIME}" >> ../outputs/runDetails.txt
-# 	make fullRun >> ../outputs/runDetails.txt
-# 	echo "You can find full output at outputs/runDetails.txt"
+runLog:
+	echo "\n\n\nExecuted ${TIME}" >> ../outputs/runDetails.txt
+	make fullRun >> ../outputs/runDetails.txt
+	echo "You can find full output at outputs/runDetails.txt"

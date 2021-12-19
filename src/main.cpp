@@ -23,7 +23,7 @@
 * 			Oscar Hernandez 
 * @Date:   2021-11-05 08:37:08
 * @Last Modified by:   ADRIAN
-* @Last Modified time: 2021-12-19 21:35:16
+* @Last Modified time: 2021-12-19 22:08:11
 */
 /*------------------  FUNCTIONS  -----------------*/
 
@@ -415,7 +415,7 @@ void storeMail (std::string type, std::vector<std::string>& mail) {
 			learning += "\n" + type + ", " + mail[i];
 		}
 	}
-	std::ofstream file("../inputs/trainFile.csv", std::ios::app);
+	std::ofstream file("../inputs/mail-train.csv", std::ios::app);
 	if (file.fail()) {
 		std::cout << "Error while storing training data, not valid document" << std::endl;
 		exit(1);
@@ -424,7 +424,7 @@ void storeMail (std::string type, std::vector<std::string>& mail) {
 		file << learning;
 	}
 	file.close();
-	std::ofstream file2("../inputs/testFile.csv", std::ios::app);
+	std::ofstream file2("../inputs/mail-test.csv", std::ios::app);
 	if (file2.fail()) {
 		std::cout << "Error while storing testing data, not valid document" << std::endl;
 		exit(1);

@@ -65,7 +65,7 @@
 
 
             -l      (--learner) calculates the proabilities for each token for
-                    each corpus and stores it into files named as aprendizaje_CORPUS.txt
+                    each corpus and stores it into files named as learned_CORPUS.txt
                     on the output folder.
 
                     Example: 
