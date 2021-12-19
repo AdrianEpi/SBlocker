@@ -23,7 +23,7 @@
 * 			Oscar Hernandez 
 * @Date:   2021-11-05 08:37:08
 * @Last Modified by:   ADRIAN
-* @Last Modified time: 2021-12-19 15:30:22
+* @Last Modified time: 2021-12-19 18:20:40
 */
 /*------------------  FUNCTIONS  -----------------*/
 
@@ -47,9 +47,10 @@ void generateLearner (int& argc, char* argv[]);
 void generateClassifier (int& argc, char* argv[]);
 void calculateError (int& argc, char* argv[]);
 void mailGenerator (void);
-std::string generateMail (std::string fileName);
+void generateMail (std::string fileName, std::vector<std::string>& mail);
 void deleteCommas (std::string& message);
-
+std::string getValidMail (std::vector<std::string>& mail);
+void storeMail (std::string type, std::vector<std::string>& mail);
 
 
 /**
@@ -63,8 +64,7 @@ void deleteCommas (std::string& message);
  */
 int main (int argc, char* argv[]) {
 	if (argc <= 1) {
-		//printHelp();
-		mailGenerator();
+		printHelp();
 	}
 	else {
 		std::string flag = argv[1];
@@ -87,6 +87,9 @@ int main (int argc, char* argv[]) {
 		else if (flag == "-e" || flag == "--error") {
 			calculateError(argc, argv);
 		}
+		else if (flag == "-u" || flag == "--updateDatabase") {
+			mailGenerator();
+		}
 
 	}
 	
@@ -103,7 +106,7 @@ void printHelp (void) {
 	std::ifstream file(MAN, std::ios::in);
 	if (file.fail()) {
 		std::cout << std::endl << "Error while opening manual file, make sure the file \"man.txt\" is placed on the include folder." << std::endl;
-		std::cout << "You can also read the instructions at <https://github.com/AdrianEpi/Text-Classifier> " << std::endl << std::endl;
+		std::cout << "You can also read the instructions at <https://github.com/AdrianEpi/SBlocker> " << std::endl << std::endl;
 		exit(1);
 	} 
 	std::string reader;
@@ -275,11 +278,15 @@ void calculateError (int& argc, char* argv[]) {
 	std::cout << std::endl << "Error percentage: " << (size - correct) << " / " << size << " = " << (100 - percentage) << " %." << std::endl;
 }
 
+/**
+ * @brief      Gets the information of all the emails in the inputs/GenerateMails folder and stores it.
+ */
 void mailGenerator (void) {
 	std::cout << "Please select the type of emails you are going to load:\n\t1. SPAM\n\t2. Promotions\n\t3. Notification\n\t4. Social\n\t0. Cancel" << std::endl;
 	std::string type;
 	int selection;
 	std::cin >> selection;
+	std::vector<std::string> emails;
 	switch (selection) {
 		case 0:
 			exit(0);
@@ -309,35 +316,122 @@ void mailGenerator (void) {
     while ((entry = readdir(dir)) != NULL) {
         if (entry -> d_name[0] != '.') {
         	std::cout << "Generating mail from: " << entry -> d_name << std::endl;
-        	std::string mail = generateMail(entry -> d_name);
+        	std::vector<std::string> mail;
+        	std::string fileName = "../inputs/GenerateMails/";
+        	fileName += entry -> d_name;
+        	generateMail(fileName, mail);
+        	std::string tmp = getValidMail(mail);
+        	if (tmp != "") {
+	        	emails.push_back(tmp);
+	        }
         }
     }
     closedir(dir);
-
+    storeMail(type, emails);
 }
 
 
-std::string generateMail (std::string fileName) {
-	std::fstream file(fileName, std::ios::out);
-	if (!file.fail()) {
-		std::string mail = "";
-		while (!file.eof()) {
-			std::string line;
-			std::getline(file, line);
-			if (line.length() > 3) {
-				mail += " " + line;
-			}
-		}
-		file.close();
-		deleteCommas(mail);
-		return mail;
+/**
+ * @brief      Generate and gets the valid EMAIL text from an email file.
+ *
+ * @param[in]  fileName  The file name
+ * @param      mail      The mail
+ */
+void generateMail (std::string fileName, std::vector<std::string>& mail) {
+	std::ifstream file(fileName, std::ios::in);
+	if (file.fail()) {
+		std::cout << "Error, file not found" << std::endl;
+		exit(1);
 	}
+	while (!file.eof()) {
+		std::string line;
+		std::getline(file, line);
+		if (line.length() > 3) {
+			deleteCommas(line);
+			mail.push_back(line);
+		}
+		else {
+			mail.push_back(" ");
+		}
+	}
+	file.close();
 }
 
+/**
+ * @brief      Delete the commas in a message.
+ *
+ * @param      message  The message
+ */
 void deleteCommas (std::string& message) {
 	for (unsigned i = 0; i < message.length(); i++) {
 		if (message[i] == ',') {
 			message[i] = ';';
 		}
 	}
+}
+
+/**
+ * @brief      Gets the valid mail.
+ *
+ * @param      mail  The mail
+ *
+ * @return     The valid mail.
+ */
+std::string getValidMail (std::vector<std::string>& mail) {
+	for (unsigned i = 0; i < mail.size(); i++) {
+		if (mail[i].find("Content-Type: text/plain") != std::string::npos) {
+			while (mail[i] != " ") {
+				i++;
+			}
+			std::string realMail = "";
+			while (i < mail.size()) {
+				if (mail[i][0] == '-') {
+					break;
+				}
+				else {
+					realMail += " " + mail[i];
+				}
+				i++;
+			}
+			return realMail;
+		}
+	}
+	return "";
+}
+
+/**
+ * @brief      Stores the emails, 80% to learning database and 20% to testing database.
+ *
+ * @param[in]  type  The type
+ * @param      mail  The mail
+ */
+void storeMail (std::string type, std::vector<std::string>& mail) {
+	std::string learning = "";
+	std::string testing = "";
+	for (unsigned i = 0; i < mail.size(); i++) {
+		if (i % 5 == 0) {
+			testing += "\n" + type + ", " + mail[i];
+		}
+		else {
+			learning += "\n" + type + ", " + mail[i];
+		}
+	}
+	std::ofstream file("../inputs/trainFile.csv", std::ios::app);
+	if (file.fail()) {
+		std::cout << "Error while storing training data, not valid document" << std::endl;
+		exit(1);
+	} 
+	else {
+		file << learning;
+	}
+	file.close();
+	std::ofstream file2("../inputs/testFile.csv", std::ios::app);
+	if (file2.fail()) {
+		std::cout << "Error while storing testing data, not valid document" << std::endl;
+		exit(1);
+	} 
+	else {
+		file2 << testing;
+	}
+	file2.close();
 }

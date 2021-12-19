@@ -1,14 +1,14 @@
 
     NAME  
 
-        Sblocker  Generates vocabulary, corpus, learns data and
-                        classifies a text into  different types of data.  
+        Sblocker  Generates vocabulary, corpus, learns data and classifies a
+        text into  different types of data.  
 
 
 
     SYNOPSIS  
 
-        ./Sblocker [-v || -co || -h || -l || -cl || -e] [arg ...]  
+        ./Sblocker [-v || -co || -h || -l || -cl || -e || -u] [arg ...]  
 
 
 
@@ -19,9 +19,10 @@
 
         Runs the program with the needed flag for generating vocabulary (-v ||
         --vocabulary), generating  corpus (-co || --corpus), learning
-        probabilities (-l || --learner),  printing user manual (-h || --help),
-        classifying test data (-cl || --classify), calculating success and
-        error percentage (-e || --error).
+          probabilities (-l || --learner),  printing user manual
+          (-h || --help), classifying test data (-cl || --classify),
+          calculating success and error percentage (-e || --error), adding
+          new emails to database (-u || --updateDatabase).
          
 
         Options:  
@@ -116,6 +117,10 @@
                                     order as origin corpusTest).
 
 
+            -u      (--updateDatabase) Updates the emails database by adding
+                    all the emails in the folder inputs/GenerateMails to database.
+
+
 
         Exit Status:  
 
@@ -125,19 +130,20 @@
 
     AUTHOR  
 
-        Written by Adrián Epifanio Rodríguez Hernández.  
+        Written by Fabio Ovidio Bianchini Cano, Óscar Hernández Díaz & Adrián
+        Epifanio Rodríguez Hernández.   
 
 
 
     REPORTING BUGS  
 
-        Report an issue at <https://github.com/AdrianEpi/Text-Classifier>  
+        Report an issue at <https://github.com/AdrianEpi/SBlocker>  
 
 
 
     COPYRIGHT  
 
-        Copyright (c) 2021 Adrián Epifanio  
+        Copyright (c) 2021 Adrián Epifanio, Óscar Hernández and Fabio Ovidio  
 
         Permission is hereby granted, free of charge, to any person obtaining a copy  
         of this software and associated documentation files (the \Software\), to deal  

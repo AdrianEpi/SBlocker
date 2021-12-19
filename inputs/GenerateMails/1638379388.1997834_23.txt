@@ -1,0 +1,599 @@
+Return-Path: <home-tailor-bruce=untroubled.org@centrohappyd05.shop>
+Delivered-To: virtmail-bruce@untroubled.org
+Received: (qmail 184827 invoked from network); 1 Dec 2021 17:17:50 -0000
+Received: from mail.centrohappyd05.shop (mail.centrohappyd05.shop
+ [104.166.124.110])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 01 Dec 2021 17:15:06 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkim;
+ d=centrohappyd05.shop;
+ h=Date:From:To:Subject:MIME-Version:Content-Type:List-Unsubscribe:Message-ID;
+ i=home-tailor@centrohappyd05.shop;
+ bh=nt/g+y2mUG1xWhVErrdE0BA+XQ8=;
+ b=HTQGhddZOmrXFVGIFzDnKJWtyNSaUkntfrn1FTzI1bEliP66XbmDjIOap/5RndBb4vlC8YGQmIBL
+   w6QPdrlFns/VYn0KxjWW0gEegSP3mbTCHVaYIBTyvd0KLU6PCvTMTK+Qo84PCZAaiyQh0XGxvqda
+   QGIGbI5kVpDvyfooq8Q=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim;
+ d=centrohappyd05.shop;
+ b=UPtM9K3bfaUe+aNBjHOYW/Cvp+ntiXYwhYEjKXU3cMNWTjo9qNUzLUJG6Am/LJe+7/8jSPYnDglV
+   UWQAi6Sh0/ygrodGGw6YZpyx6/jkSY52anPelFZe5BmGzSp6hq9VpMrr+yNiBuKBb62Ws2lo8HM+
+   jQIhAMU6GSRCdOm1NuM=;
+Received: by mail.centrohappyd05.shop id hkunbm0001g0 for
+ <bruce@untroubled.org>;
+ Wed, 1 Dec 2021 12:17:28 -0500 (envelope-from <home-tailor-bruce=untroubled.org@centrohappyd05.shop>)
+Date: Wed, 1 Dec 2021 12:17:28 -0500
+From: "Home Tailor" <home-tailor@centrohappyd05.shop>
+To: <bruce@untroubled.org>
+Subject: Cyber Deals Continue!  Fix, hem, or mend clothes anywhere you are
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_169_1209949189.1638378733760"
+List-Unsubscribe: 
+ <http://www.centrohappyd05.shop/gangs-skindive/4Qe4S2395rx8W912es1FGB1Pb89x21XFv4GIf4rxvs4FhIHEsvZ7kQsoKSR5qU1U06SkjNsv>
+Message-ID: <0.0.0.1C.1D7E6D7515D4D30.2A699F@mail.centrohappyd05.shop>
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 37096
+
+------=_Part_169_1209949189.1638378733760
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+** Like a Tailor Away From Home ** 
+------------------------------------
+
+Got a rip in your favorite shirt? Don't run home or run out to the store.  The Handheld Tailor is lightweight, easy-to-use, and can fix, repair, or hem your clothes on the go!
+
+These handheld machines can be used with various materials and have a sewing thickness of 1. 8mm.  You can use the tool with fabrics like wool, cotton, leather, denim, etc. 
+
+
+Shop Now And Save With Cyber Monday Deals! ->  http://www.centrohappyd05.shop/savager-Christensen/9546F2I39L5W8nU612cK7R346mb89C21KFv4GIf4rxvs4FhIHEsvZ7iQsoKSR5t1HA06UJ@ksv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Anderson Vault Data-Transfer
+7301 Tidwell Road
+Pace, FL 32571-9407
+Change Subscription Preferences http://www.centrohappyd05.shop/articulate-peasantry/ada6z2h39r5c8xq611V734C7Zb89w21VFv4GIf4rxvs4FhIHEsvZ7SQsoKSR6wH1n0S5gWJsv
+
+------=_Part_169_1209949189.1638378733760
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+ <head></head>
+ <body>
+  <table style=3D"max-width: 640px; font-family: Gotham, 'Helvetica Neue', =
+Helvetica, Arial, 'sans-serif';" width=3D"100%" cellspacing=3D"0" cellpaddi=
+ng=3D"0" align=3D"center">=20
+   <tbody>=20
+    <tr>=20
+     <td align=3D"center">=20
+      <table width=3D"100%">=20
+       <tbody>=20
+        <tr>=20
+         <td align=3D"center"><a href=3D"http://www.centrohappyd05.shop/eclipsed-accountability/daa5v239L5AO86X10r7349_b89l21lFv4GIf4rxvs4FhIHEsvZ7OQsoKSR5Eq10y6LNLzsv"> <img style=3D"width: =
+100%; max-width: 225px;" src=3D"http://www.centrohappyd05.shop/solver-realtor/6845y2_395RV7za12H73V4lbib89X21zFv4GIf4rxvs4FhIHEsvZ7DQsoKSR5bk10q5pjs3v" alt=3D"Handheld Tailor Logo" /=
+> </a></td>=20
+        </tr>=20
+       </tbody>=20
+      </table>=20
+      <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">=20
+       <tbody>=20
+        <tr>=20
+         <td align=3D"center"><a href=3D"http://www.centrohappyd05.shop/eclipsed-accountability/daa5v239L5AO86X10r7349_b89l21lFv4GIf4rxvs4FhIHEsvZ7OQsoKSR5Eq10y6LNLzsv"> <img style=3D"width: =
+100%; max-width: 550px;" src=3D"=09
+                        https://imagizer.imageshack.com/v2/xq90/923/NBrMA3.=
+jpg" /> </a></td>=20
+        </tr>=20
+       </tbody>=20
+      </table>=20
+      <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">=20
+       <tbody>=20
+        <tr>=20
+         <td style=3D"color: #571845; width: 100%; max-width: 500px;" align=
+=3D"center"> <h1>Like a Tailor Away From Home</h1> <p>Fix, repair and hem y=
+our clothes on the go! With a smooth learning curve, this handheld sewing m=
+achine can easily be used by professionals and beginners alike. This machin=
+e can be used with a various materials such as wool, cotton, leather, denim=
+ and many more. <strong>Get yours today!</strong></p>=20
+          <div style=3D"padding: 12px;">
+           <a style=3D"color: white; background-color: #571845; text-decora=
+tion: none; padding: 6px 14px;" href=3D"http://www.centrohappyd05.shop/eclipsed-accountability/daa5v239L5AO86X10r7349_b89l21lFv4GIf4rxvs4FhIHEsvZ7OQsoKSR5Eq10y6LNLzsv"><strong>Shop Cyber Mond=
+ay Deals!</strong></a>
+          </div>=20
+          <div style=3D"padding: 15px;">
+           &nbsp;
+          </div> </td>=20
+        </tr>=20
+       </tbody>=20
+      </table>=20
+      <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">=20
+       <tbody>=20
+        <tr>=20
+         <td align=3D"center"> <a href=3D"http://www.centrohappyd05.shop/eclipsed-accountability/daa5v239L5AO86X10r7349_b89l21lFv4GIf4rxvs4FhIHEsvZ7OQsoKSR5Eq10y6LNLzsv"><img style=3D"max-wid=
+th: 550px; width: 100%;" src=3D"http://www.centrohappyd05.shop/6Ib4I2395QX7aq10J734cQb89g21UFv4GIf4rxvs4FhIHEsvZ7pQsoKSR7sUJ1O0W5MMsvW/avidity-Abba" /></a>=20
+          <div style=3D"padding: 25px;">
+           &nbsp;
+          </div> </td>=20
+        </tr>=20
+       </tbody>=20
+      </table> <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp=
+;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&n=
+bsp;</p><p>&nbsp;</p>
+      <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">=20
+       <tbody>=20
+        <tr>            =20
+         <td style=3D"color: gray;" align=3D"center"> <p>Anderson Vault Dat=
+a-Transfer</p> <p>7301 Tidwell Road</p> <p>Pace, FL 32571-9407</p> <a href=
+=3D"http://www.centrohappyd05.shop/4dq6ip23U95S8yW612d7D3p4aWb89C21WFv4GIf4rxvs4FhIHEsvZ7XQsoKSR7o10PkHy6D1sB@v/vertical-Moldavia">Update Subscription Preferences</a> </td>=20
+        </tr>=20
+       </tbody>=20
+      </table> </td>=20
+    </tr>=20
+   </tbody>=20
+  </table>=20
+  <p>&nbsp;</p>=20
+  <p>&nbsp;</p>=20
+  <p>&nbsp;</p>=20
+  <p>&nbsp;</p>=20
+  <p>&nbsp;</p>=20
+  <p>&nbsp;</p>=20
+  <p>&nbsp;</p>=20
+  <p>&nbsp;</p>=20
+  <p>&nbsp;</p>=20
+  <p>&nbsp;</p>=20
+  <p>&nbsp;</p>=20
+  <p>&nbsp;</p>=20
+  <p><span style=3D"color: #ffffff;">Jack, a farmboy with unruly blonde cur=
+ls, runs towards the boundary of the planting field.&nbsp;By summertime, hi=
+s trips to the back lot, the spot he has chosen, will have formed a walking=
+ path amidst the tall, sun-reaching corn plants.&nbsp;But now, in April of =
+1944, the field is ploughed and ready for planting.&nbsp;Jack imagines he i=
+s floating in the air, and looking down, the furrowed ground might look lik=
+e rich brown soil drapery covering a hidden window.&nbsp;What would he see =
+if he pulled open the curtains?&nbsp;A view to the underworld?&nbsp;Would h=
+is newly admitted uncle peer up? &nbsp;Still bloodied and wearing his unifo=
+rm?&nbsp;Jack quickens his pace, holding the burlap bag that he carries clo=
+ser to his chest.&nbsp;He is agile, his sinewy body inherited from his fath=
+er and honed from the farm chores that have now included the work his uncle=
+ used to do.&nbsp;His school teacher, Miss Shore, has convinced his father =
+that he shouldn?t miss school.&nbsp;So Jack gets up two hours earlier to ta=
+ckle his and Uncle Frank?s jobs.&nbsp;&nbsp;&nbsp;&nbsp;</span></p>=20
+  <p><span style=3D"color: #ffffff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When he finally reaches the s=
+pot, that he knows, on &nbsp;a cloudless day , is sunny.&nbsp;But today is =
+overcast and the over-satiated clouds hover.&nbsp;He has already prepared t=
+he ground ? a hole, its bottom a mixture of earth and compost.&nbsp;&nbsp;H=
+e must hurry, so the boy lifts an Elm seedling its root ball safely cradled=
+ in soil, out of the burlap.&nbsp;&nbsp;It is a project that he and Frank?s=
+ mourning fianc&eacute;e, Eileen endeavoured.&nbsp;With all their heart, th=
+ey hope it will flourish and grow into a splendid tree, always in memory of=
+ Uncle Frank/Eileen?s Frank.</span></p>=20
+  <p><span style=3D"color: #ffffff;">When the new tree is firmly planted, h=
+e wonders if Uncle Frank can touch its newborn, thready roots.&nbsp;?Uncle =
+Frank.&nbsp;Miss Shore? I mean Eileen wants you to have this tree.&nbsp;I p=
+romised her I would look after it for you.?&nbsp;</span></p>=20
+  <p><span style=3D"color: #ffffff;">Fulfilling his promise to Eileen, he s=
+ings a few lines of&nbsp;<em>their song</em>.&nbsp;?I?ll be seeing you, in =
+all the old familiar places? that this heart of mine embraces...?&nbsp;It?s=
+ as far as he remembers the words, but in his mind, the tune continues with=
+ the vision of Eileen and Frank slow-dancing.&nbsp;He presses his lips tigh=
+tly and just as he picks up the empty burlap bag and starts heading back ho=
+me, the sky opens up with a downpour.&nbsp;He quite enjoys getting soaked a=
+nd as he trots back towards the farmhouse, he whistles the tune, ?I?ll Be S=
+eeing You?.</span></p>=20
+  <p class=3D"ql-align-center"><span style=3D"color: #ffffff;">************=
+******</span></p>=20
+  <p><span style=3D"color: #ffffff;">Jack, both a widower and orphan inheri=
+ted the farm, but his interests lie in teaching, not farming.&nbsp;A local =
+farmer rents 100 acres to plant corn.&nbsp;And Jack has turned a part of hi=
+s property into a park that surrounds the Elm tree.&nbsp;&nbsp;Elm Park.&nb=
+sp;He has taken care of Frank?s tree making sure it stayed healthy by pruni=
+ng it each spring. &nbsp;&nbsp;It is a tree in solitude, a beacon of love, =
+and perhaps that is why it has grown so healthy and proud and free of disea=
+se.&nbsp;The rest of the farmland has been turned into a subdivision of hou=
+ses on large lots.&nbsp;Jack still lives in the farmhouse with his ten year=
+ old son, Peter.&nbsp;&nbsp;</span></p>=20
+  <p><span style=3D"color: #ffffff;">It?s 1969.&nbsp;His neighbour?s daught=
+er, Tracy is a school buddy Peter?s.&nbsp;The boy has a secret crush on her=
+, but she is too much a tomboy to notice.&nbsp;&nbsp;&nbsp;He pretends to t=
+ease her by pulling at her ponytail ? he really just wants to feel her silk=
+y hair.&nbsp;In the middle of the park, the majestic Elm tree is a meeting =
+place for Peter, Tracy and her best friend, Susie.&nbsp;The climb up onto t=
+he lowest branch, which is long and sturdy, and share Tootsie Rolls, Sweet =
+Maries and urban myths.&nbsp;Peter has a doozy of a story.</span></p>=20
+  <p><span style=3D"color: #ffffff;">?This tree has a name.&nbsp;Frank.&nbs=
+p;My dad planted Frank when he was ten.?&nbsp;</span></p>=20
+  <p><span style=3D"color: #ffffff;">Tracy gives the trunk a gentle brush.&=
+nbsp;?Hi Frank.?&nbsp;In twenty years, it has grown 30 feet.&nbsp;</span></=
+p>=20
+  <p><span style=3D"color: #ffffff;">Tracy recalls Miss Shore, their teache=
+r telling them about the horrific Dutch Elm Disease that has killed off so =
+many Elms.&nbsp;Miss Shore was attacked by a disease too.&nbsp;Polio, that =
+has rendered her crippled and in a wheelchair.&nbsp;</span></p>=20
+  <p><span style=3D"color: #ffffff;">Peter continues his story.&nbsp;?It?s =
+a sacred tree.&nbsp;There are no others around it.&nbsp;Nothing else will g=
+row near it.?</span></p>=20
+  <p><span style=3D"color: #ffffff;">Susie, the smart ass says, ?What about=
+ grass.?&nbsp;Peter ignores her.</span></p>=20
+  <p><span style=3D"color: #ffffff;">? It?s a spirit tree.&nbsp;On the nigh=
+t of a full moon, this tree turns into a soldier who died in WWII.?</span><=
+/p>=20
+  <p><span style=3D"color: #ffffff;">Both girls? synchronized retort: ?No w=
+ay.?</span></p>=20
+  <p><span style=3D"color: #ffffff;">?Yes way.&nbsp;I should know because t=
+hat man is my Uncle Frank.&nbsp;Dad and this witch who was in love with Unc=
+le Frank put a magic spell on the tree when it was just a sapling.&nbsp;Dad=
+ has looked after it all these years.?</span></p>=20
+  <p><span style=3D"color: #ffffff;">?What about the witch??</span></p>=20
+  <p><span style=3D"color: #ffffff;">?Well, she got really sick and when th=
+e moon was full, she came here one night to die.?&nbsp;Peter decides he mus=
+t be right when he adds, ?She couldn?t walk anymore, so she flew on a broom=
+stick.?</span></p>=20
+  <p><span style=3D"color: #ffffff;">With an added element of surprise, he =
+tugs on Tracy?s ponytail.&nbsp;She bleats, ?You?re giving me goosebumps.? &=
+nbsp;&nbsp;</span></p>=20
+  <p><span style=3D"color: #ffffff;">Susie says, ?So she just died?&nbsp;Wh=
+at about her broomstick??&nbsp;&nbsp;</span></p>=20
+  <p><span style=3D"color: #ffffff;">Peter is pumped by his audience.&nbsp;=
+To distract his thought of wanting to kiss Tracy, he looks up into the crow=
+n of the tree.&nbsp;The budding branches look like long, crooked fingers we=
+aring little jewels.&nbsp;He continues the story, with added embellishment.=
+&nbsp;?Well, the ground suddenly turned into a huge glass window.&nbsp;The =
+witch looked down and saw Uncle Frank who reached up to her with both hands=
+&nbsp;His hands turned into roots, and he broke through the glass and grab=
+bed the witch and pulled her down.&nbsp;Now they both live in the underworl=
+d.?&nbsp;&nbsp;&nbsp;</span></p>=20
+  <p><span style=3D"color: #ffffff;">Tracy finds this horror story eerily r=
+omantic.&nbsp;She decides to believe it?s true.&nbsp;She imagines herself b=
+eing the witch and she fantasizes that Peter is the soldier.&nbsp;And Susie=
+?&nbsp;Well, she?s the broomstick.&nbsp;</span></p>=20
+  <p><span style=3D"color: #ffffff;">A few day later, on a full-moon night,=
+ she and Pete decide to sneak out to the park to be witness to the supernat=
+ural event. &nbsp;She is fully dressed, ready to go when her alarm clock se=
+t for 12:00 am rings (muffled because it is tucked under a pillow).&nbsp;&n=
+bsp;She pulls her jacket and shoes out from under the bed.&nbsp;The best op=
+tion is to sneak out of the house, via the sliding doors in the den.&nbsp;O=
+nce outside, she looks up at her father?s window, to make sure the light is=
+ still off.&nbsp;The air is chilly and she buttons up her jacket.&nbsp;She =
+wonders if her mother is looking down from heaven and wagging her finger at=
+ her.&nbsp;</span></p>=20
+  <p><span style=3D"color: #ffffff;">Peter has been waiting at the end of h=
+er driveway, beside a large spruce.&nbsp;Even though she knows this, she is=
+ still startled when he steps out.&nbsp;She tells him, ?Susie chickened out=
+&nbsp;I promised we?d tell her if we see the ghosts.?</span></p>=20
+  <p><span style=3D"color: #ffffff;">&nbsp;As they approach the park, Tracy=
+ asks, ?What if Frank and the witch catch us spying??</span></p>=20
+  <p><span style=3D"color: #ffffff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?They?re ghosts.&nbsp;Ghosts =
+can?t hurt you.?</span></p>=20
+  <p><span style=3D"color: #ffffff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;They trudge through the damp =
+grass towards the tree, when suddenly they see movement.&nbsp;Someone, defi=
+nitely a woman, is sitting there, partially hidden by the tree trunk.&nbsp;=
+Tracy squeaks, ?It?s the witch.?&nbsp;</span></p>=20
+  <p><span style=3D"color: #ffffff;">Peter is dumbfounded and frozen on the=
+ spot.&nbsp;He had embellished the urban myth to impress Tracy.&nbsp;But it=
+ might actually be true. &nbsp;&nbsp;Tracy suddenly clasps her hand over hi=
+s.&nbsp;?Come on,? and she drags him onward.</span></p>=20
+  <p><span style=3D"color: #ffffff;">The figure by the tree, who sits in a =
+wheelchair, sees them.&nbsp;Her face is lit by the moonlight.&nbsp;?Tracy.&=
+nbsp;Peter. &nbsp;&nbsp;What brings you out tonight??</span></p>=20
+  <p><span style=3D"color: #ffffff;">&nbsp;&nbsp;Tracy gasps with relief, a=
+lthough she is a bit deflated, to realize that the woman is their teacher, =
+Miss Shore.&nbsp;&nbsp;?Are you here to see the ghosts too??</span></p>=20
+  <p><span style=3D"color: #ffffff;">Eileen Shore, brushes a tear from her =
+cheek.&nbsp;?Yes, but I?m sure there?s only one ghost.?&nbsp;</span></p>=20
+  <p><span style=3D"color: #ffffff;">She likes to fantasize that Frank appe=
+ars, just so she can see him again.&nbsp;&nbsp;&nbsp;Miss Shore tells them =
+the true story of her dear Frank, who died in the war and how his nephew ca=
+me to plant the Elm.&nbsp;&nbsp;Peter whispers into Tracy?s ear, ?Miss Shor=
+e is the witch.?&nbsp;Tracy nods and refocuses her attention on her teacher=
+, seeing her in a new light, as if she were a film star.&nbsp;They share co=
+mpany with the Witch.&nbsp;After awhile, the April night chill sends them o=
+n their way home.&nbsp;Peter pushes the wheelchair to Miss Shore?s house an=
+d the two adventurers continue on.&nbsp;They decide to secretly call Miss S=
+hore ?The Witch? from now on. &nbsp;&nbsp;Peter walks Tracy to the sliding =
+glass door, and charged with the WWII bittersweet story, they kiss.</span><=
+/p>=20
+  <p class=3D"ql-align-center"><span style=3D"color: #ffffff;">************=
+******</span></p>=20
+  <p><span style=3D"color: #ffffff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tracy, seated in front of the=
+ mirror, smoothes her white gown and watches in amusement as her maid of ho=
+nour, and self-appointed hairdresser, Susan, fusses with her hair.&nbsp;Tra=
+cy squeaks as hairclips suddenly become tiny daggers and hairspray becomes =
+invisible, sticky fingers. &nbsp;Tracy?s flaxen hair is soft and silky.&nbs=
+p;?Like wheat?, her fianc&eacute;e Peter says.&nbsp;But it refuses to stay =
+put without maximized hair products. &nbsp;&nbsp;?Susie, I think you?re mor=
+e nervous about this wedding than I am.?&nbsp;</span></p>=20
+  <p><span style=3D"color: #ffffff;">She wishes her mother could be here.&n=
+bsp;In the last days, before her mom died, between struggling breaths, she =
+whispered, ?It?s the one thing, I regret the most ? that I can?t be there t=
+o watch my daughter get married.&nbsp;I will be with you in spirit.?&nbsp;S=
+he remembers those last words.&nbsp;She looks so much like her mother did, =
+that she pretends that her reflection is her mother, in spirit.&nbsp;She re=
+aches out and touches the glass, to which the image responds in kind. &nbsp=
+;?Too bad mom can?t break through this window,? she says.&nbsp;Susan recall=
+s the urban myth of the Elm tree and smiles affectionately.</span></p>=20
+  <p><span style=3D"color: #ffffff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The wedding takes place on a =
+Wednesday evening, so that Peter and Tracy can be married under the full mo=
+on and under Frank?s Elm tree.&nbsp;&nbsp;Only a few friends and family are=
+ invited.&nbsp;Both fathers, widowers, Jack and Tracy?s father, sit in the =
+front row. &nbsp;There is a spot at the end of the row for Miss Shore, but =
+she has not arrived yet.&nbsp;Tracy and Peter stand before the white-haired=
+ minister, under the Elm tree.&nbsp;The wedding vows cannot be said until T=
+he Witch is present, after all, it was her that must have cast a love spell=
+ on them.&nbsp;&nbsp;She finally arrives, waves her hand apologetically and=
+ so as not to hold up the wedding any further, sits in her wheelchair behin=
+d the last row.&nbsp;She is beautiful in her powder blue satin dress and sw=
+eet smile. &nbsp;&nbsp;The minister clears his throat as he starts to read =
+from the bible. &nbsp;But Tracy?s head starts to spin; inside her head, a t=
+une drowns out the minister?s administering.&nbsp;She recognizes it ? ?I?ll=
+ Be Seeing You.?&nbsp;Her ears are ringing.&nbsp;Her high-heeled shoes slip=
+ in the grass and Peter catches her, just as she looks down.&nbsp;Instead o=
+f grass, they are standing on a large glass window.&nbsp;She utters, ?We?re=
+ standing on glass.?&nbsp;Peter agrees.&nbsp;?Yes it?s grass, silly.?&nbsp;=
+Only she can is tuned into the window spoken of in Peter?s story.&nbsp;Thro=
+ugh it, she sees the tree?s vigorous root system spreading out and then the=
+ face of a man looking up at her.&nbsp;He is handsome and proud in his sold=
+ier?s uniform.&nbsp;Tracy pulls away from Peter and yells, ?Stop!?&nbsp;Poo=
+r Peter interprets this as Tracy changing her mind, that she wants to jilt =
+him.&nbsp;He cries, ?No.?&nbsp;</span></p>=20
+  <p><span style=3D"color: #ffffff;">Tracy reassures him.&nbsp;?Oh Peter, F=
+rank is here.&nbsp;We need to get Miss Shore up here.?&nbsp;She shouts fran=
+tically, to her father-in-law to be.&nbsp;?Please!&nbsp;Eileen needs to be =
+here.?</span></p>=20
+  <p><span style=3D"color: #ffffff;">Without any questions, Jack rises and =
+rushes towards Miss Shore.&nbsp;He wheels her up to the altar under the Elm=
+&nbsp;He pats his son on the shoulder and returns to his seat.&nbsp;Eileen=
+ Shore is stunned, until she looks down and realizes they are planted on a =
+glass window.&nbsp;The image of Frank appears, just as he was, the last tim=
+e she saw him.&nbsp;He smiles shyly, as a groom would do, and suddenly she =
+is so filled with joy that she feels that she will burst into crystal confe=
+tti.&nbsp;She leans down, but cannot quite touch Frank?s reached out hand.&=
+nbsp;Peter understands that something supernatural is happening.&nbsp;He ge=
+ntly takes hold of Tracy?s hand and nods to the minister. &nbsp;?I think bo=
+th brides are ready to get married.?</span></p>=20
+  <p><span style=3D"color: #ffffff;">It was a fishing village as far back a=
+s she could remember. With waves crashing against the grey of the shore, th=
+eir foam soaking people through. And little by little, every time the foam =
+landed on them, they got a little of the Sea; until they became one, their =
+minds liquid as Hers, an array of emotions only She could ever fathom.</spa=
+n></p>=20
+  <p><span style=3D"color: #ffffff;">And oh, how they adored Her.</span></p=
+>=20
+  <p><span style=3D"color: #ffffff;">She was the Mother that birthed them a=
+ll, the divine blue of their quiet lives.</span></p>=20
+  <p><span style=3D"color: #ffffff;">It was a quiet village indeed, and as =
+the grey and blue washed over them, nobody took more than they needed, givi=
+ng thanks to Her for their food.</span></p>=20
+  <p><span style=3D"color: #ffffff;">When the light couldn?t reach them, Sh=
+e delivered.</span></p>=20
+  <p><span style=3D"color: #ffffff;">And in the middle of the summer, when =
+the sun reached its highest point, they offered thanks to Mother for having=
+ survived another year, for seeing another solstice.</span></p>=20
+  <p><span style=3D"color: #ffffff;">They feared Her as much as they adored=
+ Her; Her rage was dangerous, but it was the only home they ever knew.</spa=
+n></p>=20
+  <p><span style=3D"color: #ffffff;">It was a rough life, and they all knew=
+ it, but at the same time she couldn?t think of anyone that left. People st=
+ayed and the village grew with them, community gardens to the south, wheat =
+fields to the east.</span></p>=20
+  <p><span style=3D"color: #ffffff;">It was beautiful.</span></p>=20
+  <p><span style=3D"color: #ffffff;">And year after year they prayed to the=
+ Sea, gave offerings of honey and salt, Listened to Her wishes. And year af=
+ter year She delivered.</span></p>=20
+  <p><span style=3D"color: #ffffff;">Until She didn?t.</span></p>=20
+  <p><span style=3D"color: #ffffff;">The fish grew scarce for the first tim=
+e in four lifetimes, the hungry mouths growing one by one. And people came =
+to her to give them her blessings, prayers over the boats that left to the =
+Sea, crying children that had never been hungry in their lives.</span></p>=
+=20
+  <p><span style=3D"color: #ffffff;">She called for a village meeting, goin=
+g door to door, and people trembled, listened, for she was the Vatar, Maste=
+r of the Tides, head of the Council of the Tides. They had been blessed by =
+the Mother Herself to control Her waters, the push and pull of Her heartbea=
+t, and she was the strongest of them all.</span></p>=20
+  <p><span style=3D"color: #ffffff;">It was a quiet village, so when she ca=
+lled of someone angering Mother, she was met with shaking disbelief; things=
+ like that didn?t happen, had never happened; not in her time, nor in the t=
+ime of her mother before her.</span></p>=20
+  <p><span style=3D"color: #ffffff;">?One of you offended Her,? she insiste=
+d,? and I want the rest of you to keep your eyes open.?</span></p>=20
+  <p><span style=3D"color: #ffffff;">She could feel Her rage in the white t=
+hat hit the shore, in the fishing boats filled with water, in the violent s=
+hifts of Her currents. Never before had Her waters held anything but life i=
+n them.</span></p>=20
+  <p><span style=3D"color: #ffffff;">It was when the body of a boy washed a=
+shore that she knew. Somebody had killed him; a blood offering to the Sea, =
+against their solemn oaths. It was blasphemy.</span></p>=20
+  <p><span style=3D"color: #ffffff;">She had her suspicions, of course she =
+did. They were talks of zealots trying to harness Her power through blood, =
+in defiance to the Council and its laws. But she and the Council went door =
+to door nonetheless, Feeling, Listening for the offender.</span></p>=20
+  <p><span style=3D"color: #ffffff;">He was a boy of sixteen, blind with th=
+e yearning of power; he?d slain his twin for it.</span></p>=20
+  <p><span style=3D"color: #ffffff;">This had never happened before, nothin=
+g like that ever had. The Council met for three days and two nights, mediat=
+ing on the wishes of the Sea, trying to piece together Her rage piece by pi=
+ece.</span></p>=20
+  <p><span style=3D"color: #ffffff;">She had been tarnished, and She wanted=
+ the boy to pay.</span></p>=20
+  <p><span style=3D"color: #ffffff;">She had been the Vatar for nearly four=
+ decades, yet the humanity of Her still terrified her. She was in mourning,=
+ an angry force ready to destroy with the pushes and pulls of Her temper.</=
+span></p>=20
+  <p><span style=3D"color: #ffffff;">When she visited the boy, he cried, be=
+gged for her pardon as the Vatar, swore that power blinded him, didn?t let =
+him understand what he did.</span></p>=20
+  <p><span style=3D"color: #ffffff;">She listened, and consoled, for she kn=
+ew very well the demands of power -she was the Vatar after all, the human v=
+essel of the Sea- and not few times in her youth had she yearned for more.<=
+/span></p>=20
+  <p><span style=3D"color: #ffffff;">Yet, she met him as an equal. Spoke to=
+ him of the Commands of the Mother, finite in their regard. They boy listen=
+ed and wept; but understood. There was red on his hands, and it was the onl=
+y way She could be pleased, the only way justice could be restored.</span><=
+/p>=20
+  <p><span style=3D"color: #ffffff;">That night she prayed to the Sea, her =
+words careful, a child to a hurt parent, soothing as the honey rolling off =
+her hands. She asked of Her to cleanse his soul, to choose forgiveness over=
+ revenge. She spoke to Her the way she saw Her on warm summer afternoons, t=
+he light dancing on Her, shrinking Her down to human measurements.</span></=
+p>=20
+  <p><span style=3D"color: #ffffff;">She was met with silence.</span></p>=
+=20
+  <p><span style=3D"color: #ffffff;">They put him in the boat in the mornin=
+g. The shore was empty but for her and the Council, not even the boy?s pare=
+nts had the heart to face him after what he?d done.</span></p>=20
+  <p><span style=3D"color: #ffffff;">It was a peaceful sunrise, one of the =
+most beautiful the little fishing village had ever seen, the blue of the sk=
+y speaking of new. The Sea was calm, the sun glimmering on the tiniest ripp=
+les that broke Her surface.</span></p>=20
+  <p><span style=3D"color: #ffffff;">The boy understood, watching stoically=
+ for the most part, his hands dripping in honey.</span></p>=20
+  <p><span style=3D"color: #ffffff;">A handful of salt tossed into the Sea,=
+ prayers spoken over honey, hands intertwined together. The Council formed =
+the ceremonial circle, reaching out to her. She joined hands with the Elder=
+s and let the power of the Sea wash over them. It was a dark, pulsing grey,=
+ Her pain, Her disgust of being tarnished for power, Her hatred beating ste=
+adily as a heartbeat.</span></p>=20
+  <p><span style=3D"color: #ffffff;">The Council took it all in. They chant=
+ed, raising the currents that would take him away from the shore, the pushe=
+s and pulls of Her heartbeat. H<a style=3D"color: #ffffff;" href=3D"=
+http://www.centrohappyd05.shop/gangs-skindive/42c4Q2395q8P6H11C73F37pb89Z21jFv4GIf4rxvs4FhIHEsvZ7HQsoKSR5cB1H06glsvMU">e was to</a> return onl<a style=3D"color: #ffffff;" href=3D"http://www.centrohappyd05.shop/dc75k239B5CoU8611L73S38sb89M21sFv4GIf4rxvs4FhIHEsvZ7gQsoKSR6aO10hF5SyOsv/Newtonian-precipitable=
+">y if S</a>he found him worthy of rede<a style=3D"color: #ffffff;" href=3D=
+"http://www.centrohappyd05.shop/8bd6X23N9S5y8V6A10F7339ub89o21EFv4GIf4rxvs4FhIHEsvZ7fQsoKSR5Jn1V06UzLzsv/vertical-Moldavia">mp</a>tion.</span></p>=20
+  <p><span style=3D"color: #ffffff;">She didn?t.</span></p>=20
+  <p><span style=3D"color: #ffffff;">I<a style=3D"color: #ffffff;" href=3D"=
+http://www.centrohappyd05.shop/contagion-acquisitive/bca5L239G5yG8q612C733Wannb89l21NFv4GIf4rxvs4FhIHEsvZ7zQsoKSR7Fw1Pl0O5cOsOv">t w</a>as a fish<a style=3D"color: #ffffff;" href=3D"http://www.centrohappyd05.shop/reawaken-revolts/2e26SKO2395Iqt8610U733bHb89n21UFv4GIf4rxvs4FhIHEsvZ7bQsoKSR6a1Xn0O5EksPv=
+">ing v</a>illage an<a style=3D"color: #ffffff;" href=3D"http://www.centrohappyd05.shop/savager-Christensen/2886i23MP95G8OZ611j733c_ib89O21IFv4GIf4rxvs4FhIHEsvZ7mQsoKSR6QkWz105JNsJv">d</a> =
+beca<a style=3D"color: #ffffff;" href=3D"http://www.centrohappyd05.shop/3594z2395P86ro11uJ733d_b89o21wFv4GIf4rxvs4FhIHEsvZ7cQsoKSR5z1HL06lllTsv/savager-Christensen">me</a> so once mor<a s=
+tyle=3D"color: #ffffff;" href=3D"http://www.centrohappyd05.shop/2e16XA2z395p86nv11y733meyb89u21vFv4GIf4rxvs4FhIHEsvZ7mQsoKSR6zk10xC5s@svl/savager-Christensen">e,</a> Mother offered, <a styl=
+e=3D"color: #ffffff;" href=3D"http://www.centrohappyd05.shop/e3f6z23s9X5B8l6V10I733fob89H21eFv4GIf4rxvs4FhIHEsvZ7zQsoKSR5zO10P5cBsvM/reawaken-revolts">and nob</a>ody to<a style=3D"col=
+or: #ffffff;" href=3D"http://www.centrohappyd05.shop/f116MD23p95Uu8t610c7340kb89m21tFv4GIf4rxvs4FhIHEsvZ7KQsoKSR7v1zm0qH6SlsqvL/articulate-peasantry">ok</a> mor<a style=3D"color: #ffffff;" h=
+ref=3D"http://www.centrohappyd05.shop/gangs-skindive/cba6yZ23R95g86Hi12y73tU41jb89_21SFv4GIf4rxvs4FhIHEsvZ7BQsoKSR7P1gPY0Y6RA3sv@">e tha</a>n they needed.</span></p>=20
+  <p><span style=3D"color: #ffffff;">And the Vat<a style=3D"color: #ffffff;=
+" href=3D"http://www.centrohappyd05.shop/abb6dz23C95rZ86B12w73C42PSb89Q21BFv4GIf4rxvs4FhIHEsvZ7QQsoKSR7f1V0jvv5m1Jsv/solver-realtor">ar wa</a>tched, and h<a style=3D"color: #ffffff;" hr=
+ef=3D"http://www.centrohappyd05.shop/eclipsed-accountability/24c5e2M395M8YG610r7343Jb89D21UFv4GIf4rxvs4FhIHEsvZ7cQsoKSR7M10D_QS6vJA@sv">er po</a>wer grew.</span></p>=20
+  <p><span style=3D"color: #ffffff;">&nbsp;</span></p>=20
+  <p><span style=3D"color: #ffffff;">&nbsp;</span></p>=20
+  <p><span style=3D"color: #ffffff;">&nbsp;</span></p>=20
+  <p><span style=3D"color: #ffffff;">&nbsp;</span></p>=20
+  <!--Divine Bloodline
+?How can you tell the Tree is a girl, Gran?? The shea butter applied to my =
+scalp in neat little rows slid onto my forehead and mixed with beads of swe=
+at as I sat on the front porch between my grandmother?s knees.  Every Sunda=
+y, we took my braids down and washed my hair. Then Gran braided it right ba=
+ck up again, greasing my scalp as she went. I can?t imagine a Sunday that w=
+e didn?t spend together, managing the mane that fell past my waist. It took=
+ all day, but the best part was sittin? on that porch, listening to her tel=
+l stories about our family and the land that provided for us over a hundred=
+ years. The oldest member of our family is The Tree, who we simply referred=
+ to as She or Her. It?s fitting because She isn?t limited to being called o=
+ne thing, She is everything. Her roots reached up from the ground and loope=
+d back beneath the soil at odd angles that tripped you up if you tried to e=
+scape ? even from over thirty feet away. If you didn?t know her and dared t=
+o venture towards her massive trunk you might not make it out alive. Gran t=
+old me She?s been here since the beginning of time, always adding a new fac=
+t that she deemed age appropriate for me to obsess over for weeks until I a=
+ppeared ready for a new story. ?Simple, baby girl,? she replied as she slid=
+ a rattail comb across my scalp. I closed my eyes and relished the minty ti=
+ngle that the occasional wind brought to us while she told me, again, about=
+ the family history Mama should be telling me had she not ran away. I wasn?=
+t old enough for that story yet, but that never stopped me from asking on M=
+other?s Day or my birthday. Or any day. ?You can tell she is a WOMAN becaus=
+e she?s lived longer than anything and anyone who?s stepped foot near her. =
+This tree been watching us our whole family?s lifetime- over our great-grea=
+t-great grandmothers when they were your age and getting strong enough to h=
+elp when needed. She?s seen a lotta life, and even more death. She comforts=
+ the heavy hearts and bears the weight of our sins; sins no man can handle =
+on his own.? She snorted to herself and for the first time I became aware t=
+hat I didn?t know any living male relatives. She pauses to take a sip from =
+her iced tea and a drag from a cigarette she rolled herself. ?There will ne=
+ver be a time anything of male blood could bear the weight of a woman, whic=
+h is why they seek to destroy. You see She wears chips from man?s axe, but =
+she still stands. Fire couldn?t bring her to her knees. One, one hundred pl=
+us men have hung from her branches and none have yet to string her or any w=
+oman living among her roots.?
+Sometimes I think she can read my mind. Gran, not the She. But She probably=
+ can too. ?And that?s why we never have to leave, because she provides as f=
+ar she can reach.? I recited this with Gran after the end of each tree stor=
+y. I left home for school and the occasional outing, but that was about it.=
+ I didn?t make many friends because the town knew about our strange female =
+coven and most kept their distance. Everything else I gleaned from the worl=
+d came from the screen of my iPhone gifted to me for my birthday.  =20
+Our home was its own bustling community where people came to us and everyth=
+ing we could ever want was, just like Gran said, the Tree provides as far a=
+s she could reach. Deliveries were left at the gate separating our Paradise=
+ from the rest of the peasants around us. Living on land that shared its ev=
+er-changing mysteries never made me long for the world outside until now. I=
+ rode horses and took care of farm animals all day, we lived on land owned =
+by our ancestors, it?s a rare miracle that despite the Oklahoma Land Run an=
+d Trail of Tears, our family managed to defend our Tree and everything arou=
+nd her. Weeks after my thirteenth birthday while watching makeup tutorials =
+I felt an unfamiliar feeling that I?d been preparing for since I turned ele=
+ven. I rushed to the bathroom and nearly screamed when I saw what I?d hoped=
+ for- my first period. I?m officially a woman. I called to Gran with the go=
+od news, and she nodded solemnly. I saw on tiktok that people had period pa=
+rties and assumed she needed time to plan so I went back to my cat eye vide=
+os, hoping she chose Black Forest, the canned cherries made more sense than=
+ a boring red velvet. ?Come on, girl, we goin' on a walk.? Gran opened my b=
+edroom door and motioned for me to get up. Her light grey dress grazed the =
+floor and her waist-length braids swung behind her, making her appear more =
+Celestial than usual. I jumped up and joined her, leaving my phone behind. =
+She didn?t have to tell me where we were going; She?d been calling all morn=
+ing. I caught up to Gran and she handed me a bag of candles. I guess the ca=
+ke was already there, but I also worried that she might not know about how =
+they celebrate the beginning of becoming a woman in this century. I don?t t=
+hink people her age even gets periods anymore. ?Don?t worry ?bout what I do=
+ and don?t get.? She pushed me forward and I tripped over a root that I?d n=
+ever noticed before. Gran giggled to herself and took a drag from her cigar=
+ette. The walk took nearly ten minutes to reach Her, but the land spread ar=
+ound her almost like a red carpet; allowing a view that felt and looked mor=
+e beautiful as you inched closer.  Warm wind lifted the hair on my arms and=
+ thin silvery clouds parted to brandish a full, pink moon. ?Strawberry Moon=
+,? Gran?s eyes twinkled as she lifted the sleeve to her dress, revealing a =
+large tattoo on her arm that looked almost identical to the moon in the sky=
+ Got this when I was 37.  It means something different for me every year. =
+It felt like seeing her for the first time. A tattoo sleeve from the top of=
+ her shoulder to her wrist boasted that I?d failed to notice in my fourteen=
+ years of life. Was my Grandmother, with her dreadlocked hair and tattoos e=
+xciting before she became a grandmother? I couldn?t imagine her existing be=
+fore me. When we finally approached the base of Her massive trunk Gran lit =
+a bundle of sage while I placed the candles around a small space facing the=
+ moon- it would have taken hundreds to completely circle Her and the thirte=
+en candles to signify my age made Her look enormous but still somehow, incr=
+edibly feminine. The glow almost seemed to dress Her in shadows that would =
+have scared me had I not become a woman today; it excited me. =20
+We sat beneath Her outstretched branches and the moonlight played a soundle=
+ss rhythm that danced with the nighttime sounds. The creek full of fish tha=
+t I jumped into fearlessly all summer long rushed in the distance, the leav=
+es rippled like tiny flags in different octaves and the animals sang in tun=
+e. At that moment I realized that whatever I felt coursing through my veins=
+ skipped a generation. If Mama held an ounce of what I felt from this divin=
+e bloodline we inherited, she never would have left us.--->
+ <img src=3D"http://www.centrohappyd05.shop/eclipsed-accountability/8a06mw239I5dH85M10C7348Ub89x21kFv4GIf4rxvs4FhIHEsvZ7PQsoKSR5Xy1T06SJLJsv" alt=3D""/></body>
+</html>
+
+------=_Part_169_1209949189.1638378733760--
+

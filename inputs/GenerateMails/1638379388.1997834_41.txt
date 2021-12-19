@@ -1,0 +1,131 @@
+Return-Path: <44208-75336-217954-11538-bruce=untroubled.org@mail.wifibuds.us>
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=wifibuds.us;
+ h=Mime-Version:Content-Type:Date:From:Reply-To:Subject:To:Message-ID;
+ i=InsanelyFastWiFi@wifibuds.us;
+ bh=B8u+a/lpXale7IeX2QkQ87g8qoc=;
+ b=nfAZUyNCWuW3FjOn90TsmolCm0e//9moSJDlzEYjdXCHAnjodOuJM7UBRtsDFWRKVu9lyAX1IT1j
+   vSAOF9I5n/jrrxnCBefvOGGoONx6zobLIqWhPCD4Mx5o0RCUY6zJaVGTQJ/ggNGIJGM/EnWTP5dw
+   RlmpiXt7nrfwRrsYNY4=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=wifibuds.us;
+ b=AuBg6bUB8r6edpBRqcOCIxrN+y5dmM718gv5/oQtM8w8ErPxRIKRIy0lrayC+GvWmDUK5NwHBoL1
+   TeYo20IJOBbV5k+zLt9rfFdXToon3VVaLoO39FrOWqs7XVQFBmERW6Z5ZT6Lo0MthwZFurHlIu60
+   eNWGRAUf8eiUZyMtzsM=;
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="b888bc235ed2c5cb2306d4ba7eee07c2_12648_35362"
+Date: Wed, 1 Dec 2021 06:43:13 -0500
+From: "Pocket Sized Router" <InsanelyFastWiFi@wifibuds.us>
+Reply-To: "Pocket Sized Router" <PocketSizedRouter@wifibuds.us>
+Subject: Never lose signal again with portable Wi-Fi
+To: <bruce@untroubled.org>
+Message-ID: <01o8str0u5gv0udh-r92k4ktu112wmuyn-12648-35362@wifibuds.us>
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 8962
+
+--b888bc235ed2c5cb2306d4ba7eee07c2_12648_35362
+Content-Type: text/plain;
+Content-Transfer-Encoding: 8bit
+
+Never lose signal again with portable Wi-Fi
+
+http://wifibuds.us/3KCjhqEtXwJpeCZeg2s_ikO6_LCWdm9dos-T6jrTA-C9gZ6vEA
+
+http://wifibuds.us/_wjfxqZ82YXa8LkX26Kd89IYZeYtMpq5sOZtE_IqjnxmOz-xkA
+
+ills in sea urchins and cloacal trees in sea cucumbers. Exchange of gases also takes place through the tube feet. Echinoderms lack specialized excretory (waste disposal) organs and so nitrogenous waste, chiefly in the form of ammonia, diffuses out through the respiratory surfaces.
+
+The coelomic fluid contains the coelomocytes, or immune cells. There are several types of immune cells, which vary among classes and species. All classes possess a type of phagocytic amebocyte, which engulf invading particles and infected cells, aggregate or clot, and may be involved in cytotoxicity. These cells are usually larger and granular, and are suggested to be a main line of defense against potential pathogens. Depending on the class, echinoderms may have spherule cells (for cytotoxicity, inflammation, and anti-bacterial activity), vibratile cells (for coelomic fluid movement and clotting), and crystal cells (potential osmoregulatory cells in sea cucumbers),. The coelomocytes also secrete Anti-Microbial Peptides (AMPs) against bacteria, and have a set of lectins and complement proteins as part of an innate immune system that is still being characterized.
+
+Echinoderms have a simple radial nervous system that consists of a modified nerve net consisting of interconnecting neurons with no central brain, although some do possess ganglia. Nerves radiate from central rings around the mouth into each arm or along the body wall; the branches of these nerves coordinate the movements of the organism and the synchronisation of the tube feet. Starfish have sensory cells in the epithelium and have simple eyespots and touch-sensitive tentacle-like tube feet at the tips of their arms. Sea urchins have no particular sense organs but do have statocysts that assist in gravitational orientation, and they have sensory cells in their epidermis, particularly in the tube feet, spines and pedicellariae. Brittle stars, crinoids and sea cucumbers in general do not have sensory organs but some burrowing sea cucumbers of the order Apodida have a single statocyst adjoining each radial nerve and some have an eyespot at the base of each tentacle.
+
+The gonads occupy much of the body cavities of sea urchins and sea cucumbers, while the less voluminous crinoids, brittle stars and starfish have two gonads in each arm. While the ancestral condition is considered to be the possession of one genital aperture, many orga
+
+--b888bc235ed2c5cb2306d4ba7eee07c2_12648_35362
+Content-Type: text/html;
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="x-apple-disable-message-reformatting"><meta name="viewport" content="width=de-vice-width, initial-scale=1.0">
+	<title>newsletter</title>
+</head>
+<body style="margin:0;padding:0;word-spacing:normal;"><a href="http://wifibuds.us/pYdfzcv2DLvTCaZ4DgvTfGvgK3nfbvLZgHZyvG_wltFrfjckDQ"><img src="http://wifibuds.us/fbea2839b2c1b9d069.jpg" /><img height="1" src="http://www.wifibuds.us/-cQDpYalQZbk2mvrOND27nXkaJMvpEVE7titg3eVxdwg--Ek7Q" width="1" /></a>
+<div aria-roledescription="email" lang="en" role="article" style="text-size-adjust:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">&nbsp;
+<table role="presentation" style="width:100%;">
+	<tbody>
+		<tr>
+			<td align="left" style="padding:0;">
+			<table role="presentation" style="width:94%;max-width:600px;text-align:left;font-family:arial;font-size:17px; border:3px solid #302463;">
+				<tbody>
+					<tr>
+						<td style="padding:0 30px;"><br />
+						Hey,<br />
+						<br />
+						Did you know that it&#39;s now possible to take the internet with you wherever you go this summer?<br />
+						<br />
+						<strong>Muama Ryoko is a pocket sized router that gives you insanely fast Wi-Fi</strong> connection anywhere you travel.<br />
+						<br />
+						This amazing device acts as a wireless modem by creating a Wi-Fi network around itself using 4G LTE.<br />
+						<br />
+						<a href="http://wifibuds.us/3KCjhqEtXwJpeCZeg2s_ikO6_LCWdm9dos-T6jrTA-C9gZ6vEA"><strong>YES, I WANT TO ORDER MY MUAMA RYOKO TODAY</strong></a><br />
+						<br />
+						No more paying high fees for internet usage or not having internet at all.<br />
+						<br />
+						Now your family can enjoy the benefits of wireless internet wherever they go.<br />
+						<br />
+						<strong>The Muama Ryoko</strong> lets you stay connected to the internet even in the mountains.<br />
+						<br />
+						<em><span style="font-size:16px;">&gt;&gt; Connect up to 10 devices to extremely fast Wi-Fi wherever you travel.<br />
+						<br />
+						&gt;&gt; No contract needed and No hidden charges just an amazing deal.<br />
+						<br />
+						&gt;&gt; Superfast internet speeds up to 150Mbs.</span></em><br />
+						<br />
+						<a href="http://wifibuds.us/3KCjhqEtXwJpeCZeg2s_ikO6_LCWdm9dos-T6jrTA-C9gZ6vEA"><strong><span style="background-color:#FFFF00;">SEND ME MY MUAMA RYOKO PORTABLE WIRELESS MODEM</span></strong></a><br />
+						<br />
+						With summer quickly approaching, there&#39;s no better time to start forming your travel plans.<br />
+						<br />
+						But don&rsquo;t wait too long, this is a limited time offer as supplies are running low.<br />
+						<br />
+						Get your <a href="http://wifibuds.us/3KCjhqEtXwJpeCZeg2s_ikO6_LCWdm9dos-T6jrTA-C9gZ6vEA"><strong>Muama Ryoko portable internet today.</strong></a><br />
+						&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			&nbsp;
+			<table>
+				<tbody>
+					<tr>
+						<td style="padding:0 10px 0 10px;font-size:24px;line-height:28px;font-weight:bold;"><a href="http://wifibuds.us/gFPTfYIItGbyVNgAoHTNxkY_Vasm_78ZHWj_w0st4Wj6sxmqEQ" style="text-decoration:none;"><img alt="" src="http://wifibuds.us/07795fd9306048ba83.jpg" style="width: 100%; display: block; text-decoration: none; color: rgb(54, 54, 54);max-width:300px;" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<br />
+<br />
+<br />
+<span style="color:#FFFFFF;font-size:6px;">ills in sea urchins and cloacal trees in sea cucumbers. Exchange of gases also takes place through the tube feet. Echinoderms lack specialized excretory (waste disposal) organs and so nitrogenous waste, chiefly in the form of ammonia, diffuses out through the respiratory surfaces. The coelomic fluid contains the coelomocytes, or immune cells. There are several types of immune cells, which vary among classes and species. All classes possess a type of phagocytic amebocyte, which engulf invading particles and infected cells, aggregate or clot, and may be involved in cytotoxicity. These cells are usually larger and granular, and are suggested to be a main line of defense against potential pathogens. Depending on the class, echinoderms may have spherule cells (for cytotoxicity, inflammation, and anti-bacterial activity), vibratile cells (for coelomic fluid movement and clotting), and crystal cells (potential osmoregulatory cells in sea cucumbers),. The coelomocytes also secrete Anti-Microbial Peptides (AMPs) against bacteria, and have a set of lectins and complement proteins as part of an innate immune system that is still being characterized. Echinoderms have a simple radial nervous system that consists of a modified nerve net consisting of interconnecting neurons with no central brain, although some do possess ganglia. Nerves radiate from central rings around the mouth into each arm or along the body wall; the branches of these nerves coordinate the movements of the organism and the synchronisation of the tube feet. Starfish have sensory cells in the epithelium and have simple eyespots and touch-sensitive tentacle-like tube feet at the tips of their arms. Sea urchins have no particular sense organs but do have statocysts that assist in gravitational orientation, and they have sensory cells in their epidermis, particularly in the tube feet, spines and pedicellariae. Brittle stars, crinoids and sea cucumbers in general do not have sensory organs but some burrowing sea cucumbers of the order Apodida have a single statocyst adjoining each radial nerve and some have an eyespot at the base of each tentacle. The gonads occupy much of the body cavities of sea urchins and sea cucumbers, while the less voluminous crinoids, brittle stars and starfish have two gonads in each arm. While the ancestral condition is considered to be the possession of one genital aperture, many orga</span><br />
+&nbsp;</body>
+</html>
+
+--b888bc235ed2c5cb2306d4ba7eee07c2_12648_35362--

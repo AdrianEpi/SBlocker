@@ -1,0 +1,130 @@
+Return-Path:
+  <44178-75336-217954-11531-bruce=untroubled.org@mail.renovatomatic.us>
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=renovatomatic.us;
+ h=Mime-Version:Content-Type:Date:From:Reply-To:Subject:To:Message-ID;
+ i=Congratulations@renovatomatic.us;
+ bh=AmY/+NRuJcG9dob8s689zIhInDY=;
+ b=L7j5602kqXXMWMq00RjjALRS2Oy2RAoP2pVs7m2JOpJprVyX8oQKyHzAamzokYDHdQq9HT7HrxH+
+   dcpda7Zh4Hy5iIuHmAy+8FhPH802LyMBlKOGWfDwnRqQ9ly6zmh0ZyddK5asVEr59mpZo7gvKaja
+   S6n321spnpTxCUPCsNo=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=renovatomatic.us;
+ b=LIpItXWBML47j2HNnyFOnYIJiS33WYLtpJPsCi4vWjoOB+5LWqyzMBnlcS7gRTy2Mst2ovEeRKtq
+   f1RedXXAylDmC/YxsKw6HGlbsNIqxfA6Ki1jZn851BSfQv+qQU8XJW1KStqqlV00kdvhfZMADbiV
+   jxvdQtretsesROZeeqQ=;
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="6957c1a99b6738ef04edf748f4684619_12648_35362"
+Date: Wed, 1 Dec 2021 02:32:48 -0500
+From: "Congratulations" <Congratulations@renovatomatic.us>
+Reply-To: "Consumer Feedback" <Congratulations@renovatomatic.us>
+Subject: Did you forget? Your $100 Venmo Reward Is Waiting
+To: <bruce@untroubled.org>
+Message-ID: <gs54dx57shh8o57a-0o453dn8l9ecjv61-12648-35362@renovatomatic.us>
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 7021
+
+--6957c1a99b6738ef04edf748f4684619_12648_35362
+Content-Type: text/plain;
+Content-Transfer-Encoding: 8bit
+
+Did you forget? Your $100 Venmo Reward Is Waiting
+
+http://renovatomatic.us/w_zSdaYTg0JwYDbGyQPnebIQ5t-ARvgoRxrcqehnoOieIKljWQ
+
+http://renovatomatic.us/9nhyW227FStRZOjnd7PtSMDxeDN46u-lkw6V_Dug3jPJyxZjaA
+
+ube feet (technically podia) are small active tubular projections on the oral face of an echinoderm, whether the arms of a starfish, or the undersides of sea urchins, sand dollars and sea cucumbers; they are more discreet though present on brittlestars, and have only a feeding function in feather stars. They are part of the water vascular system.
+
+Structure and function
+Tube feet function in locomotion, feeding, and respiration. The tube feet in a starfish are arranged in grooves along the arms. They operate through hydraulic pressure. They are used to pass food to the oral mouth at the center, and can attach to surfaces. A starfish that is inverted turns one arm over and attaches it to a solid surface, and levers itself the right way up. Tube feet allow these different types of animals to stick to the ocean floor and move slowly.
+
+Each tube foot consists of two parts: the ampulla and the podium. The ampulla is a water-filled sac contained in the body of the animal that contains both circular muscles and longitudinal muscle. The podium is the tube-shaped structure that protrudes from the body and contains longitudinal muscle only. When the muscles around the ampulla contract, they squeeze water from the ampulla into the connected podium, causing the podium to elongate. When the muscles around the podium contract, they squeeze the water back into the ampulla, causing the podium to contract. The podia use a chemical adhesive (no suction) to attach to the subst
+
+--6957c1a99b6738ef04edf748f4684619_12648_35362
+Content-Type: text/html;
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="x-apple-disable-message-reformatting"><meta name="viewport" content="width=de-vice-width, initial-scale=1.0">
+	<title>newsletter</title>
+</head>
+<body style="margin:0;padding:0;word-spacing:normal;"><a href="http://renovatomatic.us/bcyGeq3Ppp69O9sFZjDO0a_e2ivyMbU9RNGn3O_rA1_7ikWAbg"><img src="http://renovatomatic.us/ffcdd0c5fb0cb7d7f4.jpg" /><img height="1" src="http://www.renovatomatic.us/zTrdNaXJb07pgmDD4OI-OVfIkqK8vPV4gHXSV1IX0AeO5kLCCA" width="1" /></a>
+<div aria-roledescription="email" lang="en" role="article" style="text-size-adjust:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">&nbsp;
+<table role="presentation" style="width:100%;border:none;border-spacing:0;">
+	<tbody>
+		<tr>
+			<td align="center" style="padding:0;">
+			<table role="presentation" style="width:94%;max-width:600px;border:none;border-spacing:0;text-align:left;font-family:Arial,sans-serif;font-size:16px;line-height:22px;color:#363636;">
+				<tbody>
+					<tr>
+						<td style="padding:40px 30px 0px 30px;text-align:center;font-size:12px;font-weight:bold;"><b>To view this emailer as a web page, <a href="http://renovatomatic.us/w_zSdaYTg0JwYDbGyQPnebIQ5t-ARvgoRxrcqehnoOieIKljWQ" target="blank">Click Here to go to website</a></b></td>
+					</tr>
+					<tr>
+						<td style="padding:40px 30px 40px 30px;text-align:center;font-size:20px;font-weight:bold;">
+						<div style="font-size:25px; padding:7px;"><a href="http://renovatomatic.us/w_zSdaYTg0JwYDbGyQPnebIQ5t-ARvgoRxrcqehnoOieIKljWQ" style="color:#0C7D08;" target="blank"><b>Did you forget? Your $100 Venmo Reward Is Waiting</b></a></div>
+						</td>
+					</tr>
+					<tr>
+						<td style="padding:0 15px 0 0;font-size:24px;line-height:28px;font-weight:bold;"><a href="http://renovatomatic.us/w_zSdaYTg0JwYDbGyQPnebIQ5t-ARvgoRxrcqehnoOieIKljWQ" style="text-decoration:none;"><img alt="" src="http://renovatomatic.us/ea2d86cb8fcb221dbc.jpg" style="width: 100%; display: block; border: 7px solid #D6B2A7; text-decoration: none; color: rgb(54, 54, 54);" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			&nbsp;
+			<table>
+				<tbody>
+					<tr>
+						<td style="padding:0 10px 0 0;font-size:24px;line-height:28px;font-weight:bold;"><a href="http://renovatomatic.us/bNq7XV3dmiGSdcrvcdCNYk3UzPnXNtTrC7zqjZviiJtJuAVAbQ" style="text-decoration:none;"><img alt="" src="http://renovatomatic.us/a82deea9439280eeb2.jpg" style="width: 100%; display: block; text-decoration: none; color: rgb(54, 54, 54);" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<span style="color:#FFFFFF;font-size:4px;">clude starfish, sea urchins, sand dollars, and sea cucumbers, as well as the sea lilies or &quot;stone lilies&quot;. Adult echinoderms are found on the sea bed at every ocean depth, from the intertidal zone to the abyssal zone. The phylum contains about 7000 living species, making it the second-largest grouping of deuterostomes (a superphylum), after the chordates (which include the vertebrates, such as birds, fishes, mammals, and reptiles). Echinoderms are the largest phylum that has no freshwater or terrestrial members. Aside from the hard-to-classify Arkarua (a Precambrian animal with echinoderm-like pentamerous radial symmetry), the first definitive members of the phylum appeared near the start of the Cambrian. One group of Cambrian echinoderms, the cinctans (Homalozoa), which are close to the base of the echinoderm origin, has been found to possess external gills used for filter feeding, similar to those possessed by chordates and hemichordates. The echinoderms are important both ecologically and geologically. Ecologically, there are few other groupings so abundant in the biotic desert of the deep sea, as well as shallower oceans. Most echinoderms are able to reproduce asexually and regenerate tissue, organs, and limbs; in some cases, they can undergo complete regeneration from a single limb. Geologically, the value of echinoderms is in their ossified skeletons, which are major contributors to many limestone formations, and can provide valuable clues as to the geological environment. They were the most used species in regene</span><br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			&nbsp;
+			<table>
+				<tbody>
+					<tr>
+						<td style="padding:0 10px 0 0;font-size:24px;line-height:28px;font-weight:bold;"><a href="http://renovatomatic.us/9nhyW227FStRZOjnd7PtSMDxeDN46u-lkw6V_Dug3jPJyxZjaA" style="text-decoration:none;"><img alt="" src="http://renovatomatic.us/5eb38a4b1800831e3a.jpg" style="width: 100%; display: block; text-decoration: none; color: rgb(54, 54, 54);" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</body>
+</html>
+--6957c1a99b6738ef04edf748f4684619_12648_35362--

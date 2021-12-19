@@ -44,7 +44,7 @@ help:
 	../bin/textClassifier --help
 
 generateMails:
-	../bin/textClassifier
+	../bin/textClassifier --updateDatabase
 
 
 # fullRun:

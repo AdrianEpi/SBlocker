@@ -1,0 +1,251 @@
+Return-Path: <contact@r222.hallo.vrt.be>
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=smtp; d=qantas.com;
+ h=Date:From:Subject:Mime-Version:Content-Type:Mime-Version;
+ i=contact@qantas.com;
+ bh=1Db0aPdX15tC7butGW3UJ0UWRMU=;
+ b=k41N4Kn4QUj0efCC1jmdTHtjgFouuWX4QBNh8+R7kJK7At0wzYLRN6ji1Dmn1hLoqmsF3PKxGL6g
+   hOSbqmgzWON8ewJ6eDj8fHAI0wBxSd8f0At8toow2OY6et2VjqoA2AtUNsJAUMA3NNlcgtIVxPXn
+   86n7fw7H3+YPPPK460o=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=smtp; d=qantas.com;
+ b=QoIoe7RHfvwX78aDvhH/thetj7ah62aFbTxqsg78907uujUSJx+PNcsssxTPYyLTgo+LUQLBLam7
+   +UEA7/qh/L0xSqOUuOGe5r7pdW/s9GIxcw7kUX+GXqFPo3eZK+reQSWqIAwNvEqVPnevjecYQl0F
+   mrrcgA3ONyMyZbOYtPE=;
+Received: by intermediate.space id hkttds16lt0r for <bruce@untroubled.org>;
+ Wed, 1 Dec 2021 13:37:20 +0000 (envelope-from <contact@r222.hallo.vrt.be>)
+x-contact: 19131-291654
+Date: Wed, 01 Dec 2021 13:37:14 +0000
+From: Norton <contact@qantas.com>
+Subject: We are not responsible if you are hacked after the expiration date
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="--17DE77BDDCD2924272FC00AE145C"
+Mime-Version: 1.0
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 8585
+
+----17DE77BDDCD2924272FC00AE145C
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Adele opens up about 30, divorce and her struggle with fame https://newslet=
+ters.cbc.ca/q/1EoUHjTsmQoqOHIkQ77Jke/sfd
+
+Check out what=E2=80=99s new and popular in the world of CBC audio!
+
+Having trouble viewing this email? View in browser https://newsletters.cbc.=
+ca/c/1fn81lfbOF7Jlb7epxyilDFu5ex
+
+CBC Listen. CBC Radio | CBC Podcasts | CBC Music
+
+CBC Listen. CBC Radio | CBC Podcasts | CBC Music
+
+Adele
+https://newsletters.cbc.ca/c/1fn80L97FKfpNYoAsbP313H1qAK
+
+The Q Interview with Tom Power | 'Listen to my side': Adele opens up about =
+30, divorce and her struggle with fame
+https://newsletters.cbc.ca/c/1fn80LR0sxZsCt2mEikkkUFMbAj
+
+The lead-up to Adele's long-awaited album, 30, was by the singer's own acco=
+unt "a big deal." In the six years since she released her last record, she =
+almost completely disappeared from the public eye, so being thrust back int=
+o the spotlight took some adjustment at first.
+
+"I don't like being famous," she told Q's Tom Power in a Canadian exclusive=
+ interview about 30, which is out now. "It's just hard to get used to, you =
+know, everyone talking about me again, really."
+
+Fuelling the current conversation around Adele are highly personal topics, =
+such as her weight loss, her battle with anxiety and her divorce from entre=
+preneur Simon Konecki, with whom she shares a son named Angelo, 9.
+
+Listen Now
+https://newsletters.cbc.ca/c/1fn80MyTflJvqXG8QoPBELEwWzS
+
+Top Picks For You
+Top Picks For You
+
+Type Taboo: Diary of a New Diabetic
+https://newsletters.cbc.ca/c/1fn80NgM29tyfsjV2vkSYCDhHzr
+
+New Podcast | Type Taboo: Diary of a New Diabetic
+https://newsletters.cbc.ca/c/1fn80NYEOXdB3WXHeBQaitC2sz0
+
+Denial, anger, depression and shame - Type 2 diabetes can lay the ultimate =
+guilt trip. That=E2=80=99s what journalist and former musician Emily Brass =
+discovered when she was diagnosed as a new diabetic.
+
+Forced to make big changes, Emily opens up about her personal struggles wit=
+h the disease in a series of intimate diaries, and seeks out other diabetic=
+s who help her smash the hurtful stereotypes that come with Type 2. Whether=
+ you=E2=80=99re living with diabetes, or have ever tried to make changes to=
+ get healthier, Emily=E2=80=99s journey will motivate you, and make you thi=
+nk differently about Type 2 and the people that live with it.
+
+Listen Now
+https://newsletters.cbc.ca/c/1fn80OGxBKXDSrBtqIlrCkANdyz
+
+Errol Nazareth
+https://newsletters.cbc.ca/c/1fn80PoqoyHGGWffCOQIWbzxYy8
+
+Reclaimed with Jarrett Martineau |People of the Earth
+https://newsletters.cbc.ca/c/1fn80Q6jbmrJvqT1OVm0g2yiJxH
+
+Reclaimed is the home to the next wave of Indigenous music. Combining past,=
+ present and future, this series explores the many worlds of Indigenous mus=
+ic and introduces listeners to a new generation of Indigenous artists recla=
+iming their culture through music and song.
+
+Join host Jarrett Martineau as he celebrates National Native American Herit=
+age Month. Get ready for music from all over Turtle Island to honour our re=
+latives in the United States during their month-long celebration of Native =
+pride.
+
+Listen Now
+https://newsletters.cbc.ca/c/1fn80Rw4KXVP8qaAd8myTKvOfwP
+
+Trending
+Trending
+
+Homes and farmland in the community of Sumas Prairie are pictured underwate=
+r during flooding in Abbotsford, B.C., on Nov. 16.
+https://newsletters.cbc.ca/c/1fn80SdXxLFRWUOmpeRQdBuz0wo
+
+WHAT ON EARTH
+https://newsletters.cbc.ca/c/1fn80SVQkzpULps8Bln7xstjLvX
+
+What are atmospheric rivers, and how are they affecting the B.C. floods?
+
+Listen Now
+https://newsletters.cbc.ca/c/1fn80TDJ7n9XzU5UNrSoRjs4wvw
+
+Ashley Chapman, right, and his mother Penny
+https://newsletters.cbc.ca/c/1fn80UlBUaU0ooJGZynGbaqPhv5
+
+AS IT HAPPENS
+https://newsletters.cbc.ca/c/1fn80V3uGYE3cTntbESXv1pA2uE
+
+Chapman's Ice Cream faces backlash and boycott over vaccination policy
+
+Listen Now
+https://newsletters.cbc.ca/c/1fn80VLntMo61o1fnLoeOSokNud
+
+Jon Jon Rivero
+https://newsletters.cbc.ca/c/1fn80WtggA88PSF1zRTw8Jn5ytM
+
+NOW OR NEVER
+https://newsletters.cbc.ca/c/1fn80Xb93nSbEniNLYoNsAlQjtl
+
+How this Edmonton therapist is using play to help kids heal
+
+Listen Now
+https://newsletters.cbc.ca/c/1fn80XT1QbCesRWzY4U4MrkB4sU
+
+Share this newsletter
+
+Facebook https://newsletters.cbc.ca/c/1fn81mEXogBOYaoMNKyQZlCZBdF
+Twitter https://newsletters.cbc.ca/c/1fn81nmQb4lRMF2yZR48jcBKmde
+
+or subscribe
+https://newsletters.cbc.ca/c/1fn8175w4CgP3ihGvrsHWy4oVnf if this was
+forwarded to you.
+
+YOU MAY ALSO LIKE THESE NEWSLETTERS
+
+CBC Podcasts
+https://newsletters.cbc.ca/c/1fn817NoRq0RRMVsHxXZgp39GmO
+
+From personal recommendations to exciting industry news, CBC Podcasts bring=
+s you the latest and greatest content from the world of podcasting, every t=
+wo weeks.
+
+Subscribe now
+https://newsletters.cbc.ca/c/1fn818vhEdKUGhzeTEtgAg1Urmn
+
+CBC Radio One
+https://newsletters.cbc.ca/c/1fn819dar1uXuMd15KYxU70FclW
+
+Get the CBC Radio newsletter. We'll send you a weekly roundup of the best C=
+BC Radio programming every Friday.
+
+Subscribe now
+https://newsletters.cbc.ca/c/1fn819V3dPf0jgQNhRtPdXZpXlv
+
+CBC Listen. CBC Radio | CBC Podcasts | CBC Music
+
+CBC Listen. CBC Radio | CBC Podcasts | CBC Music
+
+Follow us
+
+Follow us on Facebook
+https://newsletters.cbc.ca/c/1fn81aCW0CZ37LuztXZ6xOYaIl4
+Follow us on Twitter
+https://newsletters.cbc.ca/c/1fn81bkONqJ5Wg8lG4unRFWVtkD
+Follow us on Instragram
+https://newsletters.cbc.ca/c/1fn81c2HAet8KKM7SaZFbwVGekc
+Subscribe on YouTube
+https://newsletters.cbc.ca/c/1fn81cKAn2dbzfpU4huWvnUqZjL
+
+View in browser https://newsletters.cbc.ca/c/1fn81o4IXS5UB9GlbXzpD3Av7cN
+Preferences
+https://newsletters.cbc.ca/c/1fn81dst9PXenK3Ggo0dPeTbKjk
+Feedback
+https://newsletters.cbc.ca/c/1fn81eSeJrrk0JleEB0MsWQHgis
+Unsubscribe https://newsletters.cbc.ca/u/1EoUHjTsmQoqOHIkQ77Jke
+
+CBC
+https://newsletters.cbc.ca/c/1fn81fA7wfbmPdZ0QHw3MNPs1i1
+
+Canadian Broadcasting Corporation
+250 Front St. W, Toronto, Ontario M5V 3G5, Canada
+cbc.radio-canada.ca
+https://newsletters.cbc.ca/c/1fn81gi0j2VpDICN2O1l6EOcMhA | radio-canada.ca
+https://newsletters.cbc.ca/c/1fn81gZT5QFssdgzeUwCqvMXxh9 | cbc.ca
+https://newsletters.cbc.ca/c/1fn81hHLSEpvgHUlr11TKmLIigI
+----17DE77BDDCD2924272FC00AE145C
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+
+<div class="userStyles" style="font-family: Arial; font-size: 12pt; color: #000000;">
+<table width="100%">
+<tbody>
+<tr>
+<td width="50%">
+<table width="100%">
+<tbody>
+<tr>
+<td>
+<div style="text-align: center;"><span style="font-family: Trebuchet MS,Helvetica,sans-serif;"><a href="https://zcmpsub.maillist-manage.com/click.zc?m=1&amp;mrd=1c35c089baee7417&amp;od=3z54fa5b9d4dd7a5b8a519a02a92ffa44be39b729640d50d8336449723a41c3e7c&amp;linkDgs=1c35c089baee7143&amp;repDgs=1c35c089baee7435#"><span style="font-size: 18pt;">Your PC might be unprotected, it can be exposed to viruses and other malware...<br /> <br /> You are eligible for discount:&nbsp;80% 1yr Renewal Discount<br /></span></a></span></div>
+​
+<p style="text-align: center;">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div style="text-align: center;"><strong><span style="font-family: Verdana,Geneva,sans-serif;"><a href="https://zcmpsub.maillist-manage.com/click.zc?m=1&amp;mrd=1c35c089baee7417&amp;od=3z54fa5b9d4dd7a5b8a519a02a92ffa44be39b729640d50d8336449723a41c3e7c&amp;linkDgs=1c35c089baee7143&amp;repDgs=1c35c089baee7435#"><span style="font-size: 18pt;">&nbsp;</span></a></span></strong></div>
+​
+<table width="350" align="center">
+<tbody>
+<tr>
+<td style="text-align: center;"><strong><span style="font-family: Verdana,Geneva,sans-serif;"><a href="https://zcmpsub.maillist-manage.com/click.zc?m=1&amp;mrd=1c35c089baee7417&amp;od=3z54fa5b9d4dd7a5b8a519a02a92ffa44be39b729640d50d8336449723a41c3e7c&amp;linkDgs=1c35c089baee7143&amp;repDgs=1c35c089baee7435#"><span style="font-size: 18pt;"><span style="background-color: #ffff00;">Renew Subscription</span></span></a></span></strong></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;" height="20">&nbsp;</td>
+</tr>
+<tr>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><a href="https://zcmpsub.maillist-manage.com/click.zc?m=1&amp;mrd=1c35c089baee7417&amp;od=3z54fa5b9d4dd7a5b8a519a02a92ffa44be39b729640d50d8336449723a41c3e7c&amp;linkDgs=1c35c089baee7143&amp;repDgs=1c35c089baee7435#"><img src="https://campaign-image.com/zohocampaigns/893535000000058006_zc_v4_1638212969847_norotnnwew.png#" alt="" border="0" /></a></div>
+</div>
+----17DE77BDDCD2924272FC00AE145C--
+

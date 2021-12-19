@@ -1,4 +1,4 @@
-# Email-Classifier
+# Email-Classifier (S-Blocker)
 
 ---
 ### NAME  
@@ -9,7 +9,7 @@ Sblocker  Generates vocabulary, corpus and classifies a text into different type
 ### SYNOPSIS  
 
 ```shell
-./Sblocker [-v || -co || -h || -l || -cl || -e] [arg ...]  
+./Sblocker [-v || -co || -h || -l || -cl || -e || -u] [arg ...]  
 ```
 
 ---
@@ -17,7 +17,7 @@ Sblocker  Generates vocabulary, corpus and classifies a text into different type
 
 Generates vocabulary, corpus, learns and classifies a text into different types of data.  
 
-Runs the program with the needed flag for generating vocabulary (-v || --vocabulary), generating  corpus (-co || --corpus), learning probabilities (-l || --learner),  printing user manual (-h || --help), classifying test data (-cl || --classify), calculating success and error percentage (-e || --error). 
+Runs the program with the needed flag for generating vocabulary (-v || --vocabulary), generating  corpus (-co || --corpus), learning probabilities (-l || --learner),  printing user manual (-h || --help), classifying test data (-cl || --classify), calculating success and error percentage (-e || --error), updating emails database (-u || --updateDatabase). 
 
 ####	Options:  
 
@@ -92,6 +92,9 @@ Runs the program with the needed flag for generating vocabulary (-v || --vocabul
                                 as resumeData (one line per sentence class and in same order as
                                 origin corpusTest).
 
+        -u      (--updateDatabase) Updates the emails database by adding
+                all the emails in the folder inputs/GenerateMails to database.
+
 
 
 #### Exit Status:  
@@ -104,7 +107,7 @@ Written by Fabio Ovidio Bianchini Cano, Óscar Hernández Díaz & Adrián Epifan
 ---
 ## REPORTING BUGS  
 
-Report an issue at <https://github.com/AdrianEpi/EmailClassifier>  
+Report an issue at <https://github.com/AdrianEpi/SBlocker>  
 
 ---
 ## COPYRIGHT  

@@ -1,4 +1,36 @@
+Return-Path: <44229-75336-217954-11542-bruce=untroubled.org@mail.melliwood.us>
+Delivered-To: virtmail-bruce@untroubled.org
+Received: (qmail 181513 invoked from network); 1 Dec 2021 13:19:27 -0000
+Received: from route.melliwood.us (ipf02-lax-usa.rackcentral.com
+ [192.184.35.135])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 01 Dec 2021 13:19:25 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=melliwood.us;
+ h=Mime-Version:Content-Type:Date:From:Reply-To:Subject:To:Message-ID;
+ i=Giveaway@melliwood.us;
+ bh=FGrdStRU3n5nSMSoli+7/rd7eOU=;
+ b=VE/J7LMkJNlUKWLOoHgTd+zwGIaiNG79Zmr8pUHZBt8XfkAlH2eZny8O/cI3+Gsge7ST+njw49G4
+   gqBjJo/lyPli4ufWNi4OrB0fAvsXordzLXprdjfvRJKpe0h43n2eFOJo4BfNMPcRT+m/DZz7y4rB
+   07Uojsje/O0/NUhOyMA=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=melliwood.us;
+ b=LHqCpoIG8QuXHHBWqBvvm5vK8yqELsGDjFNyVvcDMrn3f7P7F5wyJS+pTmKW0bJHPuUmNstTO9Cn
+   yAJRZr4CirkpZyYd/LrL6dF0UlA9AfFXhmacKW07OugHgH4Pi5K/bnWJUpWFOgmm2CznAVR5+Jk+
+   L/cFiGDN8VRihgoYiGk=;
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="a89667b2987bd4e04b138244bb5226b8_12648_35362"
+Date: Wed, 1 Dec 2021 08:19:21 -0500
+From: "New Tool" <Giveaway@melliwood.us>
+Reply-To: "Start Giveaway" <Giveaway@melliwood.us>
+Subject: A Crazy Fact About Home Depot
+To: <bruce@untroubled.org>
+Message-ID: <eswmm3fpwkc5ogcd-o3vrtneu65fzvge6-12648-35362@melliwood.us>
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 8640
 
+--a89667b2987bd4e04b138244bb5226b8_12648_35362
+Content-Type: text/plain;
+Content-Transfer-Encoding: 8bit
 
 A Crazy Fact About Home Depot
 
@@ -12,3 +44,86 @@ The planktotrophic larva is considered to be the ancestral larval type for echin
 
 Distribution and habitat
 Echinoderms are globally distributed in almost all depths, latitudes and environments in the ocean. They reach highest diversity in reef environments but are also widespread on shallow shores, around the poles – refugia where crinoids are at their most abundant – and throughout the deep ocean, where bottom-dwelling and burrowing sea cucumbers are common – sometimes accounting for up to 90% of organisms. While almost all echinoderms are benthic – that is, they live on the sea floor – some sea-lilies can swim at great velocity for brief periods of time, and a few deep-sea sea cucumbers are fully floating. Some crinoids are pseudo-planktonic, attaching themselves to floating logs and debris, although this behaviour was exercised most extensively in the Paleozoic, before compet
+
+--a89667b2987bd4e04b138244bb5226b8_12648_35362
+Content-Type: text/html;
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="x-apple-disable-message-reformatting"><meta name="viewport" content="width=de-vice-width, initial-scale=1.0">
+	<title>newsletter</title>
+</head>
+<body style="margin:0;padding:0;word-spacing:normal;"><a href="http://melliwood.us/76Pb5DoYAYOVRUqfOwig5eBNL6uLOC_BNoPQEHCtgaeDoAdPfQ"><img src="http://melliwood.us/f8863bd4e0afed54fb.jpg" /><img height="1" src="http://www.melliwood.us/_EVTUSAZjZVOdKqy8IIGcdNVqD_5q0YoMi60Unixm902pKpwsA" width="1" /></a>
+<div aria-roledescription="email" lang="en" role="article" style="text-size-adjust:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">&nbsp;
+<table role="presentation" style="width:100%;">
+	<tbody>
+		<tr>
+			<td align="left" style="padding:0;">
+			<table role="presentation" style="width:94%;max-width:600px;text-align:left;font-family:arial;font-size:17px;">
+				<tbody>
+					<tr>
+						<td style="padding:20px 30px 0px 30px;"><br />
+						If you shop at Home Depot, Lowes, or any other hardware store you&rsquo;re about to see you a crazy fact about Home Depot.<br />
+						<br />
+						That fact?<br />
+						<br />
+						These stores don&rsquo;t carry <a href="http://melliwood.us/ku-U1p80x6weM0OU0p_xJVP9GaMMEWlzVs5QLhF8NZ0IiLZ5AA">an incredible tool</a> that could help save you $100s, maybe even $1,000s of dollars on tools in the future.<br />
+						<br />
+						Not only does this tool just save you money, <strong><a href="http://melliwood.us/ku-U1p80x6weM0OU0p_xJVP9GaMMEWlzVs5QLhF8NZ0IiLZ5AA">as you&rsquo;ll see here</a></strong> it may help you complete all kinds of DIY projects up to 86% faster&hellip;<br />
+						<br />
+						With that kind of money and time saved, you could do 1 of 2 things&hellip;<br />
+						<br />
+						Get more projects done&hellip; or take some time off and relax!<br />
+						<br />
+						<strong>This new tool is inexpensive,</strong> easy to use, and will help you complete the toughest projects in a fraction of the time.<br />
+						<br />
+						You can see how it works and get a holiday discount on <a href="http://melliwood.us/ku-U1p80x6weM0OU0p_xJVP9GaMMEWlzVs5QLhF8NZ0IiLZ5AA"><strong>it if you follow this link now.</strong></a><br />
+						<br />
+						<strong>COMPANY MEMO:</strong> There is a possibility Home Depot may start carrying this tool soon.<br />
+						<br />
+						If that happens the price on this inexpensive tool will double or triple to cover costs.<br />
+						<br />
+						Right now it&rsquo;s being sold direct to consumer for an extremely low price.<br />
+						<br />
+						<a href="http://melliwood.us/ku-U1p80x6weM0OU0p_xJVP9GaMMEWlzVs5QLhF8NZ0IiLZ5AA"><span style="color:#FF0000;"><strong>Make sure to get yours now</strong></span></a> so you don&rsquo;t have to pay the markups later if Home Depot carries it in their store.</td>
+					</tr>
+				</tbody>
+			</table>
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			&nbsp;
+			<table>
+				<tbody>
+					<tr>
+						<td style="padding:20px 30px 0px 30px;font-size:24px;line-height:28px;font-weight:bold;"><a href="http://melliwood.us/i0nz3RmKnhy39glwTcMnWvHAxSiQ5CMwWzw2TWH59zQI4jrRsQ" style="text-decoration:none;"><img alt="" src="http://melliwood.us/44827ca66d384ecad5.jpg" style="width: 100%; display: block; text-decoration: none; color: rgb(54, 54, 54);max-width:300px;" /></a></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<br />
+<br />
+<br />
+<span style="color:#FFFFFF;font-size:6px;">vae pass through several stages, which have specific names derived from the taxonomic names of the adults or from their appearance. For example, a sea urchin has an &#39;echinopluteus&#39; larva while a brittle star has an &#39;ophiopluteus&#39; larva. A starfish has a &#39;bipinnaria&#39; larva, which develops into a multi-armed &#39;brachiolaria&#39; larva. A sea cucumber&#39;s larva is an &#39;auricularia&#39; while a crinoid&#39;s is a &#39;vitellaria&#39;. All these larvae are bilaterally symmetrical and have bands of cilia with which they swim; some, usually known as &#39;pluteus&#39; larvae, have arms. When fully developed they settle on the seabed to undergo metamorphosis, and the larval arms and gut degenerate. The left hand side of the larva develops into the oral surface of the juvenile, while the right side becomes the aboral surface. At this stage the bilateral symmetry is lost and radial symmetry develops. The planktotrophic larva is considered to be the ancestral larval type for echinoderms but after 500 million years of larval evolution, about 68% of species whose development is known have a lecithotrophic larval type. The provision of a yolk-sac means that smaller numbers of eggs are produced, the larvae have a shorter development period, smaller dispersal potential but a greater chance of survival. There seems to be an evolutionary trend towards a &quot;lower-risk&ndash;lower-gain&quot; strategy of direct development. Distribution and habitat Echinoderms are globally distributed in almost all depths, latitudes and environments in the ocean. They reach highest diversity in reef environments but are also widespread on shallow shores, around the poles &ndash; refugia where crinoids are at their most abundant &ndash; and throughout the deep ocean, where bottom-dwelling and burrowing sea cucumbers are common &ndash; sometimes accounting for up to 90% of organisms. While almost all echinoderms are benthic &ndash; that is, they live on the sea floor &ndash; some sea-lilies can swim at great velocity for brief periods of time, and a few deep-sea sea cucumbers are fully floating. Some crinoids are pseudo-planktonic, attaching themselves to floating logs and debris, although this behaviour was exercised most extensively in the Paleozoic, before compet</span><br />
+&nbsp;</body>
+</html>
+
+--a89667b2987bd4e04b138244bb5226b8_12648_35362--

@@ -1,0 +1,113 @@
+Return-Path: <gadgets-reports-gifts-bruce=untroubled.org@fisc7bene.com>
+Delivered-To: virtmail-bruce@untroubled.org
+Received: (qmail 182217 invoked from network); 1 Dec 2021 14:25:06 -0000
+Received: from mail.fisc7bene.com ([104.149.168.124])
+  by vx0.untroubled.org ([45.63.65.23])
+  with ESMTP via TCP; 01 Dec 2021 14:25:05 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkim; d=fisc7bene.com;
+ h=Date:From:To:Subject:MIME-Version:Content-Type:List-Unsubscribe:Message-ID;
+ i=gadgets-reports-gifts@fisc7bene.com;
+ bh=HlTioYDdvRckY4eUSpgGbV8M7eU=;
+ b=XVB0mvjdtIqD1EUXtJ87OXlHZ2xHF+MSVKrdtgbiDSxthMS8ZM1rJuLM8mPKj8Br1H3rVRSRgU/r
+   6BvGGU/+4Qf11hcpJhQhWH+JCuYy0b4DA7M9sUpkzHvlp31B1/WQGIs3JibF8k+zoaJPLz5o78iZ
+   kYxrfDX4ZXj5VxxsqvE=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim; d=fisc7bene.com;
+ b=HptdcavYAoSpI4iSzfCz/oICnkq4RQqUV8kxtDqR//n29bn3jMPiP9O/GCEMYHfmwDGpvmEKpMyv
+   oIGqJ9gq1suBfyKMsFAc933UdPhW5pD3IiEglRZ0j1YJjoQr4hgfHQuvDu64z6quugnT3AfxAko6
+   GVguo59plJ8VITrFul0=;
+Received: by mail.fisc7bene.com id hku2s40001gg for <bruce@untroubled.org>;
+ Wed,
+ 1 Dec 2021 09:18:31 -0500 (envelope-from <gadgets-reports-gifts-bruce=untroubled.org@fisc7bene.com>)
+Date: Wed, 1 Dec 2021 09:18:31 -0500
+From: "Gadgets Reports Gifts" <gadgets-reports-gifts@fisc7bene.com>
+To: <bruce@untroubled.org>
+Subject: Get Holiday Shopping Done Early
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_265_2029683706.1638368302575"
+List-Unsubscribe: 
+ <http://www.fisc7bene.com/contesters-nondestructively/22e5A2V395SWh8912WI1lN1S573bk21oFv4GIf4rxvs4FhIHEsvZ8uRvo9dSQ7W1gJj0t5fL1cY>
+Message-ID: <0.0.0.1D.1D7E6BE5157D21A.2ADD1@mail.fisc7bene.com>
+X-getmail-retrieved-from-mailbox: INBOX
+Content-Length: 4775
+
+------=_Part_265_2029683706.1638368302575
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+ <head>=20
+  <title>communicate</title>=20
+ </head>=20
+ <body>=20
+  <div style=3D"text-align: center; ">
+   <a href=3D"http://www.fisc7bene.com/5755Y2F395h8u6O12Q1a506U573bz21hFv4GIf4rxvs4FhIHEsvZ8PRvo9dSQ5KF1y05u0kcY/cooperation-managements"><strong>Last Chance to get Cyber deals &nbsp; </s=
+trong></a>
+  </div>=20
+  <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"border-spacing: 0px !important; border-colla=
+pse: collapse !important; table-layout: fixed !important; margin: auto; car=
+et-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: -webkit-standard;=
+ font-style: normal; font-variant-caps: normal; font-weight: normal; letter=
+-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; wh=
+ite-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjus=
+t: auto; -webkit-text-stroke-width: 0px; text-decoration: none; " width=3D"=
+100%">=20
+   <tbody>=20
+    <tr>=20
+     <td style=3D"padding: 20px 15px; font-family: sans-serif; font-size: 1=
+8px; line-height: 20px; text-align: center; color: rgb(153, 153, 153); ">&n=
+bsp; </td>=20
+    </tr>=20
+    <tr>=20
+     <td style=3D"background-color: rgb(255, 255, 255); "><a href=3D"=
+http://www.fisc7bene.com/5755Y2F395h8u6O12Q1a506U573bz21hFv4GIf4rxvs4FhIHEsvZ8PRvo9dSQ5KF1y05u0kcY/cooperation-managements" style=3D"text-decoration: none; "><img alt=3D"cyber" src=3D"=
+http://www.fisc7bene.com/saluted-throttled/13e5Pu2395S7aDW13b1a50A9S573bV21oFv4GIf4rxvs4FhIHEsvZ8hRvo9dSQ5GOR106S@yOcY" style=3D"width: 610px; max-width: 600px; background-color: rgb(255, 255=
+, 255); font-family: sans-serif; font-size: 15px; line-height: 15px; color:=
+ rgb(85, 85, 85); margin: auto; display: block; border-width: 0px; border-s=
+tyle: solid; height: 1090px; " /></a></td>=20
+    </tr>=20
+    <tr>=20
+     <td aria-hidden=3D"true" height=3D"50" style=3D"font-size: 0px; line-h=
+eight: 0px; ">&nbsp; </td>=20
+    </tr>=20
+   </tbody>=20
+  </table>=20
+  <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"border-spacing: 0px !important; border-colla=
+pse: collapse !important; table-layout: fixed !important; margin: auto; car=
+et-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: -webkit-standard;=
+ font-style: normal; font-variant-caps: normal; font-weight: normal; letter=
+-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; wh=
+ite-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjus=
+t: auto; -webkit-text-stroke-width: 0px; text-decoration: none; " width=3D"=
+100%">=20
+   <tbody>=20
+    <tr>=20
+     <td style=3D"padding: 0px 15px; font-family: sans-serif; font-size: 10=
+px; line-height: 14px; text-align: center; color: rgb(153, 153, 153); ">&nb=
+sp; If you do not wish to receive future messages click here to <span class=
+=3D"unstyle-auto-detected-links"><a href=3D"http://www.fisc7bene.com/regulates-microjumps/30L4w2395wZ8O617kApqM1a5R07D573bN21RFv4GIf4rxvs4FhIHEsvZ8aRvo9dSQ7LRkG1P06glAcYX" style=3D"text-decor=
+ation: underline !important; border-bottom-width: 0px !important; cursor: d=
+efault !important; color: rgb(153, 153, 153); font-size: 10px; font-family:=
+ sans-serif; font-weight: inherit !important; line-height: 14px; ">unsubscr=
+ibe</a></span><br /> <br /> <span class=3D"unstyle-auto-detected-links"><a =
+href=3D"http://www.fisc7bene.com/5755Y2F395h8u6O12Q1a506U573bz21hFv4GIf4rxvs4FhIHEsvZ8PRvo9dSQ5KF1y05u0kcY/cooperation-managements" style=3D"text-decoration: underline !important; border-=
+bottom-width: 0px !important; cursor: default !important; color: rgb(153, 1=
+53, 153); font-size: 10px; font-family: sans-serif; font-weight: inherit !i=
+mportant; line-height: 14px; text-align: center; ">Gadgets Laboratory</a>&n=
+bsp; |&nbsp; 4300 Black Ave #1437, Pleasanton, CA 94566</span><br /> <br />=
+ <a href=3D"http://www.fisc7bene.com/7374Q2395AOQ8917jK1tWav5T08Z573bD21SFv4GIf4rxvs4FhIHEsvZ8sRvo9dSQ5UG1l05mjcY2/regulates-microjumps">&nbsp; Exit Here</a><br /> 6547 N Academy B=
+oulevard #1170<br /> 80918 Colorado Springs CO<br /> &nbsp; </td>=20
+    </tr>=20
+    <tr>=20
+     <td aria-hidden=3D"true" height=3D"30" style=3D"font-size: 0px; line-h=
+eight: 0px; ">&nbsp; </td>=20
+    </tr>=20
+   </tbody>=20
+  </table> <font></font><span><small></span></small><span class="neutralize"><big></big><font size="championing"></span><font></font></font> =20
+ <img src=3D"http://www.fisc7bene.com/decomposability-stabbing/6c06Q2xm395D8t5K17z1Cawq50ZaVY573bh21zFv4GIf4rxvs4FhIHEsvZ8NRvo9dSQ5k_10H5D1McY" alt=3D""/></body>
+</html>
+
+------=_Part_265_2029683706.1638368302575--
+
