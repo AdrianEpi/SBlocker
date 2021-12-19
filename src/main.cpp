@@ -23,7 +23,7 @@
 * 			Oscar Hernandez 
 * @Date:   2021-11-05 08:37:08
 * @Last Modified by:   ADRIAN
-* @Last Modified time: 2021-12-19 18:20:40
+* @Last Modified time: 2021-12-19 21:35:16
 */
 /*------------------  FUNCTIONS  -----------------*/
 
@@ -282,7 +282,7 @@ void calculateError (int& argc, char* argv[]) {
  * @brief      Gets the information of all the emails in the inputs/GenerateMails folder and stores it.
  */
 void mailGenerator (void) {
-	std::cout << "Please select the type of emails you are going to load:\n\t1. SPAM\n\t2. Promotions\n\t3. Notification\n\t4. Social\n\t0. Cancel" << std::endl;
+	std::cout << "Please select the type of emails you are going to load:\n\t1. SPAM\n\t2. No Spam\n\t0. Cancel" << std::endl;
 	std::string type;
 	int selection;
 	std::cin >> selection;
@@ -295,13 +295,7 @@ void mailGenerator (void) {
 			type = "SPAM";
 			break;
 		case 2:
-			type = "Promotion";
-			break;
-		case 3:
-			type = "Notification";
-			break;
-		case 4:
-			type = "Social";
+			type = "HAM";
 			break;
 		default:
 			std::cout << "Wrong email type introduced, aborting program   .   .   ." << std::endl;
@@ -313,15 +307,20 @@ void mailGenerator (void) {
     if (dir == NULL) {
         exit(1);
     }
+    unsigned counter = 0;
     while ((entry = readdir(dir)) != NULL) {
         if (entry -> d_name[0] != '.') {
-        	std::cout << "Generating mail from: " << entry -> d_name << std::endl;
+        	//std::cout << "Generating mail from: " << entry -> d_name << std::endl;
         	std::vector<std::string> mail;
         	std::string fileName = "../inputs/GenerateMails/";
         	fileName += entry -> d_name;
         	generateMail(fileName, mail);
         	std::string tmp = getValidMail(mail);
         	if (tmp != "") {
+        		counter++;
+        		if (counter % 1000 == 0) {
+        			std::cout << "Generating mail from: " <<counter << std::endl;
+        		}
 	        	emails.push_back(tmp);
 	        }
         }
