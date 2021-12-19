@@ -45,7 +45,8 @@ help:
 
 generateMails:
 	../bin/textClassifier
-	
+
+
 # fullRun:
 # 	make clean
 # 	make
