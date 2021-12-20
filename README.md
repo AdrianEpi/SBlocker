@@ -9,7 +9,7 @@ Sblocker  Generates vocabulary, corpus and classifies a text into different type
 ### SYNOPSIS  
 
 ```shell
-./Sblocker [-v || -co || -h || -l || -cl || -e || -u] [arg ...]  
+./Sblocker [-v || -co || -h || -l || -cl || -e || -u || -t] [arg ...]  
 ```
 
 ---
@@ -17,7 +17,12 @@ Sblocker  Generates vocabulary, corpus and classifies a text into different type
 
 Generates vocabulary, corpus, learns and classifies a text into different types of data.  
 
-Runs the program with the needed flag for generating vocabulary (-v || --vocabulary), generating  corpus (-co || --corpus), learning probabilities (-l || --learner),  printing user manual (-h || --help), classifying test data (-cl || --classify), calculating success and error percentage (-e || --error), updating emails database (-u || --updateDatabase). 
+
+Runs the program with the needed flag for generating vocabulary (-v || --vocabulary), generating  corpus (-co || --corpus), learning probabilities (-l || --learner),  printing user manual (-h || --help), classifying test data (-cl || --classify), calculating success and error percentage (-e || --error), updating emails database (-u || --updateDatabase), generating tests files (-t || --generateTest). 
+
+
+---
+
 
 ####	Options:  
 
@@ -92,22 +97,31 @@ Runs the program with the needed flag for generating vocabulary (-v || --vocabul
                                 as resumeData (one line per sentence class and in same order as
                                 origin corpusTest).
 
+
         -u      (--updateDatabase) Updates the emails database by adding
                 all the emails in the folder inputs/GenerateMails to database.
 
 
+        -t      (--generateTest) Generate the test files for the program,
+                    takes 20% random data from mail-train.csv for geting this
+                    tests.
 
+
+---
 #### Exit Status:  
         Returns success unless an error occurs  
+
 
 ---
 ## AUTHOR  
 Written by Fabio Ovidio Bianchini Cano, Óscar Hernández Díaz & Adrián Epifanio Rodríguez Hernández.  
 
+
 ---
 ## REPORTING BUGS  
 
 Report an issue at <https://github.com/AdrianEpi/SBlocker>  
+
 
 ---
 ## COPYRIGHT  

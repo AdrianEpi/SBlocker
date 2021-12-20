@@ -8,7 +8,7 @@
 
     SYNOPSIS  
 
-        ./Sblocker [-v || -co || -h || -l || -cl || -e || -u] [arg ...]  
+        ./Sblocker [-v || -co || -h || -l || -cl || -e || -u || -t] [arg ...]  
 
 
 
@@ -22,7 +22,7 @@
           probabilities (-l || --learner),  printing user manual
           (-h || --help), classifying test data (-cl || --classify),
           calculating success and error percentage (-e || --error), adding
-          new emails to database (-u || --updateDatabase).
+          new emails to database (-u || --updateDatabase), generating tests files (-t || --generateTest).
          
 
         Options:  
@@ -119,6 +119,11 @@
 
             -u      (--updateDatabase) Updates the emails database by adding
                     all the emails in the folder inputs/GenerateMails to database.
+
+
+            -t      (--generateTest) Generate the test files for the program,
+                    takes 20% random data from mail-train.csv for geting this
+                    tests.
 
 
 

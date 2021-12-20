@@ -23,7 +23,7 @@
 * 			Oscar Hernandez 
 * @Date:   2021-11-05 08:37:08
 * @Last Modified by:   ADRIAN
-* @Last Modified time: 2021-12-19 22:08:11
+* @Last Modified time: 2021-12-20 08:23:26
 */
 /*------------------  FUNCTIONS  -----------------*/
 
@@ -51,6 +51,8 @@ void generateMail (std::string fileName, std::vector<std::string>& mail);
 void deleteCommas (std::string& message);
 std::string getValidMail (std::vector<std::string>& mail);
 void storeMail (std::string type, std::vector<std::string>& mail);
+void generateTestMail (void);
+void saveToFile (std::string fileName, std::string data, bool trunc);
 
 
 /**
@@ -89,6 +91,10 @@ int main (int argc, char* argv[]) {
 		}
 		else if (flag == "-u" || flag == "--updateDatabase") {
 			mailGenerator();
+		}
+		else if (flag == "-t" || flag == "--generateTest") {
+			srand (time(NULL));
+			generateTestMail();
 		}
 
 	}
@@ -307,20 +313,15 @@ void mailGenerator (void) {
     if (dir == NULL) {
         exit(1);
     }
-    unsigned counter = 0;
     while ((entry = readdir(dir)) != NULL) {
         if (entry -> d_name[0] != '.') {
-        	//std::cout << "Generating mail from: " << entry -> d_name << std::endl;
+        	std::cout << "Generating mail from: " << entry -> d_name << std::endl;
         	std::vector<std::string> mail;
         	std::string fileName = "../inputs/GenerateMails/";
         	fileName += entry -> d_name;
         	generateMail(fileName, mail);
         	std::string tmp = getValidMail(mail);
         	if (tmp != "") {
-        		counter++;
-        		if (counter % 1000 == 0) {
-        			std::cout << "Generating mail from: " <<counter << std::endl;
-        		}
 	        	emails.push_back(tmp);
 	        }
         }
@@ -415,22 +416,89 @@ void storeMail (std::string type, std::vector<std::string>& mail) {
 			learning += "\n" + type + ", " + mail[i];
 		}
 	}
-	std::ofstream file("../inputs/mail-train.csv", std::ios::app);
+	saveToFile("../inputs/mail-train.csv", learning, false);
+	saveToFile("../inputs/mail-test.csv", testing, false);
+}
+
+/**
+ * @brief      Generate the test files for the SBlocker program
+ */
+void generateTestMail (void) {
+	std::ifstream file("../inputs/mail-train.csv", std::ios::in);
 	if (file.fail()) {
-		std::cout << "Error while storing training data, not valid document" << std::endl;
+		std::cout << "Error, mail-train file not found" << std::endl;
 		exit(1);
-	} 
-	else {
-		file << learning;
+	}
+	std::vector<std::string> types;
+	std::vector<std::string> lines;
+	while (!file.eof()) {
+		std::string line = "";
+		std::string type = "";
+		file >> type;
+		if (type == "SPAM,") {
+			type = "SPAM";
+		}
+		else {
+			type = "HAM";
+		}
+		std::getline(file, line);
+		types.push_back(type);
+		lines.push_back(line);
 	}
 	file.close();
-	std::ofstream file2("../inputs/mail-test.csv", std::ios::app);
-	if (file2.fail()) {
-		std::cout << "Error while storing testing data, not valid document" << std::endl;
+	std::string mailTest = "";
+	std::string mailTestRow = "";
+	std::string resumeExpected = "";
+	if (types.size() != lines.size()) {
+		std::cout << "\nAn error ocurred while working with vectors in generateTestMail\n";
 		exit(1);
-	} 
-	else {
-		file2 << testing;
 	}
-	file2.close();
+	unsigned counter = types.size() / 5;
+	unsigned num = rand() % types.size();
+	mailTest += types[num] + ", " + lines[num];
+	resumeExpected += types[num];
+	mailTestRow += lines[num];
+	counter--;
+	while (counter > 0) {
+		num = rand() % types.size();
+		mailTest += "\n" + types[num] + ", " + lines[num];
+		resumeExpected += "\n" + types[num];
+		mailTestRow += "\n" + lines[num];
+		counter--;
+	}
+	saveToFile("../inputs/mail-test.csv", mailTest, true);
+	saveToFile("../inputs/mail-test-row.csv", mailTestRow, true);
+	saveToFile("../inputs/resumeExpected.csv", resumeExpected, true);
+}
+
+/**
+ * @brief      Saves to file.
+ *
+ * @param[in]  fileName  The file name
+ * @param[in]  data      The data
+ * @param[in]  trunc     The truncate
+ */
+void saveToFile (std::string fileName, std::string data, bool trunc) {
+	if (!trunc) {
+		std::ofstream file(fileName, std::ios::app);
+		if (file.fail()) {
+			std::cout << "Error while storing in " + fileName + ", not valid document" << std::endl;
+			exit(1);
+		} 
+		else {
+			file << data;
+		}
+		file.close();
+	}
+	else {
+		std::ofstream file(fileName, std::ios::out);
+		if (file.fail()) {
+			std::cout << "Error while storing in " + fileName + ", not valid document" << std::endl;
+			exit(1);
+		} 
+		else {
+			file << data;
+		}
+		file.close();
+	}
 }

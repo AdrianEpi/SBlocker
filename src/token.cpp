@@ -23,7 +23,7 @@
 *           Oscar Hernandez 
 * @Date:   2021-11-05 08:37:08
 * @Last Modified by:   ADRIAN
-* @Last Modified time: 2021-12-19 22:51:34
+* @Last Modified time: 2021-12-20 08:03:00
 */
 /*------------------  FUNCTIONS  -----------------*/
 
@@ -97,8 +97,7 @@ float Token::get_MultiClass (unsigned pos) const {
 	if (pos < multiClass_.size()) 
 		return multiClass_[pos];
 	else {
-        return 0;
-		std::cout << std::endl << "Error, pos must be lower than multiClass_ size." << std::endl;
+		std::cout << std::endl << get_Name() << "Error, pos must be lower than multiClass_ size." << std::endl;
 		exit(1);
 	}
 }

@@ -71,6 +71,9 @@ runCorpus:
 runVocabulary:
 	../bin/SBlocker --vocabulary ../inputs/mail-train.csv ../outputs/vocabulary.txt ../inputs/stopWords.txt
 
+runGenerateTest:
+	../bin/SBlocker --generateTest
+
 runLog:
 	echo "\n\n\nExecuted ${TIME}" >> ../outputs/runDetails.txt
 	make fullRun >> ../outputs/runDetails.txt
