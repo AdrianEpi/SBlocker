@@ -1,0 +1,478 @@
+.TH "Vocabulary" 3 "Mon Dec 20 2021" "SBlocker" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Vocabulary \- This class describes a vocabulary and\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <vocabulary\&.hpp>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBVocabulary\fP (void)"
+.br
+.RI "Constructs a new instance\&. "
+.ti -1c
+.RI "\fBVocabulary\fP (std::string inputFile, std::string outpuFile)"
+.br
+.RI "Constructs a new instance\&. "
+.ti -1c
+.RI "\fB~Vocabulary\fP (void)"
+.br
+.RI "Destroys the object\&. "
+.ti -1c
+.RI "std::string \fBget_InputFile\fP (void) const"
+.br
+.RI "Gets the input file\&. "
+.ti -1c
+.RI "std::string \fBget_OutpuFile\fP (void) const"
+.br
+.RI "Gets the outpu file\&. "
+.ti -1c
+.RI "int \fBget_VocabularyCounter\fP (void) const"
+.br
+.RI "Gets the VocabularyCounter\&. "
+.ti -1c
+.RI "int \fBget_NTokens\fP (void) const"
+.br
+.RI "Gets the tokens number\&. "
+.ti -1c
+.RI "int \fBget_NLines\fP (void) const"
+.br
+.RI "Gets the number of lines\&. "
+.ti -1c
+.RI "std::set< \fBToken\fP > \fBget_Vocabulary\fP (void) const"
+.br
+.RI "Gets the vocabulary\&. "
+.ti -1c
+.RI "std::string \fBget_Type\fP (void) const"
+.br
+.RI "Gets the type\&. "
+.ti -1c
+.RI "float \fBget_ClassProbability\fP (void) const"
+.br
+.RI "Gets the class probability\&. "
+.ti -1c
+.RI "void \fBset_InputFile\fP (std::string newInputFile)"
+.br
+.RI "Sets the input file\&. "
+.ti -1c
+.RI "void \fBset_OutpuFile\fP (std::string newOutpuFile)"
+.br
+.RI "Sets the outpu file\&. "
+.ti -1c
+.RI "void \fBset_VocabularyCounter\fP (int newVocabularyCounter)"
+.br
+.RI "Sets the counter\&. "
+.ti -1c
+.RI "void \fBset_NTokens\fP (int newNTokens)"
+.br
+.RI "Sets the tokens number\&. "
+.ti -1c
+.RI "void \fBset_NLines\fP (int newNLines)"
+.br
+.RI "Sets the number of lines\&. "
+.ti -1c
+.RI "void \fBset_Vocabulary\fP (std::set< \fBToken\fP > newVocabulary)"
+.br
+.RI "Sets the vocabulary\&. "
+.ti -1c
+.RI "void \fBset_Type\fP (std::string newType)"
+.br
+.RI "Sets the type\&. "
+.ti -1c
+.RI "void \fBset_ClassProbability\fP (float newClassProbability)"
+.br
+.RI "Sets the class probability\&. "
+.ti -1c
+.RI "\fBVocabulary\fP & \fBoperator=\fP (const \fBVocabulary\fP &newVocabulary)"
+.br
+.RI "Assignment operator\&. "
+.ti -1c
+.RI "void \fBpreProcessData\fP (std::string &stopWordFile)"
+.br
+.RI "Preprocess the data for the program, erases punctuation signs, converts all to lowercase and erases reserved words\&. "
+.ti -1c
+.RI "std::vector< std::string > \fBloadStopWord\fP (std::string &inputFile)"
+.br
+.RI "Loads the stop words (reserved words)\&. "
+.ti -1c
+.RI "void \fBgenerateVocabulary\fP (std::string &inputFile, bool tokenized)"
+.br
+.RI "Generates vocabulary file\&. "
+.ti -1c
+.RI "void \fBcalculateProbabilities\fP (void)"
+.br
+.ti -1c
+.RI "void \fBaddClassProbability\fP (int size)"
+.br
+.RI "Calculates and adds the class probability\&. "
+.ti -1c
+.RI "void \fBreadVocabulary\fP (std::string &inputFile)"
+.br
+.RI "Reads a created vocabulary from file\&. "
+.ti -1c
+.RI "void \fBstoreVocabulary\fP (std::string &outputFile)"
+.br
+.RI "Stores the vocabulary into the given file\&. "
+.ti -1c
+.RI "void \fBreadLearnedData\fP (std::string &inputFile)"
+.br
+.RI "Reads a learned data from a file and store the tokens with their respective probabilities and frecuence in the tokens set\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class describes a vocabulary and\&. 
+.PP
+Definition at line 42 of file vocabulary\&.hpp\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Vocabulary::Vocabulary (std::string inputFile, std::string outpuFile)"
+
+.PP
+Constructs a new instance\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIinputFile\fP The input file 
+.br
+\fIoutpuFile\fP The outpu file 
+.RE
+.PP
+
+.PP
+Definition at line 53 of file vocabulary\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Vocabulary::addClassProbability (int size)"
+
+.PP
+Calculates and adds the class probability\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsize\fP The size 
+.RE
+.PP
+
+.PP
+Definition at line 320 of file vocabulary\&.cpp\&.
+.SS "void Vocabulary::generateVocabulary (std::string & inputFile, bool tokenize)"
+
+.PP
+Generates vocabulary file\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIinputFile\fP The input file 
+.br
+\fItokenize\fP If want to words to be tokenized or not 
+.RE
+.PP
+
+.PP
+Definition at line 281 of file vocabulary\&.cpp\&.
+.SS "float Vocabulary::get_ClassProbability (void) const"
+
+.PP
+Gets the class probability\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The class probability\&. 
+.RE
+.PP
+
+.PP
+Definition at line 119 of file vocabulary\&.cpp\&.
+.SS "std::string Vocabulary::get_InputFile (void) const"
+
+.PP
+Gets the input file\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The input file\&. 
+.RE
+.PP
+
+.PP
+Definition at line 74 of file vocabulary\&.cpp\&.
+.SS "int Vocabulary::get_NLines (void) const"
+
+.PP
+Gets the number of lines\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The number of lines\&. 
+.RE
+.PP
+
+.PP
+Definition at line 110 of file vocabulary\&.cpp\&.
+.SS "int Vocabulary::get_NTokens (void) const"
+
+.PP
+Gets the tokens number\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The tokens number\&. 
+.RE
+.PP
+
+.PP
+Definition at line 101 of file vocabulary\&.cpp\&.
+.SS "std::string Vocabulary::get_OutpuFile (void) const"
+
+.PP
+Gets the outpu file\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The outpu file\&. 
+.RE
+.PP
+
+.PP
+Definition at line 83 of file vocabulary\&.cpp\&.
+.SS "std::string Vocabulary::get_Type (void) const"
+
+.PP
+Gets the type\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The type\&. 
+.RE
+.PP
+
+.PP
+Definition at line 137 of file vocabulary\&.cpp\&.
+.SS "std::set< \fBToken\fP > Vocabulary::get_Vocabulary (void) const"
+
+.PP
+Gets the vocabulary\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The vocabulary\&. 
+.RE
+.PP
+
+.PP
+Definition at line 128 of file vocabulary\&.cpp\&.
+.SS "int Vocabulary::get_VocabularyCounter (void) const"
+
+.PP
+Gets the VocabularyCounter\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The VocabularyCounter\&. 
+.RE
+.PP
+
+.PP
+Definition at line 92 of file vocabulary\&.cpp\&.
+.SS "std::vector< std::string > Vocabulary::loadStopWord (std::string & inputFile)"
+
+.PP
+Loads the stop words (reserved words)\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIinputFile\fP The input file
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+stop words vector 
+.RE
+.PP
+
+.PP
+Definition at line 259 of file vocabulary\&.cpp\&.
+.SS "\fBVocabulary\fP & Vocabulary::operator= (const \fBVocabulary\fP & newVocabulary)"
+
+.PP
+Assignment operator\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewVocabulary\fP The new vocabulary
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The result of the assignment 
+.RE
+.PP
+
+.PP
+Definition at line 220 of file vocabulary\&.cpp\&.
+.SS "void Vocabulary::preProcessData (std::string & stopWordFile)"
+
+.PP
+Preprocess the data for the program, erases punctuation signs, converts all to lowercase and erases reserved words\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstopWordFile\fP The stop word file 
+.RE
+.PP
+
+.PP
+Definition at line 238 of file vocabulary\&.cpp\&.
+.SS "void Vocabulary::readLearnedData (std::string & inputFile)"
+
+.PP
+Reads a learned data from a file and store the tokens with their respective probabilities and frecuence in the tokens set\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIinputFile\fP The input file 
+.RE
+.PP
+
+.PP
+Definition at line 382 of file vocabulary\&.cpp\&.
+.SS "void Vocabulary::readVocabulary (std::string & inputFile)"
+
+.PP
+Reads a created vocabulary from file\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIinputFile\fP The input file 
+.RE
+.PP
+
+.PP
+Definition at line 333 of file vocabulary\&.cpp\&.
+.SS "void Vocabulary::set_ClassProbability (float newClassProbability)"
+
+.PP
+Sets the class probability\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewClassProbability\fP The new class probability 
+.RE
+.PP
+
+.PP
+Definition at line 209 of file vocabulary\&.cpp\&.
+.SS "void Vocabulary::set_InputFile (std::string newInputFile)"
+
+.PP
+Sets the input file\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewInputFile\fP The new input file 
+.RE
+.PP
+
+.PP
+Definition at line 146 of file vocabulary\&.cpp\&.
+.SS "void Vocabulary::set_NLines (int newLines)"
+
+.PP
+Sets the number of lines\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewLines\fP The new lines number 
+.RE
+.PP
+
+.PP
+Definition at line 182 of file vocabulary\&.cpp\&.
+.SS "void Vocabulary::set_NTokens (int newTokens)"
+
+.PP
+Sets the tokens number\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewTokens\fP The new tokens number 
+.RE
+.PP
+
+.PP
+Definition at line 173 of file vocabulary\&.cpp\&.
+.SS "void Vocabulary::set_OutpuFile (std::string newOutpuFile)"
+
+.PP
+Sets the outpu file\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewOutpuFile\fP The new outpu file 
+.RE
+.PP
+
+.PP
+Definition at line 155 of file vocabulary\&.cpp\&.
+.SS "void Vocabulary::set_Type (std::string newType)"
+
+.PP
+Sets the type\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewType\fP The new type 
+.RE
+.PP
+
+.PP
+Definition at line 200 of file vocabulary\&.cpp\&.
+.SS "void Vocabulary::set_Vocabulary (std::set< \fBToken\fP > newVocabulary)"
+
+.PP
+Sets the vocabulary\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewVocabulary\fP The new vocabulary 
+.RE
+.PP
+
+.PP
+Definition at line 191 of file vocabulary\&.cpp\&.
+.SS "void Vocabulary::set_VocabularyCounter (int newVocabularyCounter)"
+
+.PP
+Sets the counter\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewVocabularyCounter\fP The new counter 
+.RE
+.PP
+
+.PP
+Definition at line 164 of file vocabulary\&.cpp\&.
+.SS "void Vocabulary::storeVocabulary (std::string & outputFile)"
+
+.PP
+Stores the vocabulary into the given file\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIoutputFile\fP The output file 
+.RE
+.PP
+
+.PP
+Definition at line 359 of file vocabulary\&.cpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SBlocker from the source code\&.

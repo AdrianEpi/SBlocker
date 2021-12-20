@@ -1,0 +1,205 @@
+\hypertarget{class_corpus}{}\doxysection{Corpus Class Reference}
+\label{class_corpus}\index{Corpus@{Corpus}}
+
+
+This class describes a corpus.  
+
+
+
+
+{\ttfamily \#include $<$corpus.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_corpus_a3d35d913471770f2ae086fe7864f118e}\label{class_corpus_a3d35d913471770f2ae086fe7864f118e}} 
+\mbox{\hyperlink{class_corpus_a3d35d913471770f2ae086fe7864f118e}{Corpus}} (void)
+\begin{DoxyCompactList}\small\item\em Constructs a new instance. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_corpus_a9ff24bc1cb3e5e5d7b478a4be26f0cf3}{Corpus}} (std\+::string name, std\+::string input\+File)
+\begin{DoxyCompactList}\small\item\em Constructs a new instance. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_corpus_a1a2706bf6533b44fe37a1a6fdb0645f7}\label{class_corpus_a1a2706bf6533b44fe37a1a6fdb0645f7}} 
+\mbox{\hyperlink{class_corpus_a1a2706bf6533b44fe37a1a6fdb0645f7}{$\sim$\+Corpus}} (void)
+\begin{DoxyCompactList}\small\item\em Destroys the object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_corpus_acb7f35d35fd54e10a7916f4ac4779aac}{get\+\_\+\+Name}} (void) const
+\begin{DoxyCompactList}\small\item\em Gets the name. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_corpus_af88ec9596af41f378900d216e3f23499}{get\+\_\+\+Output\+File\+Name}} (void) const
+\begin{DoxyCompactList}\small\item\em Gets the output file name. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_corpus_a3baec4a4519dc4423b31b6eaf0a26928}{get\+\_\+\+Input\+File}} (void) const
+\begin{DoxyCompactList}\small\item\em Gets the input file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_corpus_a82ffd2a0df17c1de2648f04f66fec186}{set\+\_\+\+Name}} (std\+::string new\+Name)
+\begin{DoxyCompactList}\small\item\em Sets the name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_corpus_ade5f44c9453c2368400c48464c6cfd53}{set\+\_\+\+Output\+File\+Name}} (std\+::string new\+Output\+File\+Name)
+\begin{DoxyCompactList}\small\item\em Sets the output file name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_corpus_a3398d59579bb359388aa61ce64511b2e}{set\+\_\+\+Input\+File}} (std\+::string new\+Input\+File)
+\begin{DoxyCompactList}\small\item\em Sets the input file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_corpus_a7685c7bfea4d63f71cfdd4404703d3d2}{generate\+Corpus}} (std\+::vector$<$ std\+::string $>$ \&stop\+Words, \mbox{\hyperlink{class_pre_processer}{Pre\+Processer}} \&pre\+Processer)
+\begin{DoxyCompactList}\small\item\em Generates and stores the corpus data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class describes a corpus. 
+
+Definition at line 44 of file corpus.\+hpp.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_corpus_a9ff24bc1cb3e5e5d7b478a4be26f0cf3}\label{class_corpus_a9ff24bc1cb3e5e5d7b478a4be26f0cf3}} 
+\index{Corpus@{Corpus}!Corpus@{Corpus}}
+\index{Corpus@{Corpus}!Corpus@{Corpus}}
+\doxysubsubsection{\texorpdfstring{Corpus()}{Corpus()}}
+{\footnotesize\ttfamily Corpus\+::\+Corpus (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{std\+::string}]{input\+File }\end{DoxyParamCaption})}
+
+
+
+Constructs a new instance. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em name} & The name \\
+\hline
+\mbox{\texttt{ in}}  & {\em input\+File} & The input file \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 49 of file corpus.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_corpus_a7685c7bfea4d63f71cfdd4404703d3d2}\label{class_corpus_a7685c7bfea4d63f71cfdd4404703d3d2}} 
+\index{Corpus@{Corpus}!generateCorpus@{generateCorpus}}
+\index{generateCorpus@{generateCorpus}!Corpus@{Corpus}}
+\doxysubsubsection{\texorpdfstring{generateCorpus()}{generateCorpus()}}
+{\footnotesize\ttfamily void Corpus\+::generate\+Corpus (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$ \&}]{stop\+Words,  }\item[{\mbox{\hyperlink{class_pre_processer}{Pre\+Processer}} \&}]{pre\+Processer }\end{DoxyParamCaption})}
+
+
+
+Generates and stores the corpus data. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em stop\+Words} & The stop words \\
+\hline
+\mbox{\texttt{ in}}  & {\em pre\+Processer} & The pre processer \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 121 of file corpus.\+cpp.
+
+\mbox{\Hypertarget{class_corpus_a3baec4a4519dc4423b31b6eaf0a26928}\label{class_corpus_a3baec4a4519dc4423b31b6eaf0a26928}} 
+\index{Corpus@{Corpus}!get\_InputFile@{get\_InputFile}}
+\index{get\_InputFile@{get\_InputFile}!Corpus@{Corpus}}
+\doxysubsubsection{\texorpdfstring{get\_InputFile()}{get\_InputFile()}}
+{\footnotesize\ttfamily std\+::string Corpus\+::get\+\_\+\+Input\+File (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the input file. 
+
+\begin{DoxyReturn}{Returns}
+The input file. 
+\end{DoxyReturn}
+
+
+Definition at line 84 of file corpus.\+cpp.
+
+\mbox{\Hypertarget{class_corpus_acb7f35d35fd54e10a7916f4ac4779aac}\label{class_corpus_acb7f35d35fd54e10a7916f4ac4779aac}} 
+\index{Corpus@{Corpus}!get\_Name@{get\_Name}}
+\index{get\_Name@{get\_Name}!Corpus@{Corpus}}
+\doxysubsubsection{\texorpdfstring{get\_Name()}{get\_Name()}}
+{\footnotesize\ttfamily std\+::string Corpus\+::get\+\_\+\+Name (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the name. 
+
+\begin{DoxyReturn}{Returns}
+The name. 
+\end{DoxyReturn}
+
+
+Definition at line 66 of file corpus.\+cpp.
+
+\mbox{\Hypertarget{class_corpus_af88ec9596af41f378900d216e3f23499}\label{class_corpus_af88ec9596af41f378900d216e3f23499}} 
+\index{Corpus@{Corpus}!get\_OutputFileName@{get\_OutputFileName}}
+\index{get\_OutputFileName@{get\_OutputFileName}!Corpus@{Corpus}}
+\doxysubsubsection{\texorpdfstring{get\_OutputFileName()}{get\_OutputFileName()}}
+{\footnotesize\ttfamily std\+::string Corpus\+::get\+\_\+\+Output\+File\+Name (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the output file name. 
+
+\begin{DoxyReturn}{Returns}
+The output file name. 
+\end{DoxyReturn}
+
+
+Definition at line 75 of file corpus.\+cpp.
+
+\mbox{\Hypertarget{class_corpus_a3398d59579bb359388aa61ce64511b2e}\label{class_corpus_a3398d59579bb359388aa61ce64511b2e}} 
+\index{Corpus@{Corpus}!set\_InputFile@{set\_InputFile}}
+\index{set\_InputFile@{set\_InputFile}!Corpus@{Corpus}}
+\doxysubsubsection{\texorpdfstring{set\_InputFile()}{set\_InputFile()}}
+{\footnotesize\ttfamily void Corpus\+::set\+\_\+\+Input\+File (\begin{DoxyParamCaption}\item[{std\+::string}]{new\+Input\+File }\end{DoxyParamCaption})}
+
+
+
+Sets the input file. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em new\+Input\+File} & The new input file \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 111 of file corpus.\+cpp.
+
+\mbox{\Hypertarget{class_corpus_a82ffd2a0df17c1de2648f04f66fec186}\label{class_corpus_a82ffd2a0df17c1de2648f04f66fec186}} 
+\index{Corpus@{Corpus}!set\_Name@{set\_Name}}
+\index{set\_Name@{set\_Name}!Corpus@{Corpus}}
+\doxysubsubsection{\texorpdfstring{set\_Name()}{set\_Name()}}
+{\footnotesize\ttfamily void Corpus\+::set\+\_\+\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{new\+Name }\end{DoxyParamCaption})}
+
+
+
+Sets the name. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em new\+Name} & The new name \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 93 of file corpus.\+cpp.
+
+\mbox{\Hypertarget{class_corpus_ade5f44c9453c2368400c48464c6cfd53}\label{class_corpus_ade5f44c9453c2368400c48464c6cfd53}} 
+\index{Corpus@{Corpus}!set\_OutputFileName@{set\_OutputFileName}}
+\index{set\_OutputFileName@{set\_OutputFileName}!Corpus@{Corpus}}
+\doxysubsubsection{\texorpdfstring{set\_OutputFileName()}{set\_OutputFileName()}}
+{\footnotesize\ttfamily void Corpus\+::set\+\_\+\+Output\+File\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{new\+Output\+File\+Name }\end{DoxyParamCaption})}
+
+
+
+Sets the output file name. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em new\+Output\+File\+Name} & The new output file name \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 102 of file corpus.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/corpus.\+hpp\item 
+src/corpus.\+cpp\end{DoxyCompactItemize}

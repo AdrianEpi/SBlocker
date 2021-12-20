@@ -1,0 +1,300 @@
+\hypertarget{class_classifier}{}\doxysection{Classifier Class Reference}
+\label{class_classifier}\index{Classifier@{Classifier}}
+
+
+This class describes a classifier.  
+
+
+
+
+{\ttfamily \#include $<$classifier.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_classifier_aa5b7cf4745c883bc83b46fc4a6714274}\label{class_classifier_aa5b7cf4745c883bc83b46fc4a6714274}} 
+\mbox{\hyperlink{class_classifier_aa5b7cf4745c883bc83b46fc4a6714274}{Classifier}} (void)
+\begin{DoxyCompactList}\small\item\em Constructs a new instance. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_classifier_a7e5e85474c43253a79f1834608384652}{Classifier}} (char $\ast$argv\mbox{[}$\,$\mbox{]}, int \&argc)
+\begin{DoxyCompactList}\small\item\em Constructs a new instance. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_classifier_a9f5173e79559e37b9f08492da5d14d0b}\label{class_classifier_a9f5173e79559e37b9f08492da5d14d0b}} 
+\mbox{\hyperlink{class_classifier_a9f5173e79559e37b9f08492da5d14d0b}{$\sim$\+Classifier}} (void)
+\begin{DoxyCompactList}\small\item\em Destroys the object. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{class_classifier_aff9711fdae33fceac09f9d151764161a}{get\+\_\+\+Input\+Files}} (void) const
+\begin{DoxyCompactList}\small\item\em Gets the input files. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{class_vocabulary}{Vocabulary}} $>$ \mbox{\hyperlink{class_classifier_a26d59f152efd8b0524795a890f79f4d6}{get\+\_\+\+Class}} (void) const
+\begin{DoxyCompactList}\small\item\em Gets the learned data. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_classifier_a651b65075daa4b114e2acda795527b74}{get\+\_\+\+Data}} (void) const
+\begin{DoxyCompactList}\small\item\em Gets the data. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_classifier_a2de5f473db4051e82e12b9d062ff22b4}{set\+\_\+\+Input\+Files}} (std\+::vector$<$ std\+::string $>$ new\+Input\+Files)
+\begin{DoxyCompactList}\small\item\em Sets the input files. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_classifier_af09c100d57a0ba46e5fe1a57c08f34e2}{set\+\_\+\+Class}} (std\+::vector$<$ \mbox{\hyperlink{class_vocabulary}{Vocabulary}} $>$ new\+Class)
+\begin{DoxyCompactList}\small\item\em Sets the learned data. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_classifier_ab0d7e93375e323cf07e5bf21532d6163}{set\+\_\+\+Data}} (std\+::string new\+Data)
+\begin{DoxyCompactList}\small\item\em Sets the data. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_classifier_a3cb3bb4d5c17153b3cc38aaea52ca2eb}{classify\+File}} (std\+::string \&input\+File, std\+::string \&stop\+Words)
+\begin{DoxyCompactList}\small\item\em Preprocess, calculates the probabilities and classifies the given input file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_classifier_a9952835a9e4555ef3ef808dbcdcb7375}{classify}} (std\+::vector$<$ std\+::string $>$ sentence)
+\begin{DoxyCompactList}\small\item\em Classifies a given sentence into the correct type and stores the information into data var. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_classifier_a9d6131f5727d218e4ba70ef0c4bd3ee6}\label{class_classifier_a9d6131f5727d218e4ba70ef0c4bd3ee6}} 
+void \mbox{\hyperlink{class_classifier_a9d6131f5727d218e4ba70ef0c4bd3ee6}{generate\+Class\+Probability}} (void)
+\begin{DoxyCompactList}\small\item\em Generates and adds the class probabilities to each class with the following formula\+: ln(class\+Lines\+Ammount / total\+Lines\+Ammout) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_classifier_a774305730289722257a360302349fdb3}{pre\+Process}} (std\+::vector$<$ std\+::string $>$ \&stop\+Words, std\+::string \&sentence)
+\begin{DoxyCompactList}\small\item\em Preprocess the given sentence using the same pre-\/processing method as the vocabulary. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_classifier_a2010468310ff2bc66c756b15e8481ea8}{read\+Input\+Files}} (char $\ast$argv\mbox{[}$\,$\mbox{]}, int \&argc)
+\begin{DoxyCompactList}\small\item\em Reads input learned files and store the tokens into the Class vector. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_classifier_ae59153d52e14554c49eb5b0f81c00755}{store\+File}} (std\+::string \&output\+File, std\+::string \&resume\+File)
+\begin{DoxyCompactList}\small\item\em Stores the output data into the classified file and the resume file. The classify file format is\+: , $<$\+Prob\+Sent\+Class\+A$>$, ..., $<$\+Prob\+Sent\+Class\+N$>$, $<$\+Class$>$. , $<$\+Prob\+Sent\+Class\+A$>$, ..., $<$\+Prob\+Sent\+Class\+N$>$, $<$\+Class$>$. , $<$\+Prob\+Sent\+Class\+A$>$, ..., $<$\+Prob\+Sent\+Class\+N$>$, $<$\+Class$>$. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class describes a classifier. 
+
+Definition at line 44 of file classifier.\+hpp.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_classifier_a7e5e85474c43253a79f1834608384652}\label{class_classifier_a7e5e85474c43253a79f1834608384652}} 
+\index{Classifier@{Classifier}!Classifier@{Classifier}}
+\index{Classifier@{Classifier}!Classifier@{Classifier}}
+\doxysubsubsection{\texorpdfstring{Classifier()}{Classifier()}}
+{\footnotesize\ttfamily Classifier\+::\+Classifier (\begin{DoxyParamCaption}\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]},  }\item[{int \&}]{argc }\end{DoxyParamCaption})}
+
+
+
+Constructs a new instance. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argv} & The arguments array \\
+\hline
+{\em argc} & The count of arguments \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 47 of file classifier.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_classifier_a9952835a9e4555ef3ef808dbcdcb7375}\label{class_classifier_a9952835a9e4555ef3ef808dbcdcb7375}} 
+\index{Classifier@{Classifier}!classify@{classify}}
+\index{classify@{classify}!Classifier@{Classifier}}
+\doxysubsubsection{\texorpdfstring{classify()}{classify()}}
+{\footnotesize\ttfamily void Classifier\+::classify (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$}]{sentence }\end{DoxyParamCaption})}
+
+
+
+Classifies a given sentence into the correct type and stores the information into data var. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em sentence} & The sentence which is going to be classifyed \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 171 of file classifier.\+cpp.
+
+\mbox{\Hypertarget{class_classifier_a3cb3bb4d5c17153b3cc38aaea52ca2eb}\label{class_classifier_a3cb3bb4d5c17153b3cc38aaea52ca2eb}} 
+\index{Classifier@{Classifier}!classifyFile@{classifyFile}}
+\index{classifyFile@{classifyFile}!Classifier@{Classifier}}
+\doxysubsubsection{\texorpdfstring{classifyFile()}{classifyFile()}}
+{\footnotesize\ttfamily void Classifier\+::classify\+File (\begin{DoxyParamCaption}\item[{std\+::string \&}]{input\+File,  }\item[{std\+::string \&}]{stop\+Words\+File }\end{DoxyParamCaption})}
+
+
+
+Preprocess, calculates the probabilities and classifies the given input file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input\+File} & The input file with the test\+Corpus \\
+\hline
+{\em stop\+Words\+File} & The stop words file for preprocessing use \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 126 of file classifier.\+cpp.
+
+\mbox{\Hypertarget{class_classifier_a26d59f152efd8b0524795a890f79f4d6}\label{class_classifier_a26d59f152efd8b0524795a890f79f4d6}} 
+\index{Classifier@{Classifier}!get\_Class@{get\_Class}}
+\index{get\_Class@{get\_Class}!Classifier@{Classifier}}
+\doxysubsubsection{\texorpdfstring{get\_Class()}{get\_Class()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{class_vocabulary}{Vocabulary}} $>$ Classifier\+::get\+\_\+\+Class (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the learned data. 
+
+\begin{DoxyReturn}{Returns}
+The learned data. 
+\end{DoxyReturn}
+
+
+Definition at line 79 of file classifier.\+cpp.
+
+\mbox{\Hypertarget{class_classifier_a651b65075daa4b114e2acda795527b74}\label{class_classifier_a651b65075daa4b114e2acda795527b74}} 
+\index{Classifier@{Classifier}!get\_Data@{get\_Data}}
+\index{get\_Data@{get\_Data}!Classifier@{Classifier}}
+\doxysubsubsection{\texorpdfstring{get\_Data()}{get\_Data()}}
+{\footnotesize\ttfamily std\+::string Classifier\+::get\+\_\+\+Data (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the data. 
+
+\begin{DoxyReturn}{Returns}
+The data. 
+\end{DoxyReturn}
+
+
+Definition at line 88 of file classifier.\+cpp.
+
+\mbox{\Hypertarget{class_classifier_aff9711fdae33fceac09f9d151764161a}\label{class_classifier_aff9711fdae33fceac09f9d151764161a}} 
+\index{Classifier@{Classifier}!get\_InputFiles@{get\_InputFiles}}
+\index{get\_InputFiles@{get\_InputFiles}!Classifier@{Classifier}}
+\doxysubsubsection{\texorpdfstring{get\_InputFiles()}{get\_InputFiles()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ Classifier\+::get\+\_\+\+Input\+Files (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the input files. 
+
+\begin{DoxyReturn}{Returns}
+The input files. 
+\end{DoxyReturn}
+
+
+Definition at line 70 of file classifier.\+cpp.
+
+\mbox{\Hypertarget{class_classifier_a774305730289722257a360302349fdb3}\label{class_classifier_a774305730289722257a360302349fdb3}} 
+\index{Classifier@{Classifier}!preProcess@{preProcess}}
+\index{preProcess@{preProcess}!Classifier@{Classifier}}
+\doxysubsubsection{\texorpdfstring{preProcess()}{preProcess()}}
+{\footnotesize\ttfamily void Classifier\+::pre\+Process (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$ \&}]{stop\+Words,  }\item[{std\+::string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Preprocess the given sentence using the same pre-\/processing method as the vocabulary. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em preprocesser} & The preprocesser \\
+\hline
+{\em stop\+Words} & The stop words \\
+\hline
+{\em sentence} & The sentence \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 221 of file classifier.\+cpp.
+
+\mbox{\Hypertarget{class_classifier_a2010468310ff2bc66c756b15e8481ea8}\label{class_classifier_a2010468310ff2bc66c756b15e8481ea8}} 
+\index{Classifier@{Classifier}!readInputFiles@{readInputFiles}}
+\index{readInputFiles@{readInputFiles}!Classifier@{Classifier}}
+\doxysubsubsection{\texorpdfstring{readInputFiles()}{readInputFiles()}}
+{\footnotesize\ttfamily void Classifier\+::read\+Input\+Files (\begin{DoxyParamCaption}\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]},  }\item[{int \&}]{argc }\end{DoxyParamCaption})}
+
+
+
+Reads input learned files and store the tokens into the Class vector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argv} & The arguments array \\
+\hline
+{\em argc} & The count of arguments \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 238 of file classifier.\+cpp.
+
+\mbox{\Hypertarget{class_classifier_af09c100d57a0ba46e5fe1a57c08f34e2}\label{class_classifier_af09c100d57a0ba46e5fe1a57c08f34e2}} 
+\index{Classifier@{Classifier}!set\_Class@{set\_Class}}
+\index{set\_Class@{set\_Class}!Classifier@{Classifier}}
+\doxysubsubsection{\texorpdfstring{set\_Class()}{set\_Class()}}
+{\footnotesize\ttfamily void Classifier\+::set\+\_\+\+Class (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{class_vocabulary}{Vocabulary}} $>$}]{new\+Class }\end{DoxyParamCaption})}
+
+
+
+Sets the learned data. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em new\+Class} & The new learned data \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 106 of file classifier.\+cpp.
+
+\mbox{\Hypertarget{class_classifier_ab0d7e93375e323cf07e5bf21532d6163}\label{class_classifier_ab0d7e93375e323cf07e5bf21532d6163}} 
+\index{Classifier@{Classifier}!set\_Data@{set\_Data}}
+\index{set\_Data@{set\_Data}!Classifier@{Classifier}}
+\doxysubsubsection{\texorpdfstring{set\_Data()}{set\_Data()}}
+{\footnotesize\ttfamily void Classifier\+::set\+\_\+\+Data (\begin{DoxyParamCaption}\item[{std\+::string}]{new\+Data }\end{DoxyParamCaption})}
+
+
+
+Sets the data. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em new\+Data} & The new data \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 115 of file classifier.\+cpp.
+
+\mbox{\Hypertarget{class_classifier_a2de5f473db4051e82e12b9d062ff22b4}\label{class_classifier_a2de5f473db4051e82e12b9d062ff22b4}} 
+\index{Classifier@{Classifier}!set\_InputFiles@{set\_InputFiles}}
+\index{set\_InputFiles@{set\_InputFiles}!Classifier@{Classifier}}
+\doxysubsubsection{\texorpdfstring{set\_InputFiles()}{set\_InputFiles()}}
+{\footnotesize\ttfamily void Classifier\+::set\+\_\+\+Input\+Files (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$}]{new\+Input\+Files }\end{DoxyParamCaption})}
+
+
+
+Sets the input files. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em new\+Input\+Files} & The new input files \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 97 of file classifier.\+cpp.
+
+\mbox{\Hypertarget{class_classifier_ae59153d52e14554c49eb5b0f81c00755}\label{class_classifier_ae59153d52e14554c49eb5b0f81c00755}} 
+\index{Classifier@{Classifier}!storeFile@{storeFile}}
+\index{storeFile@{storeFile}!Classifier@{Classifier}}
+\doxysubsubsection{\texorpdfstring{storeFile()}{storeFile()}}
+{\footnotesize\ttfamily void Classifier\+::store\+File (\begin{DoxyParamCaption}\item[{std\+::string \&}]{output\+File,  }\item[{std\+::string \&}]{resume\+File }\end{DoxyParamCaption})}
+
+
+
+Stores the output data into the classified file and the resume file. The classify file format is\+: , $<$\+Prob\+Sent\+Class\+A$>$, ..., $<$\+Prob\+Sent\+Class\+N$>$, $<$\+Class$>$. , $<$\+Prob\+Sent\+Class\+A$>$, ..., $<$\+Prob\+Sent\+Class\+N$>$, $<$\+Class$>$. , $<$\+Prob\+Sent\+Class\+A$>$, ..., $<$\+Prob\+Sent\+Class\+N$>$, $<$\+Class$>$. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em output\+File} & The output file \\
+\hline
+{\em resume\+File} & The resume file \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 305 of file classifier.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/classifier.\+hpp\item 
+src/classifier.\+cpp\end{DoxyCompactItemize}

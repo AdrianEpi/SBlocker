@@ -1,0 +1,185 @@
+\hypertarget{class_learner}{}\doxysection{Learner Class Reference}
+\label{class_learner}\index{Learner@{Learner}}
+
+
+This class describes a learner.  
+
+
+
+
+{\ttfamily \#include $<$learner.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_learner_af0e6f135dd8f53ea1a9db923812766b8}\label{class_learner_af0e6f135dd8f53ea1a9db923812766b8}} 
+\mbox{\hyperlink{class_learner_af0e6f135dd8f53ea1a9db923812766b8}{Learner}} (void)
+\begin{DoxyCompactList}\small\item\em Constructs a new instance. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_learner_ac16cf074180f2d5fc481a906dcf12725}{Learner}} (char $\ast$argv\mbox{[}$\,$\mbox{]}, int \&argc)
+\begin{DoxyCompactList}\small\item\em Constructs a new instance. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_learner_abfda3010346c1a6194d23643949939f0}\label{class_learner_abfda3010346c1a6194d23643949939f0}} 
+\mbox{\hyperlink{class_learner_abfda3010346c1a6194d23643949939f0}{$\sim$\+Learner}} (void)
+\begin{DoxyCompactList}\small\item\em Destroys the object. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{class_vocabulary}{Vocabulary}} $>$ \mbox{\hyperlink{class_learner_a6a67eb83d4dc2fdbfb8e7fb5f4c0ef7b}{get\+\_\+\+Learners}} (void) const
+\begin{DoxyCompactList}\small\item\em Gets the learners. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{class_learner_a5eb331f6ff04340802173a952faaf8fe}{get\+\_\+\+Input\+Corpus\+Files}} (void) const
+\begin{DoxyCompactList}\small\item\em Gets the input corpus files. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_learner_a469d5e0a7a34e0c0b249557ac35941ca}{get\+\_\+\+Vocabulary\+File}} (void) const
+\begin{DoxyCompactList}\small\item\em Gets the vocabulary file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_learner_a0f97f49dc02944b8bb99c82c69643562}{set\+\_\+\+Learners}} (std\+::vector$<$ \mbox{\hyperlink{class_vocabulary}{Vocabulary}} $>$ new\+Learners)
+\begin{DoxyCompactList}\small\item\em Sets the learners. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_learner_a72c49d1173ee8d7907b0e388834419cc}{set\+\_\+\+Input\+Corpus\+Files}} (std\+::vector$<$ std\+::string $>$ new\+Input\+Corpus\+Files)
+\begin{DoxyCompactList}\small\item\em Sets the input corpus files. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_learner_a6df53b7d1fc37299cb29931e666654e5}{set\+\_\+\+Vocabulary\+File}} (std\+::string new\+Vocabulary\+File)
+\begin{DoxyCompactList}\small\item\em Sets the vocabulary file. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_learner_aafd57e92561ec623a7c1c7eae6f36ba5}\label{class_learner_aafd57e92561ec623a7c1c7eae6f36ba5}} 
+void \mbox{\hyperlink{class_learner_aafd57e92561ec623a7c1c7eae6f36ba5}{learn\+And\+Store\+Data}} (void)
+\begin{DoxyCompactList}\small\item\em Generates the proabilities of all the tokens in vocabulary and stores them in a file called \char`\"{}learned\+\_\+\+D\+A\+T\+A\+T\+Y\+P\+E.\+txt\char`\"{}. The file format is\+: Number of corpus documents\+: $<$integer$>$ Number of words in corpus\+: $<$integer$>$ Word\+:$<$string$>$ Frec\+:$<$int$>$ Log\+Prob\+:$<$float$>$ Word\+:$<$string$>$ Frec\+:$<$int$>$ Log\+Prob\+:$<$float$>$ Word\+:$<$string$>$ Frec\+:$<$int$>$ Log\+Prob\+:$<$float$>$ \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class describes a learner. 
+
+Definition at line 41 of file learner.\+hpp.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_learner_ac16cf074180f2d5fc481a906dcf12725}\label{class_learner_ac16cf074180f2d5fc481a906dcf12725}} 
+\index{Learner@{Learner}!Learner@{Learner}}
+\index{Learner@{Learner}!Learner@{Learner}}
+\doxysubsubsection{\texorpdfstring{Learner()}{Learner()}}
+{\footnotesize\ttfamily Learner\+::\+Learner (\begin{DoxyParamCaption}\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]},  }\item[{int \&}]{argc }\end{DoxyParamCaption})}
+
+
+
+Constructs a new instance. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argv} & The arguments array \\
+\hline
+{\em argc} & The count of arguments \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 47 of file learner.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_learner_a5eb331f6ff04340802173a952faaf8fe}\label{class_learner_a5eb331f6ff04340802173a952faaf8fe}} 
+\index{Learner@{Learner}!get\_InputCorpusFiles@{get\_InputCorpusFiles}}
+\index{get\_InputCorpusFiles@{get\_InputCorpusFiles}!Learner@{Learner}}
+\doxysubsubsection{\texorpdfstring{get\_InputCorpusFiles()}{get\_InputCorpusFiles()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ Learner\+::get\+\_\+\+Input\+Corpus\+Files (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the input corpus files. 
+
+\begin{DoxyReturn}{Returns}
+The input corpus files. 
+\end{DoxyReturn}
+
+
+Definition at line 87 of file learner.\+cpp.
+
+\mbox{\Hypertarget{class_learner_a6a67eb83d4dc2fdbfb8e7fb5f4c0ef7b}\label{class_learner_a6a67eb83d4dc2fdbfb8e7fb5f4c0ef7b}} 
+\index{Learner@{Learner}!get\_Learners@{get\_Learners}}
+\index{get\_Learners@{get\_Learners}!Learner@{Learner}}
+\doxysubsubsection{\texorpdfstring{get\_Learners()}{get\_Learners()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{class_vocabulary}{Vocabulary}} $>$ Learner\+::get\+\_\+\+Learners (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the learners. 
+
+\begin{DoxyReturn}{Returns}
+The learners. 
+\end{DoxyReturn}
+
+
+Definition at line 78 of file learner.\+cpp.
+
+\mbox{\Hypertarget{class_learner_a469d5e0a7a34e0c0b249557ac35941ca}\label{class_learner_a469d5e0a7a34e0c0b249557ac35941ca}} 
+\index{Learner@{Learner}!get\_VocabularyFile@{get\_VocabularyFile}}
+\index{get\_VocabularyFile@{get\_VocabularyFile}!Learner@{Learner}}
+\doxysubsubsection{\texorpdfstring{get\_VocabularyFile()}{get\_VocabularyFile()}}
+{\footnotesize\ttfamily std\+::string Learner\+::get\+\_\+\+Vocabulary\+File (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the vocabulary file. 
+
+\begin{DoxyReturn}{Returns}
+The vocabulary file. 
+\end{DoxyReturn}
+
+
+Definition at line 96 of file learner.\+cpp.
+
+\mbox{\Hypertarget{class_learner_a72c49d1173ee8d7907b0e388834419cc}\label{class_learner_a72c49d1173ee8d7907b0e388834419cc}} 
+\index{Learner@{Learner}!set\_InputCorpusFiles@{set\_InputCorpusFiles}}
+\index{set\_InputCorpusFiles@{set\_InputCorpusFiles}!Learner@{Learner}}
+\doxysubsubsection{\texorpdfstring{set\_InputCorpusFiles()}{set\_InputCorpusFiles()}}
+{\footnotesize\ttfamily void Learner\+::set\+\_\+\+Input\+Corpus\+Files (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$}]{new\+Input\+Corpus\+Files }\end{DoxyParamCaption})}
+
+
+
+Sets the input corpus files. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em new\+Input\+Corpus\+Files} & The new input corpus files \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 114 of file learner.\+cpp.
+
+\mbox{\Hypertarget{class_learner_a0f97f49dc02944b8bb99c82c69643562}\label{class_learner_a0f97f49dc02944b8bb99c82c69643562}} 
+\index{Learner@{Learner}!set\_Learners@{set\_Learners}}
+\index{set\_Learners@{set\_Learners}!Learner@{Learner}}
+\doxysubsubsection{\texorpdfstring{set\_Learners()}{set\_Learners()}}
+{\footnotesize\ttfamily void Learner\+::set\+\_\+\+Learners (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{class_vocabulary}{Vocabulary}} $>$}]{new\+Learners }\end{DoxyParamCaption})}
+
+
+
+Sets the learners. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em new\+Learners} & The new learners \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 105 of file learner.\+cpp.
+
+\mbox{\Hypertarget{class_learner_a6df53b7d1fc37299cb29931e666654e5}\label{class_learner_a6df53b7d1fc37299cb29931e666654e5}} 
+\index{Learner@{Learner}!set\_VocabularyFile@{set\_VocabularyFile}}
+\index{set\_VocabularyFile@{set\_VocabularyFile}!Learner@{Learner}}
+\doxysubsubsection{\texorpdfstring{set\_VocabularyFile()}{set\_VocabularyFile()}}
+{\footnotesize\ttfamily void Learner\+::set\+\_\+\+Vocabulary\+File (\begin{DoxyParamCaption}\item[{std\+::string}]{new\+Vocabulary\+File }\end{DoxyParamCaption})}
+
+
+
+Sets the vocabulary file. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em new\+Vocabulary\+File} & The new vocabulary file \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 123 of file learner.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/learner.\+hpp\item 
+src/learner.\+cpp\end{DoxyCompactItemize}

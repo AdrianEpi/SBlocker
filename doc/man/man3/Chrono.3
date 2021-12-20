@@ -1,0 +1,293 @@
+.TH "Chrono" 3 "Mon Dec 20 2021" "SBlocker" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Chrono \- This class describes a chrono\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Chrono\&.hpp>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBChrono\fP ()"
+.br
+.RI "Constructs a new chrono\&. "
+.ti -1c
+.RI "\fB~Chrono\fP ()"
+.br
+.RI "Destroys the chrono\&. "
+.ti -1c
+.RI "std::chrono::time_point< std::chrono::system_clock > \fBget_StartClock\fP (void) const"
+.br
+.RI "Gets the start clock\&. "
+.ti -1c
+.RI "std::chrono::time_point< std::chrono::system_clock > \fBget_EndClock\fP (void) const"
+.br
+.RI "Gets the end clock\&. "
+.ti -1c
+.RI "int \fBget_TotalTime\fP (void) const"
+.br
+.RI "Gets the total time\&. "
+.ti -1c
+.RI "std::string \fBget_StartTime\fP (void) const"
+.br
+.RI "Gets the start time\&. "
+.ti -1c
+.RI "std::string \fBget_EndTime\fP (void) const"
+.br
+.RI "Gets the end time\&. "
+.ti -1c
+.RI "void \fBset_StartClock\fP (std::chrono::time_point< std::chrono::system_clock > startClock)"
+.br
+.RI "Sets the start clock\&. "
+.ti -1c
+.RI "void \fBset_EndClock\fP (std::chrono::time_point< std::chrono::system_clock > endClock)"
+.br
+.RI "Sets the end clock\&. "
+.ti -1c
+.RI "void \fBset_TotalTime\fP (int totalTime)"
+.br
+.RI "Sets the total time\&. "
+.ti -1c
+.RI "void \fBset_StartTime\fP (void)"
+.br
+.RI "Sets the start time\&. "
+.ti -1c
+.RI "void \fBset_EndTime\fP (void)"
+.br
+.RI "Sets the end time\&. "
+.ti -1c
+.RI "void \fBrestartChrono\fP (void)"
+.br
+.RI "Restarts the clock\&. "
+.ti -1c
+.RI "void \fBstartChrono\fP (void)"
+.br
+.RI "Starts the chrono\&. "
+.ti -1c
+.RI "void \fBstopChrono\fP (void)"
+.br
+.RI "Stops the chrono\&. "
+.ti -1c
+.RI "void \fBpauseChrono\fP (void)"
+.br
+.RI "Pauses the chrono\&. "
+.ti -1c
+.RI "void \fBresumeChrono\fP (void)"
+.br
+.RI "Resumes the chrono\&. "
+.ti -1c
+.RI "float \fBget_Seconds\fP (void)"
+.br
+.RI "Gets the time in seconds\&. "
+.ti -1c
+.RI "float \fBget_Seconds\fP (int decimalAmmount)"
+.br
+.RI "Gets the time in seconds with some decimals\&. "
+.ti -1c
+.RI "float \fBget_MilliSeconds\fP (void)"
+.br
+.RI "Gets the time in milli seconds\&. "
+.ti -1c
+.RI "float \fBget_MilliSeconds\fP (int decimalAmmount)"
+.br
+.RI "Gets the time in milli seconds with some decimals\&. "
+.ti -1c
+.RI "float \fBget_MicroSeconds\fP (void)"
+.br
+.RI "Gets the time in micro seconds\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class describes a chrono\&. 
+.PP
+Definition at line 36 of file Chrono\&.hpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "std::chrono::time_point< std::chrono::system_clock > Chrono::get_EndClock (void) const"
+
+.PP
+Gets the end clock\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The end clock\&. 
+.RE
+.PP
+
+.PP
+Definition at line 57 of file Chrono\&.cpp\&.
+.SS "std::string Chrono::get_EndTime (void) const"
+
+.PP
+Gets the end time\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The end time\&. 
+.RE
+.PP
+
+.PP
+Definition at line 85 of file Chrono\&.cpp\&.
+.SS "float Chrono::get_MicroSeconds (void)"
+
+.PP
+Gets the time in micro seconds\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The micro seconds\&. 
+.RE
+.PP
+
+.PP
+Definition at line 261 of file Chrono\&.cpp\&.
+.SS "float Chrono::get_MilliSeconds (int decimalAmmount)"
+
+.PP
+Gets the time in milli seconds with some decimals\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIdecimalAmmount\fP The decimal ammount
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The milli seconds\&. 
+.RE
+.PP
+
+.PP
+Definition at line 230 of file Chrono\&.cpp\&.
+.SS "float Chrono::get_MilliSeconds (void)"
+
+.PP
+Gets the time in milli seconds\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The milli seconds\&. 
+.RE
+.PP
+
+.PP
+Definition at line 218 of file Chrono\&.cpp\&.
+.SS "float Chrono::get_Seconds (int decimalAmmount)"
+
+.PP
+Gets the time in seconds with some decimals\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIdecimalAmmount\fP The decimal ammount
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The seconds\&. 
+.RE
+.PP
+
+.PP
+Definition at line 187 of file Chrono\&.cpp\&.
+.SS "float Chrono::get_Seconds (void)"
+
+.PP
+Gets the time in seconds\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The seconds\&. 
+.RE
+.PP
+
+.PP
+Definition at line 175 of file Chrono\&.cpp\&.
+.SS "std::chrono::time_point< std::chrono::system_clock > Chrono::get_StartClock (void) const"
+
+.PP
+Gets the start clock\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The start clock\&. 
+.RE
+.PP
+
+.PP
+Definition at line 48 of file Chrono\&.cpp\&.
+.SS "std::string Chrono::get_StartTime (void) const"
+
+.PP
+Gets the start time\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The start time\&. 
+.RE
+.PP
+
+.PP
+Definition at line 75 of file Chrono\&.cpp\&.
+.SS "int Chrono::get_TotalTime (void) const"
+
+.PP
+Gets the total time\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The total time\&. 
+.RE
+.PP
+
+.PP
+Definition at line 66 of file Chrono\&.cpp\&.
+.SS "void Chrono::set_EndClock (std::chrono::time_point< std::chrono::system_clock > endClock)"
+
+.PP
+Sets the end clock\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIendClock\fP The end clock 
+.RE
+.PP
+
+.PP
+Definition at line 103 of file Chrono\&.cpp\&.
+.SS "void Chrono::set_StartClock (std::chrono::time_point< std::chrono::system_clock > startClock)"
+
+.PP
+Sets the start clock\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstartClock\fP The start clock 
+.RE
+.PP
+
+.PP
+Definition at line 94 of file Chrono\&.cpp\&.
+.SS "void Chrono::set_TotalTime (int totalTime)"
+
+.PP
+Sets the total time\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fItotalTime\fP The total time 
+.RE
+.PP
+
+.PP
+Definition at line 112 of file Chrono\&.cpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SBlocker from the source code\&.

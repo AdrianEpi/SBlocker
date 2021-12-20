@@ -1,0 +1,555 @@
+.TH "Token" 3 "Mon Dec 20 2021" "SBlocker" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Token \- This class describes a token\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <token\&.hpp>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBToken\fP (void)"
+.br
+.RI "Constructs a new instance\&. "
+.ti -1c
+.RI "\fBToken\fP (std::string name)"
+.br
+.RI "Constructs a new instance\&. "
+.ti -1c
+.RI "\fB~Token\fP (void)"
+.br
+.RI "Destroys the object\&. "
+.ti -1c
+.RI "std::string \fBget_Name\fP (void) const"
+.br
+.RI "Gets the name\&. "
+.ti -1c
+.RI "unsigned \fBget_Ammount\fP (void) const"
+.br
+.RI "Gets the ammount\&. "
+.ti -1c
+.RI "float \fBget_Probability\fP (void) const"
+.br
+.RI "Gets the probability\&. "
+.ti -1c
+.RI "float \fBget_MultiClass\fP (unsigned pos) const"
+.br
+.RI "Gets the multi class\&. "
+.ti -1c
+.RI "std::vector< float > \fBget_MultiClass\fP (void) const"
+.br
+.RI "Gets the multi class\&. "
+.ti -1c
+.RI "std::string \fBget_Type\fP (void) const"
+.br
+.RI "Gets the type\&. "
+.ti -1c
+.RI "void \fBset_Name\fP (std::string name)"
+.br
+.RI "Sets the name\&. "
+.ti -1c
+.RI "void \fBset_Ammount\fP (unsigned ammount)"
+.br
+.RI "Sets the ammount\&. "
+.ti -1c
+.RI "void \fBset_Probability\fP (float newProbability)"
+.br
+.RI "Sets the probability\&. "
+.ti -1c
+.RI "void \fBset_MultiClass\fP (std::vector< float > newMultiClass)"
+.br
+.RI "Sets the multi class\&. "
+.ti -1c
+.RI "void \fBset_Type\fP (std::string newType)"
+.br
+.RI "Sets the type\&. "
+.ti -1c
+.RI "bool \fBoperator<\fP (const \fBToken\fP &otherToken) const"
+.br
+.RI "Less-than comparison operator\&. "
+.ti -1c
+.RI "bool \fBoperator<=\fP (const \fBToken\fP &otherToken) const"
+.br
+.RI "Less-than-or-equal comparison operator\&. "
+.ti -1c
+.RI "bool \fBoperator<\fP (const std::string &str) const"
+.br
+.RI "Less-than comparison operator\&. "
+.ti -1c
+.RI "bool \fBoperator<=\fP (const std::string &str) const"
+.br
+.RI "Less-than-or-equal comparison operator\&. "
+.ti -1c
+.RI "bool \fBoperator>\fP (const \fBToken\fP &otherToken) const"
+.br
+.RI "Greater-than comparison operator\&. "
+.ti -1c
+.RI "bool \fBoperator>=\fP (const \fBToken\fP &otherToken) const"
+.br
+.RI "Greater-than-or-equal comparison operator\&. "
+.ti -1c
+.RI "bool \fBoperator>\fP (const std::string &str) const"
+.br
+.RI "Greater-than comparison operator\&. "
+.ti -1c
+.RI "bool \fBoperator>=\fP (const std::string &str) const"
+.br
+.RI "Greater-than-or-equal comparison operator\&. "
+.ti -1c
+.RI "bool \fBoperator==\fP (const \fBToken\fP &otherToken) const"
+.br
+.RI "Equality operator\&. "
+.ti -1c
+.RI "bool \fBoperator==\fP (const std::string &str) const"
+.br
+.RI "Equality operator\&. "
+.ti -1c
+.RI "\fBToken\fP & \fBoperator++\fP (void)"
+.br
+.RI "Increment operator\&. "
+.ti -1c
+.RI "\fBToken\fP & \fBoperator=\fP (const \fBToken\fP &otherToken)"
+.br
+.RI "Assignment operator\&. "
+.ti -1c
+.RI "void \fBincrementate\fP (void)"
+.br
+.RI "Incremetates the ammount in 1\&. "
+.ti -1c
+.RI "void \fBaddClassProb\fP (float prob, std::string newClass)"
+.br
+.RI "Adds the class probability and newClass type if aplicable\&. "
+.ti -1c
+.RI "float \fBgenerateLogProb\fP (const unsigned &vocSize, const unsigned &tokenAmmount)"
+.br
+.RI "Generates the ln probability of the token\&. "
+.ti -1c
+.RI "void \fBprintToken\fP (void) const"
+.br
+.RI "Prints a token\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class describes a token\&. 
+.PP
+Definition at line 38 of file token\&.hpp\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Token::Token (std::string name)"
+
+.PP
+Constructs a new instance\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIname\fP The name 
+.RE
+.PP
+
+.PP
+Definition at line 49 of file token\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Token::addClassProb (float prob, std::string newClass)"
+
+.PP
+Adds the class probability and newClass type if aplicable\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIprob\fP The prob 
+.br
+\fInewClass\fP The new class 
+.RE
+.PP
+
+.PP
+Definition at line 317 of file token\&.cpp\&.
+.SS "float Token::generateLogProb (const unsigned & vocSize, const unsigned & tokenAmmount)"
+
+.PP
+Generates the ln probability of the token\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIvocSize\fP The voc size 
+.br
+\fItokenAmmount\fP The token ammount
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The ln probability 
+.RE
+.PP
+
+.PP
+Definition at line 333 of file token\&.cpp\&.
+.SS "unsigned Token::get_Ammount (void) const"
+
+.PP
+Gets the ammount\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The ammount\&. 
+.RE
+.PP
+
+.PP
+Definition at line 76 of file token\&.cpp\&.
+.SS "float Token::get_MultiClass (unsigned pos) const"
+
+.PP
+Gets the multi class\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIpos\fP The position
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The multi class\&. 
+.RE
+.PP
+
+.PP
+Definition at line 96 of file token\&.cpp\&.
+.SS "std::vector< float > Token::get_MultiClass (void) const"
+
+.PP
+Gets the multi class\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The multi class\&. 
+.RE
+.PP
+
+.PP
+Definition at line 110 of file token\&.cpp\&.
+.SS "std::string Token::get_Name (void) const"
+
+.PP
+Gets the name\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The name\&. 
+.RE
+.PP
+
+.PP
+Definition at line 67 of file token\&.cpp\&.
+.SS "float Token::get_Probability (void) const"
+
+.PP
+Gets the probability\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The probability\&. 
+.RE
+.PP
+
+.PP
+Definition at line 85 of file token\&.cpp\&.
+.SS "std::string Token::get_Type (void) const"
+
+.PP
+Gets the type\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The type\&. 
+.RE
+.PP
+
+.PP
+Definition at line 119 of file token\&.cpp\&.
+.SS "\fBToken\fP & Token::operator++ (void)"
+
+.PP
+Increment operator\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The result of the increment 
+.RE
+.PP
+
+.PP
+Definition at line 283 of file token\&.cpp\&.
+.SS "bool Token::operator< (const std::string & str) const"
+
+.PP
+Less-than comparison operator\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstr\fP The string
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The result of the less-than comparison 
+.RE
+.PP
+
+.PP
+Definition at line 197 of file token\&.cpp\&.
+.SS "bool Token::operator< (const \fBToken\fP & otherToken) const"
+
+.PP
+Less-than comparison operator\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIotherToken\fP The other token
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The result of the less-than comparison 
+.RE
+.PP
+
+.PP
+Definition at line 175 of file token\&.cpp\&.
+.SS "bool Token::operator<= (const std::string & str) const"
+
+.PP
+Less-than-or-equal comparison operator\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstr\fP The string
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The result of the less-than-or-equal comparison 
+.RE
+.PP
+
+.PP
+Definition at line 208 of file token\&.cpp\&.
+.SS "bool Token::operator<= (const \fBToken\fP & otherToken) const"
+
+.PP
+Less-than-or-equal comparison operator\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIotherToken\fP The other token
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The result of the less-than-or-equal comparison 
+.RE
+.PP
+
+.PP
+Definition at line 186 of file token\&.cpp\&.
+.SS "\fBToken\fP & Token::operator= (const \fBToken\fP & otherToken)"
+
+.PP
+Assignment operator\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIotherToken\fP The other token
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The result of the assignment 
+.RE
+.PP
+
+.PP
+Definition at line 295 of file token\&.cpp\&.
+.SS "bool Token::operator== (const std::string & str) const"
+
+.PP
+Equality operator\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstr\fP The string
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The result of the equality 
+.RE
+.PP
+
+.PP
+Definition at line 274 of file token\&.cpp\&.
+.SS "bool Token::operator== (const \fBToken\fP & otherToken) const"
+
+.PP
+Equality operator\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIotherToken\fP The other token
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The result of the equality 
+.RE
+.PP
+
+.PP
+Definition at line 263 of file token\&.cpp\&.
+.SS "bool Token::operator> (const std::string & str) const"
+
+.PP
+Greater-than comparison operator\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstr\fP The string
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The result of the greater-than comparison 
+.RE
+.PP
+
+.PP
+Definition at line 241 of file token\&.cpp\&.
+.SS "bool Token::operator> (const \fBToken\fP & otherToken) const"
+
+.PP
+Greater-than comparison operator\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIotherToken\fP The other token
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The result of the greater-than comparison 
+.RE
+.PP
+
+.PP
+Definition at line 219 of file token\&.cpp\&.
+.SS "bool Token::operator>= (const std::string & str) const"
+
+.PP
+Greater-than-or-equal comparison operator\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstr\fP The string
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The result of the greater-than-or-equal comparison 
+.RE
+.PP
+
+.PP
+Definition at line 252 of file token\&.cpp\&.
+.SS "bool Token::operator>= (const \fBToken\fP & otherToken) const"
+
+.PP
+Greater-than-or-equal comparison operator\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIotherToken\fP The other token
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The result of the greater-than-or-equal comparison 
+.RE
+.PP
+
+.PP
+Definition at line 230 of file token\&.cpp\&.
+.SS "void Token::set_Ammount (unsigned ammount)"
+
+.PP
+Sets the ammount\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIammount\fP The ammount 
+.RE
+.PP
+
+.PP
+Definition at line 137 of file token\&.cpp\&.
+.SS "void Token::set_MultiClass (std::vector< float > newMultiClass)"
+
+.PP
+Sets the multi class\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewMultiClass\fP The new multi class 
+.RE
+.PP
+
+.PP
+Definition at line 155 of file token\&.cpp\&.
+.SS "void Token::set_Name (std::string name)"
+
+.PP
+Sets the name\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIname\fP The name 
+.RE
+.PP
+
+.PP
+Definition at line 128 of file token\&.cpp\&.
+.SS "void Token::set_Probability (float newProbability)"
+
+.PP
+Sets the probability\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewProbability\fP The new probability 
+.RE
+.PP
+
+.PP
+Definition at line 146 of file token\&.cpp\&.
+.SS "void Token::set_Type (std::string newType)"
+
+.PP
+Sets the type\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewType\fP The new type 
+.RE
+.PP
+
+.PP
+Definition at line 164 of file token\&.cpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SBlocker from the source code\&.

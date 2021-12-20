@@ -1,0 +1,176 @@
+.TH "Corpus" 3 "Mon Dec 20 2021" "SBlocker" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Corpus \- This class describes a corpus\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <corpus\&.hpp>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCorpus\fP (void)"
+.br
+.RI "Constructs a new instance\&. "
+.ti -1c
+.RI "\fBCorpus\fP (std::string name, std::string inputFile)"
+.br
+.RI "Constructs a new instance\&. "
+.ti -1c
+.RI "\fB~Corpus\fP (void)"
+.br
+.RI "Destroys the object\&. "
+.ti -1c
+.RI "std::string \fBget_Name\fP (void) const"
+.br
+.RI "Gets the name\&. "
+.ti -1c
+.RI "std::string \fBget_OutputFileName\fP (void) const"
+.br
+.RI "Gets the output file name\&. "
+.ti -1c
+.RI "std::string \fBget_InputFile\fP (void) const"
+.br
+.RI "Gets the input file\&. "
+.ti -1c
+.RI "void \fBset_Name\fP (std::string newName)"
+.br
+.RI "Sets the name\&. "
+.ti -1c
+.RI "void \fBset_OutputFileName\fP (std::string newOutputFileName)"
+.br
+.RI "Sets the output file name\&. "
+.ti -1c
+.RI "void \fBset_InputFile\fP (std::string newInputFile)"
+.br
+.RI "Sets the input file\&. "
+.ti -1c
+.RI "void \fBgenerateCorpus\fP (std::vector< std::string > &stopWords, \fBPreProcesser\fP &preProcesser)"
+.br
+.RI "Generates and stores the corpus data\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class describes a corpus\&. 
+.PP
+Definition at line 44 of file corpus\&.hpp\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Corpus::Corpus (std::string name, std::string inputFile)"
+
+.PP
+Constructs a new instance\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIname\fP The name 
+.br
+\fIinputFile\fP The input file 
+.RE
+.PP
+
+.PP
+Definition at line 49 of file corpus\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Corpus::generateCorpus (std::vector< std::string > & stopWords, \fBPreProcesser\fP & preProcesser)"
+
+.PP
+Generates and stores the corpus data\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstopWords\fP The stop words 
+.br
+\fIpreProcesser\fP The pre processer 
+.RE
+.PP
+
+.PP
+Definition at line 121 of file corpus\&.cpp\&.
+.SS "std::string Corpus::get_InputFile (void) const"
+
+.PP
+Gets the input file\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The input file\&. 
+.RE
+.PP
+
+.PP
+Definition at line 84 of file corpus\&.cpp\&.
+.SS "std::string Corpus::get_Name (void) const"
+
+.PP
+Gets the name\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The name\&. 
+.RE
+.PP
+
+.PP
+Definition at line 66 of file corpus\&.cpp\&.
+.SS "std::string Corpus::get_OutputFileName (void) const"
+
+.PP
+Gets the output file name\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The output file name\&. 
+.RE
+.PP
+
+.PP
+Definition at line 75 of file corpus\&.cpp\&.
+.SS "void Corpus::set_InputFile (std::string newInputFile)"
+
+.PP
+Sets the input file\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewInputFile\fP The new input file 
+.RE
+.PP
+
+.PP
+Definition at line 111 of file corpus\&.cpp\&.
+.SS "void Corpus::set_Name (std::string newName)"
+
+.PP
+Sets the name\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewName\fP The new name 
+.RE
+.PP
+
+.PP
+Definition at line 93 of file corpus\&.cpp\&.
+.SS "void Corpus::set_OutputFileName (std::string newOutputFileName)"
+
+.PP
+Sets the output file name\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewOutputFileName\fP The new output file name 
+.RE
+.PP
+
+.PP
+Definition at line 102 of file corpus\&.cpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SBlocker from the source code\&.

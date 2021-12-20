@@ -1,0 +1,439 @@
+.TH "PreProcesser" 3 "Mon Dec 20 2021" "SBlocker" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PreProcesser \- This class describes a pre processer, it makes possible to preprocess data files before using them\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <preProcesser\&.hpp>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPreProcesser\fP (void)"
+.br
+.RI "Constructs a new instance\&. "
+.ti -1c
+.RI "\fBPreProcesser\fP (std::string inputFile, std::string outpuFile)"
+.br
+.RI "Constructs a new instance\&. "
+.ti -1c
+.RI "\fB~PreProcesser\fP (void)"
+.br
+.RI "Destroys the object\&. "
+.ti -1c
+.RI "std::string \fBget_InputFile\fP (void) const"
+.br
+.RI "Gets the input file\&. "
+.ti -1c
+.RI "std::string \fBget_OutputFile\fP (void) const"
+.br
+.RI "Gets the output file\&. "
+.ti -1c
+.RI "std::string \fBget_Data\fP (void) const"
+.br
+.RI "Gets the data\&. "
+.ti -1c
+.RI "void \fBset_InputFile\fP (std::string newInputFile)"
+.br
+.RI "Sets the input file\&. "
+.ti -1c
+.RI "void \fBset_OutputFile\fP (std::string newOutputFile)"
+.br
+.RI "Sets the output file\&. "
+.ti -1c
+.RI "void \fBset_Data\fP (std::string newData)"
+.br
+.RI "Sets the data\&. "
+.ti -1c
+.RI "\fBPreProcesser\fP & \fBoperator=\fP (const \fBPreProcesser\fP &newPreProcesser)"
+.br
+.RI "Assignment operator\&. "
+.ti -1c
+.RI "void \fBconvertLowerCase\fP (std::string &str)"
+.br
+.RI "Converts all the str into Lower Case\&. "
+.ti -1c
+.RI "void \fBconvertLowerCase\fP (void)"
+.br
+.RI "Converts all the data into Lower Case\&. "
+.ti -1c
+.RI "void \fBconvertUpperCase\fP (std::string &str)"
+.br
+.RI "Converts all the str into Upper Case\&. "
+.ti -1c
+.RI "void \fBconvertUpperCase\fP (void)"
+.br
+.RI "Converts all the data into Upper Case\&. "
+.ti -1c
+.RI "void \fBeraseReservedWords\fP (std::vector< std::string > &reservedWords, std::string &fileName)"
+.br
+.RI "Deletes all the words from the vector in the given file and stores them into the same file\&. "
+.ti -1c
+.RI "std::string \fBeraseReservedWords\fP (std::string &sentence, std::vector< std::string > &reservedWords)"
+.br
+.RI "Deletes all the words from the vector in the given string and returns it\&. "
+.ti -1c
+.RI "void \fBerasePunctuationSigns\fP (std::string &str)"
+.br
+.RI "Erases all punctuation sings into readed data\&. "
+.ti -1c
+.RI "void \fBerasePunctuationSigns\fP (void)"
+.br
+.RI "Erases all punctuation sings into readed data\&. "
+.ti -1c
+.RI "void \fBeraseURLs\fP (std::string &str)"
+.br
+.RI "Erases all URLs into data var, an URL is defined as a '\&.' between letters without spaces\&. "
+.ti -1c
+.RI "void \fBeraseURLs\fP (void)"
+.br
+.RI "Erases all URLs into data var, an URL is defined as a '\&.' between letters without spaces\&. (Careful with float numbers) "
+.ti -1c
+.RI "void \fBeraseHashtags\fP (std::string &str)"
+.br
+.RI "Erases all Hashtags into data var\&. "
+.ti -1c
+.RI "void \fBeraseHashtags\fP (void)"
+.br
+.RI "Erases all Hashtags into data var\&. "
+.ti -1c
+.RI "void \fBeraseNumbers\fP (std::string &str)"
+.br
+.RI "Erases all numbers and characters form a readen number till next space\&. "
+.ti -1c
+.RI "void \fBeraseNumbers\fP (void)"
+.br
+.RI "Erases all numbers and characters form a readen number till next space\&. "
+.ti -1c
+.RI "void \fBeraseAllNumbers\fP (void)"
+.br
+.RI "Erases all words that contains numbers and all numbers in data\&. "
+.ti -1c
+.RI "void \fBeraseAllNumbers\fP (std::string &str)"
+.br
+.RI "Erases all words that contains numbers and all numbers in given string\&. "
+.ti -1c
+.RI "int \fBloadData\fP (std::string &inputFile, std::string dataType)"
+.br
+.RI "Loads the data that starts with the dataTpe from input file into data var\&. "
+.ti -1c
+.RI "void \fBloadTestData\fP (std::string &inputFile)"
+.br
+.RI "Loads the test data\&. "
+.ti -1c
+.RI "void \fBprintData\fP (void)"
+.br
+.RI "Prints data var\&. "
+.ti -1c
+.RI "void \fBstoreData\fP (std::string &outputFile, int dataLines)"
+.br
+.RI "Stores the data into the given file\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class describes a pre processer, it makes possible to preprocess data files before using them\&. 
+.PP
+Definition at line 43 of file preProcesser\&.hpp\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "PreProcesser::PreProcesser (std::string inputFile, std::string outpuFile)"
+
+.PP
+Constructs a new instance\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIinputFile\fP The input file 
+.br
+\fIoutpuFile\fP The outpu file 
+.RE
+.PP
+
+.PP
+Definition at line 49 of file preProcesser\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void PreProcesser::convertLowerCase (std::string & str)"
+
+.PP
+Converts all the str into Lower Case\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstr\fP The string 
+.RE
+.PP
+
+.PP
+Definition at line 134 of file preProcesser\&.cpp\&.
+.SS "void PreProcesser::convertUpperCase (std::string & str)"
+
+.PP
+Converts all the str into Upper Case\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstr\fP The string 
+.RE
+.PP
+
+.PP
+Definition at line 152 of file preProcesser\&.cpp\&.
+.SS "void PreProcesser::eraseAllNumbers (std::string & str)"
+
+.PP
+Erases all words that contains numbers and all numbers in given string\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstr\fP The string 
+.RE
+.PP
+
+.PP
+Definition at line 379 of file preProcesser\&.cpp\&.
+.SS "void PreProcesser::eraseHashtags (std::string & str)"
+
+.PP
+Erases all Hashtags into data var\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstr\fP The string 
+.RE
+.PP
+
+.PP
+Definition at line 289 of file preProcesser\&.cpp\&.
+.SS "void PreProcesser::eraseHashtags (void)"
+
+.PP
+Erases all Hashtags into data var\&. 
+.PP
+Definition at line 299 of file preProcesser\&.cpp\&.
+.SS "void PreProcesser::eraseNumbers (std::string & str)"
+
+.PP
+Erases all numbers and characters form a readen number till next space\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstr\fP The string 
+.RE
+.PP
+
+.PP
+Definition at line 317 of file preProcesser\&.cpp\&.
+.SS "void PreProcesser::erasePunctuationSigns (std::string & str)"
+
+.PP
+Erases all punctuation sings into readed data\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstr\fP The string 
+.RE
+.PP
+
+.PP
+Definition at line 235 of file preProcesser\&.cpp\&.
+.SS "std::string PreProcesser::eraseReservedWords (std::string & sentence, std::vector< std::string > & reservedWords)"
+
+.PP
+Deletes all the words from the vector in the given string and returns it\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIreservedWords\fP The reserved words vector 
+.br
+\fIsentence\fP The sentence
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The string without the reserved words\&. 
+.RE
+.PP
+
+.PP
+Definition at line 206 of file preProcesser\&.cpp\&.
+.SS "void PreProcesser::eraseReservedWords (std::vector< std::string > & reservedWords, std::string & fileName)"
+
+.PP
+Deletes all the words from the vector in the given file and stores them into the same file\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIreservedWords\fP The reserved words vector 
+.br
+\fIfileName\fP The file name 
+.RE
+.PP
+
+.PP
+Definition at line 172 of file preProcesser\&.cpp\&.
+.SS "void PreProcesser::eraseURLs (std::string & str)"
+
+.PP
+Erases all URLs into data var, an URL is defined as a '\&.' between letters without spaces\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstr\fP The string 
+.RE
+.PP
+
+.PP
+Definition at line 258 of file preProcesser\&.cpp\&.
+.SS "std::string PreProcesser::get_Data (void) const"
+
+.PP
+Gets the data\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The data\&. 
+.RE
+.PP
+
+.PP
+Definition at line 84 of file preProcesser\&.cpp\&.
+.SS "std::string PreProcesser::get_InputFile (void) const"
+
+.PP
+Gets the input file\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The input file\&. 
+.RE
+.PP
+
+.PP
+Definition at line 66 of file preProcesser\&.cpp\&.
+.SS "std::string PreProcesser::get_OutputFile (void) const"
+
+.PP
+Gets the output file\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The output file\&. 
+.RE
+.PP
+
+.PP
+Definition at line 75 of file preProcesser\&.cpp\&.
+.SS "int PreProcesser::loadData (std::string & inputFile, std::string dataType)"
+
+.PP
+Loads the data that starts with the dataTpe from input file into data var\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIinputFile\fP The input file 
+.br
+\fIdataType\fP The data type that wants to be loaded (must be the first word per line)
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Data lines included\&. 
+.RE
+.PP
+
+.PP
+Definition at line 395 of file preProcesser\&.cpp\&.
+.SS "void PreProcesser::loadTestData (std::string & inputFile)"
+
+.PP
+Loads the test data\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIinputFile\fP The input file 
+.RE
+.PP
+
+.PP
+Definition at line 439 of file preProcesser\&.cpp\&.
+.SS "\fBPreProcesser\fP & PreProcesser::operator= (const \fBPreProcesser\fP & newPreProcesser)"
+
+.PP
+Assignment operator\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewPreProcesser\fP The new pre processer
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The result of the assignment 
+.RE
+.PP
+
+.PP
+Definition at line 122 of file preProcesser\&.cpp\&.
+.SS "void PreProcesser::set_Data (std::string newData)"
+
+.PP
+Sets the data\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewData\fP The new data 
+.RE
+.PP
+
+.PP
+Definition at line 111 of file preProcesser\&.cpp\&.
+.SS "void PreProcesser::set_InputFile (std::string newInputFile)"
+
+.PP
+Sets the input file\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewInputFile\fP The new input file 
+.RE
+.PP
+
+.PP
+Definition at line 93 of file preProcesser\&.cpp\&.
+.SS "void PreProcesser::set_OutputFile (std::string newOutputFile)"
+
+.PP
+Sets the output file\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewOutputFile\fP The new output file 
+.RE
+.PP
+
+.PP
+Definition at line 102 of file preProcesser\&.cpp\&.
+.SS "void PreProcesser::storeData (std::string & outputFile, int dataLines)"
+
+.PP
+Stores the data into the given file\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIoutputFile\fP The output file 
+.br
+\fIdataLines\fP The data lines 
+.RE
+.PP
+
+.PP
+Definition at line 468 of file preProcesser\&.cpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SBlocker from the source code\&.

@@ -1,0 +1,161 @@
+.TH "Learner" 3 "Mon Dec 20 2021" "SBlocker" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Learner \- This class describes a learner\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <learner\&.hpp>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBLearner\fP (void)"
+.br
+.RI "Constructs a new instance\&. "
+.ti -1c
+.RI "\fBLearner\fP (char *argv[], int &argc)"
+.br
+.RI "Constructs a new instance\&. "
+.ti -1c
+.RI "\fB~Learner\fP (void)"
+.br
+.RI "Destroys the object\&. "
+.ti -1c
+.RI "std::vector< \fBVocabulary\fP > \fBget_Learners\fP (void) const"
+.br
+.RI "Gets the learners\&. "
+.ti -1c
+.RI "std::vector< std::string > \fBget_InputCorpusFiles\fP (void) const"
+.br
+.RI "Gets the input corpus files\&. "
+.ti -1c
+.RI "std::string \fBget_VocabularyFile\fP (void) const"
+.br
+.RI "Gets the vocabulary file\&. "
+.ti -1c
+.RI "void \fBset_Learners\fP (std::vector< \fBVocabulary\fP > newLearners)"
+.br
+.RI "Sets the learners\&. "
+.ti -1c
+.RI "void \fBset_InputCorpusFiles\fP (std::vector< std::string > newInputCorpusFiles)"
+.br
+.RI "Sets the input corpus files\&. "
+.ti -1c
+.RI "void \fBset_VocabularyFile\fP (std::string newVocabularyFile)"
+.br
+.RI "Sets the vocabulary file\&. "
+.ti -1c
+.RI "void \fBlearnAndStoreData\fP (void)"
+.br
+.RI "Generates the proabilities of all the tokens in vocabulary and stores them in a file called 'learned_DATATYPE\&.txt'\&. The file format is: Number of corpus documents: <integer> Number of words in corpus: <integer> Word:<string> Frec:<int> LogProb:<float> Word:<string> Frec:<int> LogProb:<float> Word:<string> Frec:<int> LogProb:<float> "
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class describes a learner\&. 
+.PP
+Definition at line 41 of file learner\&.hpp\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Learner::Learner (char * argv[], int & argc)"
+
+.PP
+Constructs a new instance\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIargv\fP The arguments array 
+.br
+\fIargc\fP The count of arguments 
+.RE
+.PP
+
+.PP
+Definition at line 47 of file learner\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "std::vector< std::string > Learner::get_InputCorpusFiles (void) const"
+
+.PP
+Gets the input corpus files\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The input corpus files\&. 
+.RE
+.PP
+
+.PP
+Definition at line 87 of file learner\&.cpp\&.
+.SS "std::vector< \fBVocabulary\fP > Learner::get_Learners (void) const"
+
+.PP
+Gets the learners\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The learners\&. 
+.RE
+.PP
+
+.PP
+Definition at line 78 of file learner\&.cpp\&.
+.SS "std::string Learner::get_VocabularyFile (void) const"
+
+.PP
+Gets the vocabulary file\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The vocabulary file\&. 
+.RE
+.PP
+
+.PP
+Definition at line 96 of file learner\&.cpp\&.
+.SS "void Learner::set_InputCorpusFiles (std::vector< std::string > newInputCorpusFiles)"
+
+.PP
+Sets the input corpus files\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewInputCorpusFiles\fP The new input corpus files 
+.RE
+.PP
+
+.PP
+Definition at line 114 of file learner\&.cpp\&.
+.SS "void Learner::set_Learners (std::vector< \fBVocabulary\fP > newLearners)"
+
+.PP
+Sets the learners\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewLearners\fP The new learners 
+.RE
+.PP
+
+.PP
+Definition at line 105 of file learner\&.cpp\&.
+.SS "void Learner::set_VocabularyFile (std::string newVocabularyFile)"
+
+.PP
+Sets the vocabulary file\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewVocabularyFile\fP The new vocabulary file 
+.RE
+.PP
+
+.PP
+Definition at line 123 of file learner\&.cpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SBlocker from the source code\&.

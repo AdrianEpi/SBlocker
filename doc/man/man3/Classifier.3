@@ -1,0 +1,256 @@
+.TH "Classifier" 3 "Mon Dec 20 2021" "SBlocker" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Classifier \- This class describes a classifier\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <classifier\&.hpp>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBClassifier\fP (void)"
+.br
+.RI "Constructs a new instance\&. "
+.ti -1c
+.RI "\fBClassifier\fP (char *argv[], int &argc)"
+.br
+.RI "Constructs a new instance\&. "
+.ti -1c
+.RI "\fB~Classifier\fP (void)"
+.br
+.RI "Destroys the object\&. "
+.ti -1c
+.RI "std::vector< std::string > \fBget_InputFiles\fP (void) const"
+.br
+.RI "Gets the input files\&. "
+.ti -1c
+.RI "std::vector< \fBVocabulary\fP > \fBget_Class\fP (void) const"
+.br
+.RI "Gets the learned data\&. "
+.ti -1c
+.RI "std::string \fBget_Data\fP (void) const"
+.br
+.RI "Gets the data\&. "
+.ti -1c
+.RI "void \fBset_InputFiles\fP (std::vector< std::string > newInputFiles)"
+.br
+.RI "Sets the input files\&. "
+.ti -1c
+.RI "void \fBset_Class\fP (std::vector< \fBVocabulary\fP > newClass)"
+.br
+.RI "Sets the learned data\&. "
+.ti -1c
+.RI "void \fBset_Data\fP (std::string newData)"
+.br
+.RI "Sets the data\&. "
+.ti -1c
+.RI "void \fBclassifyFile\fP (std::string &inputFile, std::string &stopWords)"
+.br
+.RI "Preprocess, calculates the probabilities and classifies the given input file\&. "
+.ti -1c
+.RI "void \fBclassify\fP (std::vector< std::string > sentence)"
+.br
+.RI "Classifies a given sentence into the correct type and stores the information into data var\&. "
+.ti -1c
+.RI "void \fBgenerateClassProbability\fP (void)"
+.br
+.RI "Generates and adds the class probabilities to each class with the following formula: ln(classLinesAmmount / totalLinesAmmout) "
+.ti -1c
+.RI "void \fBpreProcess\fP (std::vector< std::string > &stopWords, std::string &sentence)"
+.br
+.RI "Preprocess the given sentence using the same pre-processing method as the vocabulary\&. "
+.ti -1c
+.RI "void \fBreadInputFiles\fP (char *argv[], int &argc)"
+.br
+.RI "Reads input learned files and store the tokens into the Class vector\&. "
+.ti -1c
+.RI "void \fBstoreFile\fP (std::string &outputFile, std::string &resumeFile)"
+.br
+.RI "Stores the output data into the classified file and the resume file\&. The classify file format is: , <ProbSentClassA>, \&.\&.\&., <ProbSentClassN>, <Class>\&. , <ProbSentClassA>, \&.\&.\&., <ProbSentClassN>, <Class>\&. , <ProbSentClassA>, \&.\&.\&., <ProbSentClassN>, <Class>\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+This class describes a classifier\&. 
+.PP
+Definition at line 44 of file classifier\&.hpp\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Classifier::Classifier (char * argv[], int & argc)"
+
+.PP
+Constructs a new instance\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIargv\fP The arguments array 
+.br
+\fIargc\fP The count of arguments 
+.RE
+.PP
+
+.PP
+Definition at line 47 of file classifier\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Classifier::classify (std::vector< std::string > sentence)"
+
+.PP
+Classifies a given sentence into the correct type and stores the information into data var\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsentence\fP The sentence which is going to be classifyed 
+.RE
+.PP
+
+.PP
+Definition at line 171 of file classifier\&.cpp\&.
+.SS "void Classifier::classifyFile (std::string & inputFile, std::string & stopWordsFile)"
+
+.PP
+Preprocess, calculates the probabilities and classifies the given input file\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIinputFile\fP The input file with the testCorpus 
+.br
+\fIstopWordsFile\fP The stop words file for preprocessing use 
+.RE
+.PP
+
+.PP
+Definition at line 126 of file classifier\&.cpp\&.
+.SS "std::vector< \fBVocabulary\fP > Classifier::get_Class (void) const"
+
+.PP
+Gets the learned data\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The learned data\&. 
+.RE
+.PP
+
+.PP
+Definition at line 79 of file classifier\&.cpp\&.
+.SS "std::string Classifier::get_Data (void) const"
+
+.PP
+Gets the data\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The data\&. 
+.RE
+.PP
+
+.PP
+Definition at line 88 of file classifier\&.cpp\&.
+.SS "std::vector< std::string > Classifier::get_InputFiles (void) const"
+
+.PP
+Gets the input files\&. 
+.PP
+\fBReturns\fP
+.RS 4
+The input files\&. 
+.RE
+.PP
+
+.PP
+Definition at line 70 of file classifier\&.cpp\&.
+.SS "void Classifier::preProcess (std::vector< std::string > & stopWords, std::string & fileName)"
+
+.PP
+Preprocess the given sentence using the same pre-processing method as the vocabulary\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIpreprocesser\fP The preprocesser 
+.br
+\fIstopWords\fP The stop words 
+.br
+\fIsentence\fP The sentence 
+.RE
+.PP
+
+.PP
+Definition at line 221 of file classifier\&.cpp\&.
+.SS "void Classifier::readInputFiles (char * argv[], int & argc)"
+
+.PP
+Reads input learned files and store the tokens into the Class vector\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIargv\fP The arguments array 
+.br
+\fIargc\fP The count of arguments 
+.RE
+.PP
+
+.PP
+Definition at line 238 of file classifier\&.cpp\&.
+.SS "void Classifier::set_Class (std::vector< \fBVocabulary\fP > newClass)"
+
+.PP
+Sets the learned data\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewClass\fP The new learned data 
+.RE
+.PP
+
+.PP
+Definition at line 106 of file classifier\&.cpp\&.
+.SS "void Classifier::set_Data (std::string newData)"
+
+.PP
+Sets the data\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewData\fP The new data 
+.RE
+.PP
+
+.PP
+Definition at line 115 of file classifier\&.cpp\&.
+.SS "void Classifier::set_InputFiles (std::vector< std::string > newInputFiles)"
+
+.PP
+Sets the input files\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInewInputFiles\fP The new input files 
+.RE
+.PP
+
+.PP
+Definition at line 97 of file classifier\&.cpp\&.
+.SS "void Classifier::storeFile (std::string & outputFile, std::string & resumeFile)"
+
+.PP
+Stores the output data into the classified file and the resume file\&. The classify file format is: , <ProbSentClassA>, \&.\&.\&., <ProbSentClassN>, <Class>\&. , <ProbSentClassA>, \&.\&.\&., <ProbSentClassN>, <Class>\&. , <ProbSentClassA>, \&.\&.\&., <ProbSentClassN>, <Class>\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIoutputFile\fP The output file 
+.br
+\fIresumeFile\fP The resume file 
+.RE
+.PP
+
+.PP
+Definition at line 305 of file classifier\&.cpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SBlocker from the source code\&.
