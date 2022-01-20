@@ -22,8 +22,8 @@
 * 			Fabio Ovidio 
 * 			Oscar Hernandez 
 * @Date:   2021-11-05 08:37:08
-* @Last Modified by:   ADRIAN
-* @Last Modified time: 2021-12-20 08:23:26
+* @Last Modified by:   Adrian Epifanio
+* @Last Modified time: 2022-01-20 20:56:15
 */
 /*------------------  FUNCTIONS  -----------------*/
 
@@ -31,6 +31,7 @@
 #include "../include/corpus.hpp"
 #include "../include/learner.hpp"
 #include "../include/classifier.hpp"
+#include "../include/Color.hpp"
 
 /*------------------------------------------------*/
 /*------------------  LIBRARIES  -----------------*/
@@ -280,8 +281,10 @@ void calculateError (int& argc, char* argv[]) {
 	float percentage = correct;
 	percentage /= size;
 	percentage *= 100;
-	std::cout << std::endl << "Success percentage: " << correct << " / " << size << " = " << percentage << " %.";
-	std::cout << std::endl << "Error percentage: " << (size - correct) << " / " << size << " = " << (100 - percentage) << " %." << std::endl;
+	std::string success = "Success percentage: ";
+	std::string error = "Error percentage: ";
+	std::cout << std::endl << Color::writeGreen(success) << correct << " / " << size << " = " << percentage << " %.";
+	std::cout << std::endl << Color::writeRed(error) << (size - correct) << " / " << size << " = " << (100 - percentage) << " %." << std::endl;
 }
 
 /**

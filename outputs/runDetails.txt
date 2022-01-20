@@ -1,0 +1,77 @@
+
+
+
+Executed Wed Jan 19 15:25:31 WET 2022
+make[1]: Entering directory '/mnt/c/Users/adria/Desktop/Practicas/Practicas_2122/EmailClassifier/build'
+make clean
+make[2]: Entering directory '/mnt/c/Users/adria/Desktop/Practicas/Practicas_2122/EmailClassifier/build'
+rm -rf ../build/*.o
+rm -rf ../bin/*
+make[2]: Leaving directory '/mnt/c/Users/adria/Desktop/Practicas/Practicas_2122/EmailClassifier/build'
+make
+make[2]: Entering directory '/mnt/c/Users/adria/Desktop/Practicas/Practicas_2122/EmailClassifier/build'
+g++ -c -std=c++17 -Wall ../src/main.cpp
+g++ -c -std=c++17 -Wall ../src/vocabulary.cpp
+g++ -c -std=c++17 -Wall ../src/preProcesser.cpp
+g++ -c -std=c++17 -Wall ../src/Chrono.cpp
+g++ -c -std=c++17 -Wall ../src/token.cpp
+g++ -c -std=c++17 -Wall ../src/corpus.cpp
+g++ -c -std=c++17 -Wall ../src/learner.cpp
+g++ -c -std=c++17 -Wall ../src/classifier.cpp
+g++ main.o vocabulary.o preProcesser.o Chrono.o token.o corpus.o learner.o classifier.o -o SBlocker
+mv SBlocker ../bin
+make[2]: Leaving directory '/mnt/c/Users/adria/Desktop/Practicas/Practicas_2122/EmailClassifier/build'
+make runVocabulary
+make[2]: Entering directory '/mnt/c/Users/adria/Desktop/Practicas/Practicas_2122/EmailClassifier/build'
+../bin/SBlocker --vocabulary ../inputs/mail-train.csv ../outputs/vocabulary.txt ../inputs/stopWords.txt
+
+Elapsed pre-processing time: 4.3093 seconds.
+
+Elapsed generating vocabulary time: 6.0804 seconds.
+
+Elapsed storing vocabulary time: 0.88717 seconds.
+
+Program finished correclty.
+make[2]: Leaving directory '/mnt/c/Users/adria/Desktop/Practicas/Practicas_2122/EmailClassifier/build'
+make runCorpus
+make[2]: Entering directory '/mnt/c/Users/adria/Desktop/Practicas/Practicas_2122/EmailClassifier/build'
+../bin/SBlocker --corpus ../inputs/mail-train.csv ../inputs/stopWords.txt SPAM HAM
+
+Elapsed time for corpus SPAM: 2.06417 seconds.
+
+Elapsed time for corpus HAM: 1.83398 seconds.
+
+Program finished correclty.
+make[2]: Leaving directory '/mnt/c/Users/adria/Desktop/Practicas/Practicas_2122/EmailClassifier/build'
+make runLearner
+make[2]: Entering directory '/mnt/c/Users/adria/Desktop/Practicas/Practicas_2122/EmailClassifier/build'
+../bin/SBlocker --learner ../outputs/vocabulary.txt SPAM HAM
+
+Elapsed generating tokens and vocabulary time: 13.4981 seconds for SPAM data type.
+
+Elapsed generating tokens and vocabulary time: 10.6497 seconds for HAM data type.
+
+Elapsed time for calculating probabilities: 0.15151 seconds for SPAM data type.
+
+Elapsed time for calculating probabilities: 0.14497 seconds for HAM data type.
+
+Program finished correclty.
+make[2]: Leaving directory '/mnt/c/Users/adria/Desktop/Practicas/Practicas_2122/EmailClassifier/build'
+make runClassifier
+make[2]: Entering directory '/mnt/c/Users/adria/Desktop/Practicas/Practicas_2122/EmailClassifier/build'
+../bin/SBlocker --classify ../inputs/mail-test-row.csv ../inputs/stopWords.txt ../outputs/learned_SPAM.txt ../outputs/learned_HAM.txt
+
+Elapsed Classifying time: 1.63754 seconds.
+
+Program finished correclty.
+make[2]: Leaving directory '/mnt/c/Users/adria/Desktop/Practicas/Practicas_2122/EmailClassifier/build'
+make runTestPercentage
+make[2]: Entering directory '/mnt/c/Users/adria/Desktop/Practicas/Practicas_2122/EmailClassifier/build'
+../bin/SBlocker --error ../outputs/resume.csv ../inputs/resumeExpected.csv
+
+Success percentage: 4221 / 5893 = 71.6274 %.
+Error percentage: 1672 / 5893 = 28.3726 %.
+
+Program finished correclty.
+make[2]: Leaving directory '/mnt/c/Users/adria/Desktop/Practicas/Practicas_2122/EmailClassifier/build'
+make[1]: Leaving directory '/mnt/c/Users/adria/Desktop/Practicas/Practicas_2122/EmailClassifier/build'
